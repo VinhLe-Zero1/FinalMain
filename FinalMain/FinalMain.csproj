@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BAE34854-DD44-42D4-9CD9-5991EE247DA0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FinalMain</RootNamespace>
+    <AssemblyName>FinalMain</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Desktop\benhan\BTL_CNPM\benhan.csproj">
+      <Project>{eb2a50b4-c32c-4dc2-af69-389fc287e181}</Project>
+      <Name>benhan</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Desktop\capnhapthongtin\BTL_CNPM\capnhapthongtin.csproj">
+      <Project>{9bd0c5d1-ca21-4c47-9d76-d2ef093d255d}</Project>
+      <Name>capnhapthongtin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Desktop\capnhatyteganday\capnhatyteganday\capnhatyteganday.csproj">
+      <Project>{06a98ef3-373c-4d47-ba3e-60ca1bb97ea5}</Project>
+      <Name>capnhatyteganday</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Desktop\chuandoan - Copy\BTL_CNPM\chuandoan.csproj">
+      <Project>{18626de2-11e7-4b54-a8d7-51873663d6f5}</Project>
+      <Name>chuandoan</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Desktop\MedicalApp\InfoRegister\InfoRegister.csproj">
+      <Project>{8710529a-e9c2-4610-a0f1-d844f3be6bc6}</Project>
+      <Name>InfoRegister</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Desktop\MedicalApp\LoginForm\LoginForm.csproj">
+      <Project>{3139fe26-8d44-4372-9888-dee09bbdafb6}</Project>
+      <Name>LoginForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Desktop\MedicalApp\PatientHistory\PatientHistory.csproj">
+      <Project>{3660f97c-55b9-4389-b1e6-4d53bc74a8e8}</Project>
+      <Name>PatientHistory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Desktop\WindowsFormsApp1\WindowsFormsApp1\Paitent%28D%29.csproj">
+      <Project>{41975e19-c68c-4473-a2e7-654c4d0ae1cd}</Project>
+      <Name>Paitent%28D%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
