@@ -85,7 +85,7 @@
       <Project>{eb2a50b4-c32c-4dc2-af69-389fc287e181}</Project>
       <Name>benhan</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\..\Desktop\capnhapthongtin\BTL_CNPM\capnhapthongtin.csproj">
+    <ProjectReference Include="..\..\..\..\Desktop\capnhapthongtin\capnhap\capnhapthongtin.csproj">
       <Project>{9bd0c5d1-ca21-4c47-9d76-d2ef093d255d}</Project>
       <Name>capnhapthongtin</Name>
     </ProjectReference>

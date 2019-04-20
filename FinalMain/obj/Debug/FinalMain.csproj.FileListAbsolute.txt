@@ -27,3 +27,8 @@ C:\Users\DELL\source\repos\FinalMain\FinalMain\bin\Debug\PatientHistory.exe.conf
 C:\Users\DELL\source\repos\FinalMain\FinalMain\bin\Debug\WindowsFormsApp1.pdb
 C:\Users\DELL\source\repos\FinalMain\FinalMain\bin\Debug\WindowsFormsApp1.exe.config
 C:\Users\DELL\source\repos\FinalMain\FinalMain\obj\Debug\FinalMain.csproj.CopyComplete
+C:\Users\DELL\source\repos\FinalMain\FinalMain\bin\Debug\capnhap.exe
+C:\Users\DELL\source\repos\FinalMain\FinalMain\bin\Debug\GemBox.Email.dll
+C:\Users\DELL\source\repos\FinalMain\FinalMain\bin\Debug\capnhap.pdb
+C:\Users\DELL\source\repos\FinalMain\FinalMain\bin\Debug\capnhap.exe.config
+C:\Users\DELL\source\repos\FinalMain\FinalMain\bin\Debug\GemBox.Email.xml

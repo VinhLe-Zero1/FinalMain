@@ -35,7 +35,8 @@ namespace FinalMain
 
         private void button5_Click(object sender, EventArgs e)
         {
-            
+            capnhatinfo.capnhapthongtin cn = new capnhatinfo.capnhapthongtin();
+            cn.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)

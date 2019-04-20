@@ -32,7 +32,7 @@
             this.tintuc = new System.Windows.Forms.Button();
             this.chuandoan = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.cntt = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // datlich
@@ -79,23 +79,23 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button5
+            // cntt
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(395, 238);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(255, 100);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Cập nhật thông tin";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.cntt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cntt.Location = new System.Drawing.Point(395, 238);
+            this.cntt.Name = "cntt";
+            this.cntt.Size = new System.Drawing.Size(255, 100);
+            this.cntt.TabIndex = 4;
+            this.cntt.Text = "Cập nhật thông tin";
+            this.cntt.UseVisualStyleBackColor = true;
+            this.cntt.Click += new System.EventHandler(this.button5_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 350);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.cntt);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.chuandoan);
             this.Controls.Add(this.tintuc);
@@ -112,7 +112,7 @@
         private System.Windows.Forms.Button tintuc;
         private System.Windows.Forms.Button chuandoan;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button cntt;
     }
 }
 

@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chuandoan", "..\..\..\Deskt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "benhan", "..\..\..\Desktop\benhan\BTL_CNPM\benhan.csproj", "{EB2A50B4-C32C-4DC2-AF69-389FC287E181}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capnhapthongtin", "..\..\..\Desktop\capnhapthongtin\BTL_CNPM\capnhapthongtin.csproj", "{9BD0C5D1-CA21-4C47-9D76-D2EF093D255D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capnhapthongtin", "..\..\..\Desktop\capnhapthongtin\capnhap\capnhapthongtin.csproj", "{9BD0C5D1-CA21-4C47-9D76-D2EF093D255D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
