@@ -84,33 +84,41 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\OneDrive\Desktop\benhan\BTL_CNPM\benhan.csproj">
+    <ProjectReference Include="..\benhan\BTL_CNPM\benhan.csproj">
       <Project>{eb2a50b4-c32c-4dc2-af69-389fc287e181}</Project>
       <Name>benhan</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\..\OneDrive\Desktop\capnhapthongtin\capnhap\capnhapthongtin.csproj">
+    <ProjectReference Include="..\capnhapthongtin\capnhap\capnhapthongtin.csproj">
       <Project>{9bd0c5d1-ca21-4c47-9d76-d2ef093d255d}</Project>
       <Name>capnhapthongtin</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\..\OneDrive\Desktop\capnhatyteganday\capnhatyteganday\capnhatyteganday.csproj">
+    <ProjectReference Include="..\capnhatyteganday\capnhatyteganday\capnhatyteganday.csproj">
       <Project>{06a98ef3-373c-4d47-ba3e-60ca1bb97ea5}</Project>
       <Name>capnhatyteganday</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\..\OneDrive\Desktop\chuandoan - Copy\BTL_CNPM\chuandoan.csproj">
+    <ProjectReference Include="..\chuandoan - Copy\BTL_CNPM\chuandoan.csproj">
       <Project>{18626de2-11e7-4b54-a8d7-51873663d6f5}</Project>
       <Name>chuandoan</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\..\OneDrive\Desktop\thongkethongtin\thongkethongtin\thongkethongtin.csproj">
+    <ProjectReference Include="..\MedicalApp\InfoRegister\InfoRegister.csproj">
+      <Project>{8710529a-e9c2-4610-a0f1-d844f3be6bc6}</Project>
+      <Name>InfoRegister</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MedicalApp\LoginForm\LoginForm.csproj">
+      <Project>{3139fe26-8d44-4372-9888-dee09bbdafb6}</Project>
+      <Name>LoginForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MedicalApp\PatientHistory\PatientHistory.csproj">
+      <Project>{3660f97c-55b9-4389-b1e6-4d53bc74a8e8}</Project>
+      <Name>PatientHistory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\thongkethongtin\thongkethongtin\thongkethongtin.csproj">
       <Project>{07002c69-8c60-4210-8186-7e8cafd8a339}</Project>
       <Name>thongkethongtin</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\..\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\Paitent%28D%29.csproj">
+    <ProjectReference Include="..\WindowsFormsApp1\WindowsFormsApp1\Paitent%28D%29.csproj">
       <Project>{41975e19-c68c-4473-a2e7-654c4d0ae1cd}</Project>
       <Name>Paitent%28D%29</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\BTL_CNPM\BTL_CNPM\Datlich.csproj">
-      <Project>{820c149f-4b5c-40d6-b8e6-3f5f94fce59e}</Project>
-      <Name>Datlich</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

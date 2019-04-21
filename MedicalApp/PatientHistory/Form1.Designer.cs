@@ -31,17 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.họVàTênLótDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tênDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ngàyThángNămSinhDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.giớiTínhDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cMNDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.địaChỉDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sốĐiệnThoạiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.infoBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.patientDataSet3 = new PatientHistory.PatientDataSet3();
             this.panelTop = new System.Windows.Forms.TableLayoutPanel();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -51,11 +41,9 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.infoTableAdapter = new PatientHistory.PatientDataSet3TableAdapters.InfoTableAdapter();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.infoBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.patientDataSet3)).BeginInit();
             this.panelTop.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -86,16 +74,6 @@
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.iDDataGridViewTextBoxColumn,
-            this.họVàTênLótDataGridViewTextBoxColumn,
-            this.tênDataGridViewTextBoxColumn,
-            this.ngàyThángNămSinhDataGridViewTextBoxColumn,
-            this.giớiTínhDataGridViewTextBoxColumn,
-            this.cMNDDataGridViewTextBoxColumn,
-            this.địaChỉDataGridViewTextBoxColumn,
-            this.sốĐiệnThoạiDataGridViewTextBoxColumn,
-            this.emailDataGridViewTextBoxColumn});
             this.tableLayoutPanel1.SetColumnSpan(this.dataGridView1, 2);
             this.dataGridView1.DataSource = this.infoBindingSource;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -103,70 +81,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(793, 208);
             this.dataGridView1.TabIndex = 1;
-            // 
-            // iDDataGridViewTextBoxColumn
-            // 
-            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
-            // 
-            // họVàTênLótDataGridViewTextBoxColumn
-            // 
-            this.họVàTênLótDataGridViewTextBoxColumn.DataPropertyName = "Họ và tên lót";
-            this.họVàTênLótDataGridViewTextBoxColumn.HeaderText = "Họ và tên lót";
-            this.họVàTênLótDataGridViewTextBoxColumn.Name = "họVàTênLótDataGridViewTextBoxColumn";
-            // 
-            // tênDataGridViewTextBoxColumn
-            // 
-            this.tênDataGridViewTextBoxColumn.DataPropertyName = "Tên";
-            this.tênDataGridViewTextBoxColumn.HeaderText = "Tên";
-            this.tênDataGridViewTextBoxColumn.Name = "tênDataGridViewTextBoxColumn";
-            // 
-            // ngàyThángNămSinhDataGridViewTextBoxColumn
-            // 
-            this.ngàyThángNămSinhDataGridViewTextBoxColumn.DataPropertyName = "Ngày tháng năm sinh";
-            this.ngàyThángNămSinhDataGridViewTextBoxColumn.HeaderText = "Ngày tháng năm sinh";
-            this.ngàyThángNămSinhDataGridViewTextBoxColumn.Name = "ngàyThángNămSinhDataGridViewTextBoxColumn";
-            // 
-            // giớiTínhDataGridViewTextBoxColumn
-            // 
-            this.giớiTínhDataGridViewTextBoxColumn.DataPropertyName = "Giới tính";
-            this.giớiTínhDataGridViewTextBoxColumn.HeaderText = "Giới tính";
-            this.giớiTínhDataGridViewTextBoxColumn.Name = "giớiTínhDataGridViewTextBoxColumn";
-            // 
-            // cMNDDataGridViewTextBoxColumn
-            // 
-            this.cMNDDataGridViewTextBoxColumn.DataPropertyName = "CMND";
-            this.cMNDDataGridViewTextBoxColumn.HeaderText = "CMND";
-            this.cMNDDataGridViewTextBoxColumn.Name = "cMNDDataGridViewTextBoxColumn";
-            // 
-            // địaChỉDataGridViewTextBoxColumn
-            // 
-            this.địaChỉDataGridViewTextBoxColumn.DataPropertyName = "Địa chỉ";
-            this.địaChỉDataGridViewTextBoxColumn.HeaderText = "Địa chỉ";
-            this.địaChỉDataGridViewTextBoxColumn.Name = "địaChỉDataGridViewTextBoxColumn";
-            // 
-            // sốĐiệnThoạiDataGridViewTextBoxColumn
-            // 
-            this.sốĐiệnThoạiDataGridViewTextBoxColumn.DataPropertyName = "Số điện thoại";
-            this.sốĐiệnThoạiDataGridViewTextBoxColumn.HeaderText = "Số điện thoại";
-            this.sốĐiệnThoạiDataGridViewTextBoxColumn.Name = "sốĐiệnThoạiDataGridViewTextBoxColumn";
-            // 
-            // emailDataGridViewTextBoxColumn
-            // 
-            this.emailDataGridViewTextBoxColumn.DataPropertyName = "Email";
-            this.emailDataGridViewTextBoxColumn.HeaderText = "Email";
-            this.emailDataGridViewTextBoxColumn.Name = "emailDataGridViewTextBoxColumn";
-            // 
-            // infoBindingSource
-            // 
-            this.infoBindingSource.DataMember = "Info";
-            this.infoBindingSource.DataSource = this.patientDataSet3;
-            // 
-            // patientDataSet3
-            // 
-            this.patientDataSet3.DataSetName = "PatientDataSet3";
-            this.patientDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // panelTop
             // 
@@ -287,10 +201,6 @@
             this.radioButton3.Text = "Theo ngày khám";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
-            // infoTableAdapter
-            // 
-            this.infoTableAdapter.ClearBeforeFill = true;
-            // 
             // formHistory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -301,12 +211,10 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "formHistory";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.formHistory_Load_1);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.infoBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.patientDataSet3)).EndInit();
             this.panelTop.ResumeLayout(false);
             this.panelTop.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
@@ -328,18 +236,8 @@
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private PatientDataSet3 patientDataSet3;
         private System.Windows.Forms.BindingSource infoBindingSource;
-        private PatientDataSet3TableAdapters.InfoTableAdapter infoTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn họVàTênLótDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tênDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ngàyThángNămSinhDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn giớiTínhDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cMNDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn địaChỉDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sốĐiệnThoạiDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
+        
     }
 }
 

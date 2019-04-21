@@ -40,11 +40,6 @@ namespace PatientHistory
 
         
 
-        private void formHistory_Load_1(object sender, EventArgs e)
-        {
-            // TODO: This line of code loads data into the 'patientDataSet3.Info' table. You can move, or remove it, as needed.
-            this.infoTableAdapter.Fill(this.patientDataSet3.Info);
-
-        }
+        
     }
 }

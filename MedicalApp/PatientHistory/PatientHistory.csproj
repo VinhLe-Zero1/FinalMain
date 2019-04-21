@@ -51,26 +51,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="PatientDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PatientDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="PatientDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PatientDataSet1.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="PatientDataSet2.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PatientDataSet2.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="PatientDataSet3.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PatientDataSet3.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -86,50 +66,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="PatientDataSet.xsc">
-      <DependentUpon>PatientDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="PatientDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>PatientDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="PatientDataSet.xss">
-      <DependentUpon>PatientDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="PatientDataSet1.xsc">
-      <DependentUpon>PatientDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="PatientDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>PatientDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="PatientDataSet1.xss">
-      <DependentUpon>PatientDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="PatientDataSet2.xsc">
-      <DependentUpon>PatientDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="PatientDataSet2.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>PatientDataSet2.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="PatientDataSet2.xss">
-      <DependentUpon>PatientDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="PatientDataSet3.xsc">
-      <DependentUpon>PatientDataSet3.xsd</DependentUpon>
-    </None>
-    <None Include="PatientDataSet3.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>PatientDataSet3.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="PatientDataSet3.xss">
-      <DependentUpon>PatientDataSet3.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
