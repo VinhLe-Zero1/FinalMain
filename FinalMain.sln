@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thongkethongtin", "thongket
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paitent(D)", "WindowsFormsApp1\WindowsFormsApp1\Paitent(D).csproj", "{41975E19-C68C-4473-A2E7-654C4D0AE1CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datlich", "..\BTL_CNPM\BTL_CNPM\Datlich.csproj", "{820C149F-4B5C-40D6-B8E6-3F5F94FCE59E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{41975E19-C68C-4473-A2E7-654C4D0AE1CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41975E19-C68C-4473-A2E7-654C4D0AE1CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41975E19-C68C-4473-A2E7-654C4D0AE1CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{820C149F-4B5C-40D6-B8E6-3F5F94FCE59E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820C149F-4B5C-40D6-B8E6-3F5F94FCE59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820C149F-4B5C-40D6-B8E6-3F5F94FCE59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820C149F-4B5C-40D6-B8E6-3F5F94FCE59E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

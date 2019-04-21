@@ -11,3 +11,16 @@ C:\Users\DELL\Desktop\capnhapthongtin\BTL_CNPM\bin\Debug\capnhap.pdb
 C:\Users\DELL\Desktop\capnhapthongtin\BTL_CNPM\obj\Debug\capnhap.Properties.Resources.resources
 C:\Users\DELL\Desktop\capnhapthongtin\BTL_CNPM\obj\Debug\capnhap.exe
 C:\Users\DELL\Desktop\capnhapthongtin\BTL_CNPM\obj\Debug\capnhap.pdb
+C:\Users\ducti\source\repos\FinalMain\capnhapthongtin\capnhap\bin\Debug\capnhap.exe.config
+C:\Users\ducti\source\repos\FinalMain\capnhapthongtin\capnhap\bin\Debug\capnhap.exe
+C:\Users\ducti\source\repos\FinalMain\capnhapthongtin\capnhap\bin\Debug\capnhap.pdb
+C:\Users\ducti\source\repos\FinalMain\capnhapthongtin\capnhap\bin\Debug\GemBox.Email.dll
+C:\Users\ducti\source\repos\FinalMain\capnhapthongtin\capnhap\bin\Debug\GemBox.Email.xml
+C:\Users\ducti\source\repos\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhapthongtin.csprojAssemblyReference.cache
+C:\Users\ducti\source\repos\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhatinfo.capnhapthongtin.resources
+C:\Users\ducti\source\repos\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhap.Properties.Resources.resources
+C:\Users\ducti\source\repos\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhapthongtin.csproj.GenerateResource.cache
+C:\Users\ducti\source\repos\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhapthongtin.csproj.CoreCompileInputs.cache
+C:\Users\ducti\source\repos\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhapthongtin.csproj.CopyComplete
+C:\Users\ducti\source\repos\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhap.exe
+C:\Users\ducti\source\repos\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhap.pdb
