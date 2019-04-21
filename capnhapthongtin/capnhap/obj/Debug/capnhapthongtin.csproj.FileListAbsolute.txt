@@ -1,0 +1,13 @@
+C:\Users\DELL\Desktop\capnhapthongtin\BTL_CNPM\obj\Debug\capnhapthongtin.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\capnhapthongtin\BTL_CNPM\obj\Debug\capnhapthongtin.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\capnhapthongtin\BTL_CNPM\obj\Debug\capnhapthongtin.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\capnhapthongtin\BTL_CNPM\bin\Debug\GemBox.Email.dll
+C:\Users\DELL\Desktop\capnhapthongtin\BTL_CNPM\bin\Debug\GemBox.Email.xml
+C:\Users\DELL\Desktop\capnhapthongtin\BTL_CNPM\obj\Debug\capnhapthongtin.csproj.CopyComplete
+C:\Users\DELL\Desktop\capnhapthongtin\BTL_CNPM\obj\Debug\capnhatinfo.capnhapthongtin.resources
+C:\Users\DELL\Desktop\capnhapthongtin\BTL_CNPM\bin\Debug\capnhap.exe.config
+C:\Users\DELL\Desktop\capnhapthongtin\BTL_CNPM\bin\Debug\capnhap.exe
+C:\Users\DELL\Desktop\capnhapthongtin\BTL_CNPM\bin\Debug\capnhap.pdb
+C:\Users\DELL\Desktop\capnhapthongtin\BTL_CNPM\obj\Debug\capnhap.Properties.Resources.resources
+C:\Users\DELL\Desktop\capnhapthongtin\BTL_CNPM\obj\Debug\capnhap.exe
+C:\Users\DELL\Desktop\capnhapthongtin\BTL_CNPM\obj\Debug\capnhap.pdb
