@@ -18,3 +18,13 @@ C:\Users\DELL\Desktop\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatytegand
 C:\Users\DELL\Desktop\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.csproj.CoreCompileInputs.cache
 C:\Users\DELL\Desktop\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.exe
 C:\Users\DELL\Desktop\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.pdb
+C:\Users\ducti\source\repos\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\capnhatyteganday.exe.config
+C:\Users\ducti\source\repos\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\capnhatyteganday.exe
+C:\Users\ducti\source\repos\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\capnhatyteganday.pdb
+C:\Users\ducti\source\repos\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.csprojAssemblyReference.cache
+C:\Users\ducti\source\repos\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.Form1.resources
+C:\Users\ducti\source\repos\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.Properties.Resources.resources
+C:\Users\ducti\source\repos\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.csproj.GenerateResource.cache
+C:\Users\ducti\source\repos\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.csproj.CoreCompileInputs.cache
+C:\Users\ducti\source\repos\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.exe
+C:\Users\ducti\source\repos\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.pdb

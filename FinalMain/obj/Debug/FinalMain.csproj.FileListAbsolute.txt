@@ -61,12 +61,6 @@ C:\Users\ducti\source\repos\FinalMain\FinalMain\bin\Debug\WindowsFormsApp1.pdb
 C:\Users\ducti\source\repos\FinalMain\FinalMain\bin\Debug\WindowsFormsApp1.exe.config
 C:\Users\ducti\source\repos\FinalMain\FinalMain\bin\Debug\GemBox.Email.xml
 C:\Users\ducti\source\repos\FinalMain\FinalMain\obj\Debug\FinalMain.csproj.CopyComplete
-C:\Users\ducti\source\repos\FinalMain\FinalMain\bin\Debug\Datlich.exe
-C:\Users\ducti\source\repos\FinalMain\FinalMain\bin\Debug\T_chuandoan.exe
-C:\Users\ducti\source\repos\FinalMain\FinalMain\bin\Debug\T_chuandoan.pdb
-C:\Users\ducti\source\repos\FinalMain\FinalMain\bin\Debug\T_chuandoan.exe.config
-C:\Users\ducti\source\repos\FinalMain\FinalMain\bin\Debug\Datlich.pdb
-C:\Users\ducti\source\repos\FinalMain\FinalMain\bin\Debug\Datlich.exe.config
 D:\MyFolder\Github\FinalMain\FinalMain\bin\Debug\FinalMain.exe.config
 D:\MyFolder\Github\FinalMain\FinalMain\bin\Debug\FinalMain.exe
 D:\MyFolder\Github\FinalMain\FinalMain\bin\Debug\FinalMain.pdb
@@ -105,3 +99,12 @@ D:\MyFolder\Github\FinalMain\FinalMain\obj\Debug\FinalMain.csproj.CoreCompileInp
 D:\MyFolder\Github\FinalMain\FinalMain\obj\Debug\FinalMain.csproj.CopyComplete
 D:\MyFolder\Github\FinalMain\FinalMain\obj\Debug\FinalMain.exe
 D:\MyFolder\Github\FinalMain\FinalMain\obj\Debug\FinalMain.pdb
+C:\Users\ducti\source\repos\FinalMain\FinalMain\bin\Debug\InfoRegister.exe
+C:\Users\ducti\source\repos\FinalMain\FinalMain\bin\Debug\PatientHistory.exe
+C:\Users\ducti\source\repos\FinalMain\FinalMain\bin\Debug\InfoRegister.pdb
+C:\Users\ducti\source\repos\FinalMain\FinalMain\bin\Debug\InfoRegister.exe.config
+C:\Users\ducti\source\repos\FinalMain\FinalMain\bin\Debug\PatientHistory.pdb
+C:\Users\ducti\source\repos\FinalMain\FinalMain\bin\Debug\PatientHistory.exe.config
+C:\Users\ducti\source\repos\FinalMain\FinalMain\bin\Debug\Datlich.exe
+C:\Users\ducti\source\repos\FinalMain\FinalMain\bin\Debug\Datlich.pdb
+C:\Users\ducti\source\repos\FinalMain\FinalMain\bin\Debug\Datlich.exe.config
