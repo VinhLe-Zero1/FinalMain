@@ -1,0 +1,10 @@
+D:\MyFolder\MedicalApp\LoginForm\bin\Debug\LoginForm.exe.config
+D:\MyFolder\MedicalApp\LoginForm\bin\Debug\LoginForm.exe
+D:\MyFolder\MedicalApp\LoginForm\bin\Debug\LoginForm.pdb
+D:\MyFolder\MedicalApp\LoginForm\obj\Debug\LoginForm.csprojAssemblyReference.cache
+D:\MyFolder\MedicalApp\LoginForm\obj\Debug\LoginForm.Properties.Resources.resources
+D:\MyFolder\MedicalApp\LoginForm\obj\Debug\LoginForm.csproj.GenerateResource.cache
+D:\MyFolder\MedicalApp\LoginForm\obj\Debug\LoginForm.csproj.CoreCompileInputs.cache
+D:\MyFolder\MedicalApp\LoginForm\obj\Debug\LoginForm.exe
+D:\MyFolder\MedicalApp\LoginForm\obj\Debug\LoginForm.pdb
+D:\MyFolder\MedicalApp\LoginForm\obj\Debug\LoginForm.formLogin.resources
