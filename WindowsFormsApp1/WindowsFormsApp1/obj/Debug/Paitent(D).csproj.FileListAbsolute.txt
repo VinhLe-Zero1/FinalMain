@@ -1,0 +1,13 @@
+C:\Users\DELL\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\DELL\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\DELL\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\DELL\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Paitent(D).csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\DELL\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\DELL\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+C:\Users\DELL\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form6.resources
+C:\Users\DELL\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\DELL\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Paitent(D).csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Paitent(D).csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\DELL\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

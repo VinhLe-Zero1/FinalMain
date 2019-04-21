@@ -1,0 +1,13 @@
+E:\Data\182 - 4th semester\Software Tech\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\Data\182 - 4th semester\Software Tech\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\Data\182 - 4th semester\Software Tech\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\Data\182 - 4th semester\Software Tech\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+E:\Data\182 - 4th semester\Software Tech\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\Data\182 - 4th semester\Software Tech\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\Data\182 - 4th semester\Software Tech\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+E:\Data\182 - 4th semester\Software Tech\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\Data\182 - 4th semester\Software Tech\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\Data\182 - 4th semester\Software Tech\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\Data\182 - 4th semester\Software Tech\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+E:\Data\182 - 4th semester\Software Tech\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+E:\Data\182 - 4th semester\Software Tech\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form6.resources
