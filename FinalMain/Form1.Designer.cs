@@ -39,10 +39,11 @@
             // 
             this.datlich.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.datlich.Location = new System.Drawing.Point(9, 107);
-            this.datlich.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.datlich.Margin = new System.Windows.Forms.Padding(2);
             this.datlich.Name = "datlich";
             this.datlich.Size = new System.Drawing.Size(191, 81);
             this.datlich.TabIndex = 0;
+            this.datlich.TabStop = false;
             this.datlich.Text = "Đặt lịch";
             this.datlich.UseVisualStyleBackColor = true;
             this.datlich.Click += new System.EventHandler(this.button1_Click);
@@ -51,7 +52,7 @@
             // 
             this.tintuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tintuc.Location = new System.Drawing.Point(205, 107);
-            this.tintuc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tintuc.Margin = new System.Windows.Forms.Padding(2);
             this.tintuc.Name = "tintuc";
             this.tintuc.Size = new System.Drawing.Size(191, 81);
             this.tintuc.TabIndex = 1;
@@ -63,7 +64,7 @@
             // 
             this.chuandoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chuandoan.Location = new System.Drawing.Point(400, 107);
-            this.chuandoan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.chuandoan.Margin = new System.Windows.Forms.Padding(2);
             this.chuandoan.Name = "chuandoan";
             this.chuandoan.Size = new System.Drawing.Size(191, 81);
             this.chuandoan.TabIndex = 2;
@@ -75,7 +76,7 @@
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(100, 193);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(191, 81);
             this.button4.TabIndex = 3;
@@ -87,7 +88,7 @@
             // 
             this.cntt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cntt.Location = new System.Drawing.Point(296, 193);
-            this.cntt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cntt.Margin = new System.Windows.Forms.Padding(2);
             this.cntt.Name = "cntt";
             this.cntt.Size = new System.Drawing.Size(191, 81);
             this.cntt.TabIndex = 4;
@@ -105,7 +106,7 @@
             this.Controls.Add(this.chuandoan);
             this.Controls.Add(this.tintuc);
             this.Controls.Add(this.datlich);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
