@@ -15,10 +15,11 @@ namespace FinalMain
         {
             InitializeComponent();
         }
-
+        //Dat Lich
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            Datlich.Form1 form1 = new Datlich.Form1();
+            form1.Show();
         }
 
         private void tintuc_Click(object sender, EventArgs e)
@@ -41,8 +42,8 @@ namespace FinalMain
 
         private void button4_Click(object sender, EventArgs e)
         {
-            PatientHistory.formHistory t = new PatientHistory.formHistory();
-            t.Show();
+            //PatientHistory.formHistory t = new PatientHistory.formHistory();
+            //t.Show();
         }
     }
 }
