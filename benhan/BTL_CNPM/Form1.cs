@@ -66,7 +66,7 @@ namespace T_benhan
             if (maso.Text == "" || chuandoan.Text == "" || donthuoc.Text == "" || !checkNum(maso.Text.ToString())) {
                 b_thongbao.Visible = true;
                 thongbao.Visible = true;
-                //MessageBox.Show("Bạn đã nhập sai vui lòng nhập lại!");
+               
             }
             else
             {

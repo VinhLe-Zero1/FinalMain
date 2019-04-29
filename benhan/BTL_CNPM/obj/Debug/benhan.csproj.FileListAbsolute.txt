@@ -18,3 +18,8 @@ C:\Users\ducti\source\repos\FinalMain\benhan\BTL_CNPM\obj\Debug\benhan.csproj.Ge
 C:\Users\ducti\source\repos\FinalMain\benhan\BTL_CNPM\obj\Debug\benhan.csproj.CoreCompileInputs.cache
 C:\Users\ducti\source\repos\FinalMain\benhan\BTL_CNPM\obj\Debug\BTL_CNPM.exe
 C:\Users\ducti\source\repos\FinalMain\benhan\BTL_CNPM\obj\Debug\BTL_CNPM.pdb
+C:\Users\ducti\source\repos\FinalMain\benhan\BTL_CNPM\bin\Debug\Datlich.exe
+C:\Users\ducti\source\repos\FinalMain\benhan\BTL_CNPM\bin\Debug\MaterialSkin.dll
+C:\Users\ducti\source\repos\FinalMain\benhan\BTL_CNPM\bin\Debug\Datlich.pdb
+C:\Users\ducti\source\repos\FinalMain\benhan\BTL_CNPM\bin\Debug\Datlich.exe.config
+C:\Users\ducti\source\repos\FinalMain\benhan\BTL_CNPM\obj\Debug\benhan.csproj.CopyComplete
