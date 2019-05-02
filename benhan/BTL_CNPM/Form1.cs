@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using BTL_CNPM;
 namespace T_benhan
 {
     public partial class Form1 : Form
@@ -66,7 +66,12 @@ namespace T_benhan
             if (maso.Text == "" || chuandoan.Text == "" || donthuoc.Text == "" || !checkNum(maso.Text.ToString())) {
                 b_thongbao.Visible = true;
                 thongbao.Visible = true;
-               
+                int ID;
+                if (int.TryParse(maso.ToString(), out ID))
+                {
+                    Benhan benhan = new Benhan();
+                    benhan.addBenhan(ID, chuandoan.Text, dando.Text, donthuoc.Text);
+                }
             }
             else
             {
