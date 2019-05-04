@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using BTL_CNPM;
 namespace T_benhan
 {
     public partial class Form1 : Form
@@ -66,10 +66,18 @@ namespace T_benhan
             if (maso.Text == "" || chuandoan.Text == "" || donthuoc.Text == "" || !checkNum(maso.Text.ToString())) {
                 b_thongbao.Visible = true;
                 thongbao.Visible = true;
-                //MessageBox.Show("Bạn đã nhập sai vui lòng nhập lại!");
+                
             }
             else
             {
+                int ID;
+                if (int.TryParse(maso.ToString(), out ID))
+                {
+                    Benhan benhan = new Benhan();
+                    benhan.addBenhan(ID, chuandoan.Text, dando.Text, donthuoc.Text);
+                    BTL_CNPM.Control t = new BTL_CNPM.Control();
+                    t.UpdateData(benhan);
+                }
                 thongbao.Text = "Thông tin bệnh án đã được lưu!";
                 b_thongbao.Visible = true;
                 thongbao.Visible = true;
