@@ -66,15 +66,18 @@ namespace T_benhan
             if (maso.Text == "" || chuandoan.Text == "" || donthuoc.Text == "" || !checkNum(maso.Text.ToString())) {
                 b_thongbao.Visible = true;
                 thongbao.Visible = true;
+                
+            }
+            else
+            {
                 int ID;
                 if (int.TryParse(maso.ToString(), out ID))
                 {
                     Benhan benhan = new Benhan();
                     benhan.addBenhan(ID, chuandoan.Text, dando.Text, donthuoc.Text);
+                    BTL_CNPM.Control t = new BTL_CNPM.Control();
+                    t.UpdateData(benhan);
                 }
-            }
-            else
-            {
                 thongbao.Text = "Thông tin bệnh án đã được lưu!";
                 b_thongbao.Visible = true;
                 thongbao.Visible = true;
