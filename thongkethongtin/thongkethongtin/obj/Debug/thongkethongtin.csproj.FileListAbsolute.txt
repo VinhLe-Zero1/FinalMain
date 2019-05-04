@@ -28,3 +28,13 @@ C:\Users\ducti\source\repos\FinalMain\thongkethongtin\thongkethongtin\obj\Debug\
 C:\Users\ducti\source\repos\FinalMain\thongkethongtin\thongkethongtin\obj\Debug\thongkethongtin.csproj.CoreCompileInputs.cache
 C:\Users\ducti\source\repos\FinalMain\thongkethongtin\thongkethongtin\obj\Debug\thongkethongtin.exe
 C:\Users\ducti\source\repos\FinalMain\thongkethongtin\thongkethongtin\obj\Debug\thongkethongtin.pdb
+D:\CNPM\FinalMain\thongkethongtin\thongkethongtin\bin\Debug\thongkethongtin.exe.config
+D:\CNPM\FinalMain\thongkethongtin\thongkethongtin\bin\Debug\thongkethongtin.exe
+D:\CNPM\FinalMain\thongkethongtin\thongkethongtin\bin\Debug\thongkethongtin.pdb
+D:\CNPM\FinalMain\thongkethongtin\thongkethongtin\obj\Debug\thongkethongtin.csprojAssemblyReference.cache
+D:\CNPM\FinalMain\thongkethongtin\thongkethongtin\obj\Debug\thongkethongtin.Form1.resources
+D:\CNPM\FinalMain\thongkethongtin\thongkethongtin\obj\Debug\thongkethongtin.Properties.Resources.resources
+D:\CNPM\FinalMain\thongkethongtin\thongkethongtin\obj\Debug\thongkethongtin.csproj.GenerateResource.cache
+D:\CNPM\FinalMain\thongkethongtin\thongkethongtin\obj\Debug\thongkethongtin.csproj.CoreCompileInputs.cache
+D:\CNPM\FinalMain\thongkethongtin\thongkethongtin\obj\Debug\thongkethongtin.exe
+D:\CNPM\FinalMain\thongkethongtin\thongkethongtin\obj\Debug\thongkethongtin.pdb

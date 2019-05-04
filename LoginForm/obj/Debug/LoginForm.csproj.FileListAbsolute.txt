@@ -8,3 +8,17 @@ D:\MyFolder\MedicalApp\LoginForm\obj\Debug\LoginForm.csproj.CoreCompileInputs.ca
 D:\MyFolder\MedicalApp\LoginForm\obj\Debug\LoginForm.exe
 D:\MyFolder\MedicalApp\LoginForm\obj\Debug\LoginForm.pdb
 D:\MyFolder\MedicalApp\LoginForm\obj\Debug\LoginForm.formLogin.resources
+D:\CNPM\FinalMain\LoginForm\bin\Debug\LoginForm.exe.config
+D:\CNPM\FinalMain\LoginForm\bin\Debug\LoginForm.exe
+D:\CNPM\FinalMain\LoginForm\bin\Debug\LoginForm.pdb
+D:\CNPM\FinalMain\LoginForm\bin\Debug\InfoRegister.exe
+D:\CNPM\FinalMain\LoginForm\bin\Debug\InfoRegister.pdb
+D:\CNPM\FinalMain\LoginForm\bin\Debug\InfoRegister.exe.config
+D:\CNPM\FinalMain\LoginForm\obj\Debug\LoginForm.csprojAssemblyReference.cache
+D:\CNPM\FinalMain\LoginForm\obj\Debug\LoginForm.formLogin.resources
+D:\CNPM\FinalMain\LoginForm\obj\Debug\LoginForm.Properties.Resources.resources
+D:\CNPM\FinalMain\LoginForm\obj\Debug\LoginForm.csproj.GenerateResource.cache
+D:\CNPM\FinalMain\LoginForm\obj\Debug\LoginForm.csproj.CoreCompileInputs.cache
+D:\CNPM\FinalMain\LoginForm\obj\Debug\LoginForm.csproj.CopyComplete
+D:\CNPM\FinalMain\LoginForm\obj\Debug\LoginForm.exe
+D:\CNPM\FinalMain\LoginForm\obj\Debug\LoginForm.pdb

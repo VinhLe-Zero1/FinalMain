@@ -84,10 +84,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\BTL_CNPM\BTL_CNPM\Datlich.csproj">
-      <Project>{820c149f-4b5c-40d6-b8e6-3f5f94fce59e}</Project>
-      <Name>Datlich</Name>
-    </ProjectReference>
     <ProjectReference Include="..\benhan\BTL_CNPM\benhan.csproj">
       <Project>{eb2a50b4-c32c-4dc2-af69-389fc287e181}</Project>
       <Name>benhan</Name>
@@ -107,10 +103,6 @@
     <ProjectReference Include="..\MedicalApp\InfoRegister\InfoRegister.csproj">
       <Project>{8710529a-e9c2-4610-a0f1-d844f3be6bc6}</Project>
       <Name>InfoRegister</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MedicalApp\LoginForm\LoginForm.csproj">
-      <Project>{3139fe26-8d44-4372-9888-dee09bbdafb6}</Project>
-      <Name>LoginForm</Name>
     </ProjectReference>
     <ProjectReference Include="..\MedicalApp\PatientHistory\PatientHistory.csproj">
       <Project>{3660f97c-55b9-4389-b1e6-4d53bc74a8e8}</Project>
