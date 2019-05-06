@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using Datlich;
 namespace BTL_CNPM
 {
-    class ControllerBenhan:Controller
+    class ControllerBenhan:SendMail
     {
         public override DataSet GetDataBaseCommand(string query)
         {
@@ -54,7 +54,7 @@ namespace BTL_CNPM
             MailMessage mess = new MailMessage(this.email, to);
             SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
             client.EnableSsl = true;
-            mess.Subject = this.subject_datlich;
+            mess.Subject = this.subject_benhan;
             mess.IsBodyHtml = true;
             mess.Body = "<b>Chào ban, </b><br/>";
             mess.Body += "\nBệnh viện chúng tôi xin gửi đến thông tin bệnh án như sau:<br/>";

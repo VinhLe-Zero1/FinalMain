@@ -51,6 +51,16 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="PatientDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PatientDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PatientDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PatientDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -66,6 +76,28 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="PatientDataSet.xsc">
+      <DependentUpon>PatientDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PatientDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PatientDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PatientDataSet.xss">
+      <DependentUpon>PatientDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PatientDataSet1.xsc">
+      <DependentUpon>PatientDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="PatientDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PatientDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PatientDataSet1.xss">
+      <DependentUpon>PatientDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -120,6 +152,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MedicalApp\InfoRegister\InfoRegister.csproj">
+      <Project>{8710529a-e9c2-4610-a0f1-d844f3be6bc6}</Project>
+      <Name>InfoRegister</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
