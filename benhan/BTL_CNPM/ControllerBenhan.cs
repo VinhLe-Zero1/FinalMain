@@ -10,9 +10,9 @@ using System.Windows.Forms;
 using Datlich;
 namespace BTL_CNPM
 {
-    class Control:SendMail
+    class ControllerBenhan:Controller
     {
-        public DataSet GetDataBaseCommand(string query)
+        public override DataSet GetDataBaseCommand(string query)
         {
             DataSet data = new DataSet();
             using (System.Data.SqlClient.SqlConnection connection = new SqlConnection(ConnectString.connectString))
@@ -48,7 +48,7 @@ namespace BTL_CNPM
 
         private string email = "ddtin1408@gmail.com";
         private string pass = "0942212660";
-        private string subject_datlich = "THÔNG TIN BỆNH ÁN";
+        private string subject_benhan = "THÔNG TIN BỆNH ÁN";
         public override bool GuiMail(string to)
         {
             MailMessage mess = new MailMessage(this.email, to);
