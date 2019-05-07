@@ -70,8 +70,8 @@ namespace T_benhan
             }
             else
             {
-                int ID;
-                if (int.TryParse(maso.ToString(), out ID))
+                int ID, i;
+                if (int.TryParse(maso.Text, out ID))
                 {
                     Benhan benhan = new Benhan();
                     benhan.addBenhan(ID, chuandoan.Text, dando.Text, donthuoc.Text);

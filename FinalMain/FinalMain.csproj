@@ -108,7 +108,7 @@
       <Project>{8710529a-e9c2-4610-a0f1-d844f3be6bc6}</Project>
       <Name>InfoRegister</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MedicalApp\LoginForm\LoginForm.csproj">
+    <ProjectReference Include="..\LoginForm\LoginForm.csproj">
       <Project>{3139fe26-8d44-4372-9888-dee09bbdafb6}</Project>
       <Name>LoginForm</Name>
     </ProjectReference>

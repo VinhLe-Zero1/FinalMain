@@ -42,7 +42,7 @@ namespace BTL_CNPM
             }
             string query = "insert into benhan values (" + benhan.getID().ToString() +
                 ",GETDATE(), N'" + benhan.getChuandoan() + "', N' " + benhan.getDonthuoc() + "', N' " +
-                benhan.getDando() + "', " + is_sendmail.ToString();
+                benhan.getDando() + "', '" + is_sendmail.ToString() + "')";
             GetDataBaseCommand(query);
         }
 
