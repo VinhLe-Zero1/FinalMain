@@ -1,6 +1,8 @@
 from tkinter import *
 import numpy as np
 import pandas as pd
+import xlrd
+
 # from gui_stuff import *
 
 l1=['back_pain','constipation','abdominal_pain','diarrhoea','mild_fever','yellow_urine',
@@ -33,7 +35,6 @@ disease=['Fungal infection','Allergy','GERD','Chronic cholestasis','Drug Reactio
 'Heartattack','Varicoseveins','Hypothyroidism','Hyperthyroidism','Hypoglycemia','Osteoarthristis',
 'Arthritis','(vertigo) Paroymsal  Positional Vertigo','Acne','Urinary tract infection','Psoriasis',
 'Impetigo']
-
 l2=[]
 for x in range(0,len(l1)):
     l2.append(0)
@@ -86,7 +87,7 @@ def DecisionTree():
     print(accuracy_score(y_test, y_pred,normalize=False))
     # -----------------------------------------------------
 
-    psymptoms = [Symptom1,Symptom2,Symptom3,Symptom4,Symptom5]
+    psymptoms = [Symptom1,Symptom2,Symptom3,Symptom4]
 
     for k in range(0,len(l1)):
         for z in psymptoms:
@@ -123,7 +124,6 @@ def randomforest():
         for z in psymptoms:
             if(z==l1[k]):
                 l2[k]=1
-
     inputtest = [l2]
     predict = clf4.predict(inputtest)
     predicted=predict[0]
@@ -144,8 +144,6 @@ def NaiveBayes():
     # calculating accuracy-------------------------------------------------------------------
     from sklearn.metrics import accuracy_score
     y_pred=gnb.predict(X_test)
-    print(accuracy_score(y_test, y_pred))
-    print(accuracy_score(y_test, y_pred,normalize=False))
     # -----------------------------------------------------
 
     psymptoms = [Symptom1,Symptom2,Symptom3,Symptom4]
@@ -153,7 +151,6 @@ def NaiveBayes():
         for z in psymptoms:
             if(z==l1[k]):
                 l2[k]=1
-
     inputtest = [l2]
     predict = gnb.predict(inputtest)
     predicted=predict[0]
@@ -163,26 +160,40 @@ def NaiveBayes():
         if(predicted == a):
             h='yes'
             break
-    text_file = open("C:\\Users\\DELL\\Desktop\\Output.txt", "w")
-    text_file.write(disease[a])
-
-
+    return disease[a]
 # entry variables
-fp = open('C:\\Users\\DELL\\Desktop\\Input.txt', 'r')
+df = pd.read_excel('trieuchung.xlsx')
+Arr_Symptom = df.as_matrix()
+fp = open('Input.txt', 'r',encoding='utf8')
 i = 0
+Symptom1 = ''
+Symptom2 = ''
+Symptom3 = ''
+Symptom4 = ''
+ 
 for line in fp:
+    line = line.replace("\n", "");
+    temp_array = np.where(Arr_Symptom == str(line))
+    if (line == ''):
+        continue
+    eng_index = temp_array[0][0]
     if i == 0:
-        Symptom1 = line
+        Symptom1 = Arr_Symptom[eng_index][0]
     if i == 1:
-        Symptom2 = line
+        Symptom2 = Arr_Symptom[eng_index][0]
     if i == 2:
-        Symptom3 = line
+        Symptom3 = Arr_Symptom[eng_index][0]
     if i == 3:
-        Symptom4 = line
+        Symptom4 = Arr_Symptom[eng_index][0]
     i += 1
-print(Symptom1)
-print(Symptom2)
-print(Symptom3)
-print(Symptom4)
-NaiveBayes()
+fp.close()
+predicted = NaiveBayes()
 
+df = pd.read_excel('benh.xlsx')
+Arr_Diease = df.as_matrix()
+temp_array = np.where(Arr_Diease == predicted)
+viet_index = temp_array[0][0]
+output = open("Output.txt", "w",encoding='utf8')
+output.write(Arr_Diease[viet_index][1])
+output.close()
+#text_file.write(Arr_Diease[viet_index][1])
