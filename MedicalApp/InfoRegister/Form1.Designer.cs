@@ -32,36 +32,38 @@
             this.panelTop = new System.Windows.Forms.TableLayoutPanel();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tLPInfo = new System.Windows.Forms.TableLayoutPanel();
+            this.firstNameBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.fLPSex = new System.Windows.Forms.FlowLayoutPanel();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.lastNameBox = new System.Windows.Forms.TextBox();
+            this.CMNDBox = new System.Windows.Forms.TextBox();
+            this.adrBox = new System.Windows.Forms.TextBox();
+            this.phoneNumBox = new System.Windows.Forms.TextBox();
+            this.emailBox = new System.Windows.Forms.TextBox();
+            this.fLPDate = new System.Windows.Forms.FlowLayoutPanel();
             this.comboBoxDay = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxMonth = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.comboBoxYear = new System.Windows.Forms.ComboBox();
+            this.btnRegister = new System.Windows.Forms.Button();
+            this.labelMissing = new System.Windows.Forms.Label();
+            this.radioButtonMale = new System.Windows.Forms.RadioButton();
+            this.radioButtonFemale = new System.Windows.Forms.RadioButton();
+            this.labelMissing2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panelTop.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
-            this.flowLayoutPanel2.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
+            this.tLPInfo.SuspendLayout();
+            this.fLPSex.SuspendLayout();
+            this.fLPDate.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -69,8 +71,8 @@
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.Controls.Add(this.panelTop, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button1, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.tLPInfo, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.btnRegister, 0, 2);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -134,49 +136,50 @@
             this.label1.Text = "Tạo mới hồ sơ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // tableLayoutPanel3
+            // tLPInfo
             // 
-            this.tableLayoutPanel3.ColumnCount = 2;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 383F));
-            this.tableLayoutPanel3.Controls.Add(this.textBox2, 1, 1);
-            this.tableLayoutPanel3.Controls.Add(this.label2, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label3, 0, 1);
-            this.tableLayoutPanel3.Controls.Add(this.flowLayoutPanel2, 1, 3);
-            this.tableLayoutPanel3.Controls.Add(this.label4, 0, 2);
-            this.tableLayoutPanel3.Controls.Add(this.label5, 0, 3);
-            this.tableLayoutPanel3.Controls.Add(this.label6, 0, 4);
-            this.tableLayoutPanel3.Controls.Add(this.label7, 0, 5);
-            this.tableLayoutPanel3.Controls.Add(this.label8, 0, 6);
-            this.tableLayoutPanel3.Controls.Add(this.label9, 0, 7);
-            this.tableLayoutPanel3.Controls.Add(this.textBox1, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.textBox3, 1, 4);
-            this.tableLayoutPanel3.Controls.Add(this.textBox4, 1, 5);
-            this.tableLayoutPanel3.Controls.Add(this.textBox5, 1, 6);
-            this.tableLayoutPanel3.Controls.Add(this.textBox6, 1, 7);
-            this.tableLayoutPanel3.Controls.Add(this.flowLayoutPanel1, 1, 2);
-            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 35);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 8;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 31F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 46F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(513, 291);
-            this.tableLayoutPanel3.TabIndex = 1;
+            this.tLPInfo.ColumnCount = 2;
+            this.tLPInfo.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tLPInfo.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 383F));
+            this.tLPInfo.Controls.Add(this.firstNameBox, 1, 1);
+            this.tLPInfo.Controls.Add(this.label2, 0, 0);
+            this.tLPInfo.Controls.Add(this.label3, 0, 1);
+            this.tLPInfo.Controls.Add(this.fLPSex, 1, 3);
+            this.tLPInfo.Controls.Add(this.label4, 0, 2);
+            this.tLPInfo.Controls.Add(this.label5, 0, 3);
+            this.tLPInfo.Controls.Add(this.label6, 0, 4);
+            this.tLPInfo.Controls.Add(this.label7, 0, 5);
+            this.tLPInfo.Controls.Add(this.label8, 0, 6);
+            this.tLPInfo.Controls.Add(this.label9, 0, 7);
+            this.tLPInfo.Controls.Add(this.lastNameBox, 1, 0);
+            this.tLPInfo.Controls.Add(this.CMNDBox, 1, 4);
+            this.tLPInfo.Controls.Add(this.adrBox, 1, 5);
+            this.tLPInfo.Controls.Add(this.phoneNumBox, 1, 6);
+            this.tLPInfo.Controls.Add(this.emailBox, 1, 7);
+            this.tLPInfo.Controls.Add(this.fLPDate, 1, 2);
+            this.tLPInfo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tLPInfo.Location = new System.Drawing.Point(3, 35);
+            this.tLPInfo.Name = "tLPInfo";
+            this.tLPInfo.RowCount = 8;
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 39F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.tLPInfo.Size = new System.Drawing.Size(513, 291);
+            this.tLPInfo.TabIndex = 1;
             // 
-            // textBox2
+            // firstNameBox
             // 
-            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox2.Location = new System.Drawing.Point(133, 38);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(377, 20);
-            this.textBox2.TabIndex = 1;
+            this.firstNameBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.firstNameBox.Location = new System.Drawing.Point(133, 38);
+            this.firstNameBox.Name = "firstNameBox";
+            this.firstNameBox.Size = new System.Drawing.Size(377, 20);
+            this.firstNameBox.TabIndex = 1;
+            this.firstNameBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnMouseLeft);
             // 
             // label2
             // 
@@ -198,39 +201,16 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Tên bệnh nhân";
             // 
-            // flowLayoutPanel2
+            // fLPSex
             // 
-            this.flowLayoutPanel2.Controls.Add(this.radioButton1);
-            this.flowLayoutPanel2.Controls.Add(this.radioButton2);
-            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(133, 109);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(377, 31);
-            this.flowLayoutPanel2.TabIndex = 3;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(3, 3);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(47, 17);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Nam";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.flowLayoutPanel2.SetFlowBreak(this.radioButton2, true);
-            this.radioButton2.Location = new System.Drawing.Point(56, 3);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.radioButton2.Size = new System.Drawing.Size(59, 17);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Nữ";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.fLPSex.Controls.Add(this.radioButtonMale);
+            this.fLPSex.Controls.Add(this.radioButtonFemale);
+            this.fLPSex.Controls.Add(this.labelMissing2);
+            this.fLPSex.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.fLPSex.Location = new System.Drawing.Point(133, 109);
+            this.fLPSex.Name = "fLPSex";
+            this.fLPSex.Size = new System.Drawing.Size(377, 30);
+            this.fLPSex.TabIndex = 3;
             // 
             // label4
             // 
@@ -246,7 +226,7 @@
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 118);
+            this.label5.Location = new System.Drawing.Point(3, 117);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 13);
             this.label5.TabIndex = 3;
@@ -256,7 +236,7 @@
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(3, 152);
+            this.label6.Location = new System.Drawing.Point(3, 153);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(39, 13);
             this.label6.TabIndex = 4;
@@ -266,7 +246,7 @@
             // 
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(3, 185);
+            this.label7.Location = new System.Drawing.Point(3, 190);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(40, 13);
             this.label7.TabIndex = 5;
@@ -276,7 +256,7 @@
             // 
             this.label8.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(3, 221);
+            this.label8.Location = new System.Drawing.Point(3, 230);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(70, 13);
             this.label8.TabIndex = 6;
@@ -286,64 +266,70 @@
             // 
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(3, 261);
+            this.label9.Location = new System.Drawing.Point(3, 267);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(32, 13);
             this.label9.TabIndex = 7;
             this.label9.Text = "Email";
             // 
-            // textBox1
+            // lastNameBox
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox1.Location = new System.Drawing.Point(133, 5);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(377, 20);
-            this.textBox1.TabIndex = 0;
+            this.lastNameBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lastNameBox.Location = new System.Drawing.Point(133, 5);
+            this.lastNameBox.Name = "lastNameBox";
+            this.lastNameBox.Size = new System.Drawing.Size(377, 20);
+            this.lastNameBox.TabIndex = 0;
+            this.lastNameBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnMouseLeft);
             // 
-            // textBox3
+            // CMNDBox
             // 
-            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox3.Location = new System.Drawing.Point(133, 148);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(377, 20);
-            this.textBox3.TabIndex = 4;
+            this.CMNDBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.CMNDBox.Location = new System.Drawing.Point(133, 149);
+            this.CMNDBox.Name = "CMNDBox";
+            this.CMNDBox.Size = new System.Drawing.Size(377, 20);
+            this.CMNDBox.TabIndex = 4;
+            this.CMNDBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnMouseLeft);
             // 
-            // textBox4
+            // adrBox
             // 
-            this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox4.Location = new System.Drawing.Point(133, 182);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(377, 20);
-            this.textBox4.TabIndex = 5;
+            this.adrBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.adrBox.Location = new System.Drawing.Point(133, 187);
+            this.adrBox.Name = "adrBox";
+            this.adrBox.Size = new System.Drawing.Size(377, 20);
+            this.adrBox.TabIndex = 5;
+            this.adrBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnMouseLeft);
             // 
-            // textBox5
+            // phoneNumBox
             // 
-            this.textBox5.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox5.Location = new System.Drawing.Point(133, 217);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(377, 20);
-            this.textBox5.TabIndex = 6;
+            this.phoneNumBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.phoneNumBox.Location = new System.Drawing.Point(133, 226);
+            this.phoneNumBox.Name = "phoneNumBox";
+            this.phoneNumBox.Size = new System.Drawing.Size(377, 20);
+            this.phoneNumBox.TabIndex = 6;
+            this.phoneNumBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnMouseLeft);
             // 
-            // textBox6
+            // emailBox
             // 
-            this.textBox6.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox6.Location = new System.Drawing.Point(133, 258);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(377, 20);
-            this.textBox6.TabIndex = 7;
+            this.emailBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.emailBox.Location = new System.Drawing.Point(133, 263);
+            this.emailBox.Name = "emailBox";
+            this.emailBox.Size = new System.Drawing.Size(377, 20);
+            this.emailBox.TabIndex = 7;
+            this.emailBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnMouseLeft);
             // 
-            // flowLayoutPanel1
+            // fLPDate
             // 
-            this.flowLayoutPanel1.Controls.Add(this.comboBoxDay);
-            this.flowLayoutPanel1.Controls.Add(this.label10);
-            this.flowLayoutPanel1.Controls.Add(this.comboBox2);
-            this.flowLayoutPanel1.Controls.Add(this.label11);
-            this.flowLayoutPanel1.Controls.Add(this.comboBox3);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(133, 69);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(377, 34);
-            this.flowLayoutPanel1.TabIndex = 2;
+            this.fLPDate.Controls.Add(this.comboBoxDay);
+            this.fLPDate.Controls.Add(this.label10);
+            this.fLPDate.Controls.Add(this.comboBoxMonth);
+            this.fLPDate.Controls.Add(this.label11);
+            this.fLPDate.Controls.Add(this.comboBoxYear);
+            this.fLPDate.Controls.Add(this.labelMissing);
+            this.fLPDate.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.fLPDate.Location = new System.Drawing.Point(133, 69);
+            this.fLPDate.Name = "fLPDate";
+            this.fLPDate.Size = new System.Drawing.Size(377, 34);
+            this.fLPDate.TabIndex = 2;
             // 
             // comboBoxDay
             // 
@@ -386,6 +372,7 @@
             this.comboBoxDay.Size = new System.Drawing.Size(85, 21);
             this.comboBoxDay.TabIndex = 0;
             this.comboBoxDay.Text = "  Ngày";
+            this.comboBoxDay.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnComboBoxMouseLeft);
             // 
             // label10
             // 
@@ -399,11 +386,11 @@
             this.label10.Text = "/";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // comboBox2
+            // comboBoxMonth
             // 
-            this.comboBox2.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.comboBoxMonth.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.comboBoxMonth.FormattingEnabled = true;
+            this.comboBoxMonth.Items.AddRange(new object[] {
             "Một",
             "Hai",
             "Ba",
@@ -416,11 +403,12 @@
             "Mười",
             "Mười một ",
             "Mười hai"});
-            this.comboBox2.Location = new System.Drawing.Point(119, 3);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(80, 21);
-            this.comboBox2.TabIndex = 1;
-            this.comboBox2.Text = " Tháng";
+            this.comboBoxMonth.Location = new System.Drawing.Point(119, 3);
+            this.comboBoxMonth.Name = "comboBoxMonth";
+            this.comboBoxMonth.Size = new System.Drawing.Size(80, 21);
+            this.comboBoxMonth.TabIndex = 1;
+            this.comboBoxMonth.Text = " Tháng";
+            this.comboBoxMonth.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnComboBoxMouseLeft);
             // 
             // label11
             // 
@@ -434,11 +422,11 @@
             this.label11.Text = "/";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // comboBox3
+            // comboBoxYear
             // 
-            this.comboBox3.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.comboBoxYear.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.comboBoxYear.FormattingEnabled = true;
+            this.comboBoxYear.Items.AddRange(new object[] {
             "1999",
             "2000",
             "2001",
@@ -460,22 +448,75 @@
             "2017",
             "2018",
             "2019"});
-            this.comboBox3.Location = new System.Drawing.Point(230, 3);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(97, 21);
-            this.comboBox3.TabIndex = 2;
-            this.comboBox3.Text = " Năm";
+            this.comboBoxYear.Location = new System.Drawing.Point(230, 3);
+            this.comboBoxYear.Name = "comboBoxYear";
+            this.comboBoxYear.Size = new System.Drawing.Size(97, 21);
+            this.comboBoxYear.TabIndex = 2;
+            this.comboBoxYear.Text = " Năm";
+            this.comboBoxYear.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnComboBoxMouseLeft);
             // 
-            // button1
+            // btnRegister
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(441, 332);
-            this.button1.Name = "button1";
-            this.button1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Tạo hồ sơ";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnRegister.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnRegister.Location = new System.Drawing.Point(441, 332);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnRegister.Size = new System.Drawing.Size(75, 23);
+            this.btnRegister.TabIndex = 8;
+            this.btnRegister.Text = "Tạo hồ sơ";
+            this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
+            // 
+            // labelMissing
+            // 
+            this.labelMissing.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelMissing.AutoSize = true;
+            this.labelMissing.BackColor = System.Drawing.Color.Yellow;
+            this.labelMissing.Font = new System.Drawing.Font("Montserrat Subrayada", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMissing.ForeColor = System.Drawing.Color.Red;
+            this.labelMissing.Location = new System.Drawing.Point(340, 4);
+            this.labelMissing.Margin = new System.Windows.Forms.Padding(10, 0, 3, 0);
+            this.labelMissing.Name = "labelMissing";
+            this.labelMissing.Size = new System.Drawing.Size(12, 18);
+            this.labelMissing.TabIndex = 3;
+            this.labelMissing.Text = "!";
+            // 
+            // radioButtonMale
+            // 
+            this.radioButtonMale.AutoSize = true;
+            this.radioButtonMale.Location = new System.Drawing.Point(3, 3);
+            this.radioButtonMale.Name = "radioButtonMale";
+            this.radioButtonMale.Size = new System.Drawing.Size(47, 17);
+            this.radioButtonMale.TabIndex = 0;
+            this.radioButtonMale.TabStop = true;
+            this.radioButtonMale.Text = "Nam";
+            this.radioButtonMale.UseVisualStyleBackColor = true;
+            this.radioButtonMale.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnRadioBtnMouseLeft);
+            // 
+            // radioButtonFemale
+            // 
+            this.radioButtonFemale.AutoSize = true;
+            this.radioButtonFemale.Location = new System.Drawing.Point(56, 3);
+            this.radioButtonFemale.Name = "radioButtonFemale";
+            this.radioButtonFemale.Size = new System.Drawing.Size(39, 17);
+            this.radioButtonFemale.TabIndex = 1;
+            this.radioButtonFemale.TabStop = true;
+            this.radioButtonFemale.Text = "Nữ";
+            this.radioButtonFemale.UseVisualStyleBackColor = true;
+            this.radioButtonFemale.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnRadioBtnMouseLeft);
+            // 
+            // labelMissing2
+            // 
+            this.labelMissing2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelMissing2.AutoSize = true;
+            this.labelMissing2.BackColor = System.Drawing.Color.Yellow;
+            this.labelMissing2.Font = new System.Drawing.Font("Montserrat Subrayada", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMissing2.ForeColor = System.Drawing.Color.Red;
+            this.labelMissing2.Location = new System.Drawing.Point(101, 2);
+            this.labelMissing2.Name = "labelMissing2";
+            this.labelMissing2.Size = new System.Drawing.Size(12, 18);
+            this.labelMissing2.TabIndex = 2;
+            this.labelMissing2.Text = "!";
             // 
             // formRegister
             // 
@@ -491,12 +532,12 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panelTop.ResumeLayout(false);
             this.panelTop.PerformLayout();
-            this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel3.PerformLayout();
-            this.flowLayoutPanel2.ResumeLayout(false);
-            this.flowLayoutPanel2.PerformLayout();
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.flowLayoutPanel1.PerformLayout();
+            this.tLPInfo.ResumeLayout(false);
+            this.tLPInfo.PerformLayout();
+            this.fLPSex.ResumeLayout(false);
+            this.fLPSex.PerformLayout();
+            this.fLPDate.ResumeLayout(false);
+            this.fLPDate.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -507,7 +548,7 @@
         private System.Windows.Forms.TableLayoutPanel panelTop;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.TableLayoutPanel tLPInfo;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -516,22 +557,24 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.TextBox firstNameBox;
+        private System.Windows.Forms.TextBox lastNameBox;
+        private System.Windows.Forms.TextBox CMNDBox;
+        private System.Windows.Forms.TextBox adrBox;
+        private System.Windows.Forms.TextBox phoneNumBox;
+        private System.Windows.Forms.TextBox emailBox;
+        private System.Windows.Forms.FlowLayoutPanel fLPDate;
         private System.Windows.Forms.ComboBox comboBoxDay;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBoxMonth;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ComboBox comboBoxYear;
+        private System.Windows.Forms.FlowLayoutPanel fLPSex;
+        private System.Windows.Forms.Button btnRegister;
+        private System.Windows.Forms.Label labelMissing;
+        private System.Windows.Forms.RadioButton radioButtonMale;
+        private System.Windows.Forms.RadioButton radioButtonFemale;
+        private System.Windows.Forms.Label labelMissing2;
     }
 }
 

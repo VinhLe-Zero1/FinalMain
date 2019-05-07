@@ -54,44 +54,57 @@ namespace LoginForm
             {
                 boxLogin.Text = "Can't leave out";
                 boxLogin.ForeColor = Color.Red;
+                if (String.IsNullOrEmpty(boxPwd.Text))
+                {
+                    boxPwd.PasswordChar = '\0';
+                    boxPwd.Text = "Can't leave out";
+                    boxPwd.ForeColor = Color.Red;
 
-            }
-            if (String.IsNullOrEmpty(boxPwd.Text))
-            {
+                }
+
+            }else if (String.IsNullOrEmpty(boxPwd.Text)){
                 boxPwd.PasswordChar = '\0';
                 boxPwd.Text = "Can't leave out";
                 boxPwd.ForeColor = Color.Red;
-                
-            }
 
-            if (!String.IsNullOrEmpty(boxLogin.Text) || !String.IsNullOrEmpty(boxPwd.Text))
-            {
-                string username = boxLogin.Text;
-                string password = boxPwd.Text;
-                SqlConnection con = new SqlConnection();
-                con.ConnectionString = "Data Source=localhost, Initial Catalog=Patient";
-                con.Open();
-                SqlCommand cmd = new SqlCommand("select username,password from loginInfo where username='" + username + "'and password='" + password + "'", con);
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
-                DataTable dt = new DataTable();
-                da.Fill(dt);
-                if (dt.Rows.Count > 0)
+            }
+            else if (!String.IsNullOrEmpty(boxLogin.Text) && !String.IsNullOrEmpty(boxPwd.Text)){
+                try
                 {
-                    MessageBox.Show("Login sucess Welcome to Homepage http://krishnasinghprogramming.nlogspot.com");
-                    System.Diagnostics.Process.Start("http://krishnasinghprogramming.blogspot.com");
-                }
-                else
+                    string username = boxLogin.Text;
+                    string password = boxPwd.Text;
+                    SqlConnection con = new SqlConnection();
+                    con.ConnectionString = "Data Source=.;Initial Catalog=Patient;Integrated Security=True";
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand("select username,password from loginInfo where username='" + username + "'and password='" + password + "'", con);
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+                    if (dt.Rows.Count > 0)
+                    {
+                        Form mainForm = new FinalMain.Form1();
+                        mainForm.Show();
+                        
+                        
+                    }
+                    else
+                    {
+                        MessageBox.Show("Invalid Login! Please check username and password");
+                    }
+                    con.Close();
+                }catch(Exception ex)
                 {
-                    MessageBox.Show("Invalid Login please check username and password");
+                    MessageBox.Show("Error connecting server");
                 }
-                con.Close();
             }
         }
 
         private void regBtn_Click(object sender, EventArgs e)
         {
+
             Form infoRegForm = new InfoRegister.formRegister();
             infoRegForm.Show();
+            
         }
 
         
@@ -103,6 +116,21 @@ namespace LoginForm
                 boxPwd.Text = "";
             }
             boxPwd.PasswordChar = '*';
+            boxPwd.ForeColor = Color.Black;
+        }
+
+        private void boxLogin_Click(object sender, EventArgs e)
+        {
+            if (!String.IsNullOrEmpty(boxLogin.Text) && boxLogin.Text == "Can't leave out")
+            {
+                boxLogin.Text = "";
+            }
+            boxLogin.ForeColor = Color.Black;
+        }
+
+        private void btnForget_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Shake brain to remember your password!");
         }
     }
 }

@@ -41,7 +41,7 @@
             this.boxLogin = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
-            this.forgetBtn = new System.Windows.Forms.Button();
+            this.btnForget = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tableForm.SuspendLayout();
             this.panelTop.SuspendLayout();
@@ -101,7 +101,7 @@
             this.btnClose.Name = "btnClose";
             this.btnClose.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnClose.Size = new System.Drawing.Size(31, 30);
-            this.btnClose.TabIndex = 0;
+            this.btnClose.TabIndex = 9;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
@@ -114,7 +114,7 @@
             this.tableLayoutPanel2.Controls.Add(this.pictureBox1, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.btnLogin, 0, 3);
-            this.tableLayoutPanel2.Controls.Add(this.forgetBtn, 0, 5);
+            this.tableLayoutPanel2.Controls.Add(this.btnForget, 0, 5);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(353, 36);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -137,7 +137,7 @@
             this.regBtn.Location = new System.Drawing.Point(95, 367);
             this.regBtn.Name = "regBtn";
             this.regBtn.Size = new System.Drawing.Size(153, 23);
-            this.regBtn.TabIndex = 8;
+            this.regBtn.TabIndex = 4;
             this.regBtn.Text = "Tạo tài khoản";
             this.regBtn.UseVisualStyleBackColor = false;
             this.regBtn.Click += new System.EventHandler(this.regBtn_Click);
@@ -165,7 +165,7 @@
             this.boxPwd.Name = "boxPwd";
             this.boxPwd.PasswordChar = '*';
             this.boxPwd.Size = new System.Drawing.Size(197, 20);
-            this.boxPwd.TabIndex = 1;
+            this.boxPwd.TabIndex = 2;
             this.boxPwd.Click += new System.EventHandler(this.boxPwd_Click);
             // 
             // label2
@@ -213,6 +213,7 @@
             this.boxLogin.Name = "boxLogin";
             this.boxLogin.Size = new System.Drawing.Size(197, 20);
             this.boxLogin.TabIndex = 1;
+            this.boxLogin.Click += new System.EventHandler(this.boxLogin_Click);
             // 
             // label1
             // 
@@ -240,18 +241,19 @@
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // forgetBtn
+            // btnForget
             // 
-            this.forgetBtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.forgetBtn.FlatAppearance.BorderSize = 0;
-            this.forgetBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.forgetBtn.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.forgetBtn.Location = new System.Drawing.Point(235, 407);
-            this.forgetBtn.Name = "forgetBtn";
-            this.forgetBtn.Size = new System.Drawing.Size(106, 23);
-            this.forgetBtn.TabIndex = 9;
-            this.forgetBtn.Text = "Quên mật khẩu";
-            this.forgetBtn.UseVisualStyleBackColor = true;
+            this.btnForget.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnForget.FlatAppearance.BorderSize = 0;
+            this.btnForget.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnForget.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.btnForget.Location = new System.Drawing.Point(235, 407);
+            this.btnForget.Name = "btnForget";
+            this.btnForget.Size = new System.Drawing.Size(106, 23);
+            this.btnForget.TabIndex = 5;
+            this.btnForget.Text = "Quên mật khẩu";
+            this.btnForget.UseVisualStyleBackColor = true;
+            this.btnForget.Click += new System.EventHandler(this.btnForget_Click);
             // 
             // pictureBox2
             // 
@@ -306,7 +308,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button regBtn;
-        private System.Windows.Forms.Button forgetBtn;
+        private System.Windows.Forms.Button btnForget;
         private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
