@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace thongkethongtin
 {
@@ -15,6 +16,10 @@ namespace thongkethongtin
         public Form1()
         {
             InitializeComponent();
+            DataTable ds;
+            Datacontrol a = new Datacontrol();
+            ds = a.ChooseAllData();
+            dataGridView1.DataSource = ds;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -33,7 +38,7 @@ namespace thongkethongtin
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -55,6 +60,11 @@ namespace thongkethongtin
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
