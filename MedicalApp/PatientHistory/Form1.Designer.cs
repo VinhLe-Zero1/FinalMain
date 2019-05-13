@@ -30,19 +30,19 @@
         {
             this.components = new System.ComponentModel.Container();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataView = new System.Windows.Forms.DataGridView();
             this.infoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panelTop = new System.Windows.Forms.TableLayoutPanel();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.searchBox = new System.Windows.Forms.TextBox();
+            this.btnFind = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.rBtnName = new System.Windows.Forms.RadioButton();
+            this.rBtnIll = new System.Windows.Forms.RadioButton();
+            this.rBtnDate = new System.Windows.Forms.RadioButton();
             this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.infoBindingSource)).BeginInit();
             this.panelTop.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -53,10 +53,10 @@
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 85.17824F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.82176F));
-            this.tableLayoutPanel1.Controls.Add(this.dataGridView1, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.dataView, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.panelTop, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.textBox1, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button1, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.searchBox, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.btnFind, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel1, 0, 2);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
@@ -69,18 +69,16 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(799, 292);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // dataGridView1
+            // dataView
             // 
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tableLayoutPanel1.SetColumnSpan(this.dataGridView1, 2);
-            this.dataGridView1.DataSource = this.infoBindingSource;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 81);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(793, 208);
-            this.dataGridView1.TabIndex = 1;
+            this.dataView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tableLayoutPanel1.SetColumnSpan(this.dataView, 2);
+            this.dataView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataView.Location = new System.Drawing.Point(3, 81);
+            this.dataView.Name = "dataView";
+            this.dataView.Size = new System.Drawing.Size(793, 208);
+            this.dataView.TabIndex = 1;
             // 
             // panelTop
             // 
@@ -122,6 +120,7 @@
             this.btnClose.Size = new System.Drawing.Size(23, 26);
             this.btnClose.TabIndex = 1;
             this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // label1
             // 
@@ -135,71 +134,73 @@
             this.label1.Text = "Lịch sử bệnh nhân";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // searchBox
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(3, 29);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(674, 20);
-            this.textBox1.TabIndex = 2;
+            this.searchBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.searchBox.Location = new System.Drawing.Point(3, 29);
+            this.searchBox.Name = "searchBox";
+            this.searchBox.Size = new System.Drawing.Size(674, 20);
+            this.searchBox.TabIndex = 2;
+            this.searchBox.Click += new System.EventHandler(this.searchBox_Click);
             // 
-            // button1
+            // btnFind
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(683, 29);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 18);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Tìm";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnFind.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnFind.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFind.Location = new System.Drawing.Point(683, 29);
+            this.btnFind.Name = "btnFind";
+            this.btnFind.Size = new System.Drawing.Size(113, 18);
+            this.btnFind.TabIndex = 3;
+            this.btnFind.Text = "Tìm";
+            this.btnFind.UseVisualStyleBackColor = true;
+            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
             // flowLayoutPanel1
             // 
             this.tableLayoutPanel1.SetColumnSpan(this.flowLayoutPanel1, 2);
-            this.flowLayoutPanel1.Controls.Add(this.radioButton1);
-            this.flowLayoutPanel1.Controls.Add(this.radioButton2);
-            this.flowLayoutPanel1.Controls.Add(this.radioButton3);
+            this.flowLayoutPanel1.Controls.Add(this.rBtnName);
+            this.flowLayoutPanel1.Controls.Add(this.rBtnIll);
+            this.flowLayoutPanel1.Controls.Add(this.rBtnDate);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 53);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(793, 22);
             this.flowLayoutPanel1.TabIndex = 5;
             // 
-            // radioButton1
+            // rBtnName
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(3, 3);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(122, 17);
-            this.radioButton1.TabIndex = 4;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Theo tên bệnh nhân";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rBtnName.AutoSize = true;
+            this.rBtnName.Location = new System.Drawing.Point(3, 3);
+            this.rBtnName.Name = "rBtnName";
+            this.rBtnName.Size = new System.Drawing.Size(122, 17);
+            this.rBtnName.TabIndex = 4;
+            this.rBtnName.TabStop = true;
+            this.rBtnName.Text = "Theo tên bệnh nhân";
+            this.rBtnName.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rBtnIll
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(198, 3);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(70, 3, 3, 3);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(77, 17);
-            this.radioButton2.TabIndex = 5;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Theo bệnh";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rBtnIll.AutoSize = true;
+            this.rBtnIll.Location = new System.Drawing.Point(198, 3);
+            this.rBtnIll.Margin = new System.Windows.Forms.Padding(70, 3, 3, 3);
+            this.rBtnIll.Name = "rBtnIll";
+            this.rBtnIll.Size = new System.Drawing.Size(77, 17);
+            this.rBtnIll.TabIndex = 5;
+            this.rBtnIll.TabStop = true;
+            this.rBtnIll.Text = "Theo bệnh";
+            this.rBtnIll.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // rBtnDate
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(348, 3);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(70, 3, 3, 3);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(105, 17);
-            this.radioButton3.TabIndex = 6;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Theo ngày khám";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rBtnDate.AutoSize = true;
+            this.rBtnDate.Location = new System.Drawing.Point(348, 3);
+            this.rBtnDate.Margin = new System.Windows.Forms.Padding(70, 3, 3, 3);
+            this.rBtnDate.Name = "rBtnDate";
+            this.rBtnDate.Size = new System.Drawing.Size(105, 17);
+            this.rBtnDate.TabIndex = 6;
+            this.rBtnDate.TabStop = true;
+            this.rBtnDate.Text = "Theo ngày khám";
+            this.rBtnDate.UseVisualStyleBackColor = true;
             // 
             // formHistory
             // 
@@ -213,7 +214,7 @@
             this.Text = "Form1";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.infoBindingSource)).EndInit();
             this.panelTop.ResumeLayout(false);
             this.panelTop.PerformLayout();
@@ -229,13 +230,13 @@
         private System.Windows.Forms.TableLayoutPanel panelTop;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox searchBox;
+        private System.Windows.Forms.Button btnFind;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.RadioButton rBtnName;
+        private System.Windows.Forms.RadioButton rBtnIll;
+        private System.Windows.Forms.RadioButton rBtnDate;
+        private System.Windows.Forms.DataGridView dataView;
         private System.Windows.Forms.BindingSource infoBindingSource;
         
     }
