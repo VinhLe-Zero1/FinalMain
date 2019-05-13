@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capnhapthongtin", "capnhapt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capnhatyteganday", "capnhatyteganday\capnhatyteganday\capnhatyteganday.csproj", "{06A98EF3-373C-4D47-BA3E-60CA1BB97EA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chuandoan", "chuandoan - Copy\BTL_CNPM\chuandoan.csproj", "{18626DE2-11E7-4B54-A8D7-51873663D6F5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientHistory", "MedicalApp\PatientHistory\PatientHistory.csproj", "{3660F97C-55B9-4389-B1E6-4D53BC74A8E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoRegister", "MedicalApp\InfoRegister\InfoRegister.csproj", "{8710529A-E9C2-4610-A0F1-D844F3BE6BC6}"
@@ -22,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paitent(D)", "WindowsFormsApp1\WindowsFormsApp1\Paitent(D).csproj", "{41975E19-C68C-4473-A2E7-654C4D0AE1CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginForm", "LoginForm\LoginForm.csproj", "{3139FE26-8D44-4372-9888-DEE09BBDAFB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chuandoan", "chuandoan\BTL_CNPM\chuandoan.csproj", "{18626DE2-11E7-4B54-A8D7-51873663D6F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,10 +45,6 @@ Global
 		{06A98EF3-373C-4D47-BA3E-60CA1BB97EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06A98EF3-373C-4D47-BA3E-60CA1BB97EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06A98EF3-373C-4D47-BA3E-60CA1BB97EA5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{18626DE2-11E7-4B54-A8D7-51873663D6F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{18626DE2-11E7-4B54-A8D7-51873663D6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{18626DE2-11E7-4B54-A8D7-51873663D6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{18626DE2-11E7-4B54-A8D7-51873663D6F5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3660F97C-55B9-4389-B1E6-4D53BC74A8E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3660F97C-55B9-4389-B1E6-4D53BC74A8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3660F97C-55B9-4389-B1E6-4D53BC74A8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -69,6 +65,10 @@ Global
 		{3139FE26-8D44-4372-9888-DEE09BBDAFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3139FE26-8D44-4372-9888-DEE09BBDAFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3139FE26-8D44-4372-9888-DEE09BBDAFB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18626DE2-11E7-4B54-A8D7-51873663D6F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18626DE2-11E7-4B54-A8D7-51873663D6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18626DE2-11E7-4B54-A8D7-51873663D6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18626DE2-11E7-4B54-A8D7-51873663D6F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

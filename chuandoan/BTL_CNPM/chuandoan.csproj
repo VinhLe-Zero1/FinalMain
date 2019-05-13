@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BAE34854-DD44-42D4-9CD9-5991EE247DA0}</ProjectGuid>
+    <ProjectGuid>{18626DE2-11E7-4B54-A8D7-51873663D6F5}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>FinalMain</RootNamespace>
-    <AssemblyName>FinalMain</AssemblyName>
+    <RootNamespace>BTL_CNPM</RootNamespace>
+    <AssemblyName>BTL_CNPM</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,8 +32,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MaterialSkin">
-      <HintPath>..\..\BTL_CNPM\packages\MaterialSkin.Updated.0.2.2\lib\MaterialSkin.dll</HintPath>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.Updated.0.2.2\lib\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,16 +57,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="chuandoan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="chuandoan.Designer.cs">
+      <DependentUpon>chuandoan.cs</DependentUpon>
     </Compile>
+    <Compile Include="DiagnoseController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Diagnose.cs" />
+    <EmbeddedResource Include="chuandoan.resx">
+      <DependentUpon>chuandoan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -68,8 +78,10 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -82,40 +94,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\BTL_CNPM\BTL_CNPM\Datlich.csproj">
-      <Project>{820c149f-4b5c-40d6-b8e6-3f5f94fce59e}</Project>
-      <Name>Datlich</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\benhan\BTL_CNPM\benhan.csproj">
-      <Project>{eb2a50b4-c32c-4dc2-af69-389fc287e181}</Project>
-      <Name>benhan</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\capnhapthongtin\capnhap\capnhapthongtin.csproj">
-      <Project>{9bd0c5d1-ca21-4c47-9d76-d2ef093d255d}</Project>
-      <Name>capnhapthongtin</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\capnhatyteganday\capnhatyteganday\capnhatyteganday.csproj">
-      <Project>{06a98ef3-373c-4d47-ba3e-60ca1bb97ea5}</Project>
-      <Name>capnhatyteganday</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MedicalApp\InfoRegister\InfoRegister.csproj">
-      <Project>{8710529a-e9c2-4610-a0f1-d844f3be6bc6}</Project>
-      <Name>InfoRegister</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MedicalApp\PatientHistory\PatientHistory.csproj">
-      <Project>{3660f97c-55b9-4389-b1e6-4d53bc74a8e8}</Project>
-      <Name>PatientHistory</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\thongkethongtin\thongkethongtin\thongkethongtin.csproj">
-      <Project>{07002c69-8c60-4210-8186-7e8cafd8a339}</Project>
-      <Name>thongkethongtin</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WindowsFormsApp1\WindowsFormsApp1\Paitent%28D%29.csproj">
-      <Project>{41975e19-c68c-4473-a2e7-654c4d0ae1cd}</Project>
-      <Name>Paitent%28D%29</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
