@@ -100,10 +100,6 @@
       <Project>{06a98ef3-373c-4d47-ba3e-60ca1bb97ea5}</Project>
       <Name>capnhatyteganday</Name>
     </ProjectReference>
-    <ProjectReference Include="..\chuandoan - Copy\BTL_CNPM\chuandoan.csproj">
-      <Project>{18626de2-11e7-4b54-a8d7-51873663d6f5}</Project>
-      <Name>chuandoan</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MedicalApp\InfoRegister\InfoRegister.csproj">
       <Project>{8710529a-e9c2-4610-a0f1-d844f3be6bc6}</Project>
       <Name>InfoRegister</Name>
