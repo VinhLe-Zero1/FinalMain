@@ -16,6 +16,11 @@ namespace thongkethongtin
             return dt.AddDays(-1 * diff).Date;
         }
     }
+    public struct Desease
+    {
+        public string desease;
+        public int count;
+    }
     class Datacontrol
     {
         DataTable Data = new DataTable();
@@ -45,7 +50,8 @@ namespace thongkethongtin
                         Data1.Rows.Add(row.ItemArray);
                     }
                 }
-                return Data1;
+                Data = Data1;
+                return Data;
             }
         }
         public DataTable ChooseMonthData()
@@ -74,7 +80,8 @@ namespace thongkethongtin
                         Data1.Rows.Add(row.ItemArray);
                     }
                 }
-                return Data1;
+                Data = Data1;
+                return Data;
             }
         }
         public DataTable ChooseYearData()
@@ -102,7 +109,8 @@ namespace thongkethongtin
                         Data1.Rows.Add(row.ItemArray);
                     }
                 }
-                return Data1;
+                Data = Data1;
+                return Data;
             }
         }
         public DataTable ChooseAllData()
@@ -112,18 +120,7 @@ namespace thongkethongtin
                 SqlDataAdapter adapter = new SqlDataAdapter();
                 adapter.SelectCommand = new SqlCommand("select * from benhnhan", connection);
                 adapter.Fill(Data);
-                DataTable Data1 = new DataTable();
-                Data1.Clear();
-                Data1.Columns.Add("age");
-                Data1.Columns.Add("gender");
-                Data1.Columns.Add("desease");
-                Data1.Columns.Add("date");
-                DateTime now = DateTime.Now;
-                foreach (DataRow row in Data.Rows)
-                {
-                        Data1.Rows.Add(row.ItemArray);   
-                }
-                return Data1;
+                return Data;
             }
         }
         public bool IsDataEmpty()
@@ -139,6 +136,63 @@ namespace thongkethongtin
                 }
                 else return false;
             }
+        }
+        public List<int> GetAge()
+        {
+            List<int> ageList = new List<int>();
+            int underSix = 0;
+            int SixtoEighteen = 0;
+            int EighteentoSixty = 0;
+            int upSixty = 0;
+            foreach (DataRow row in Data.Rows)
+            {
+                string age = row["age"].ToString();
+                int ageInInt = int.Parse(age);
+                if (ageInInt < 6) underSix++;
+                else if (ageInInt < 18) SixtoEighteen++;
+                else if (ageInInt < 60) EighteentoSixty++;
+                else upSixty++;
+            }
+            ageList.Add(underSix);
+            ageList.Add(SixtoEighteen);
+            ageList.Add(EighteentoSixty);
+            ageList.Add(upSixty);
+            return ageList;
+        }
+        public List<int> GetSex()
+        {
+            List<int> sexList = new List<int>();
+            int nu = 0;
+            int nam = 0;
+            foreach (DataRow row in Data.Rows)
+            {
+                string sex = row["gender"].ToString();
+                if (sex == "Nu") nu++;
+                else if (sex == "Nam") nam++;
+            }
+            sexList.Add(nu);
+            sexList.Add(nam);
+            return sexList;
+        }
+        public List<Desease> GetDesease()
+        {
+            List<Desease> deseaseList = new List<Desease>();
+            foreach (DataRow row in Data.Rows)
+            {
+                string getDesease = row["desease"].ToString();
+                int dem = 0;
+                for (int i = 0; i < deseaseList.Count; i++)
+                    if (deseaseList[i].desease == getDesease)
+                    {
+                        deseaseList[i] = new Desease { desease = deseaseList[i].desease, count = deseaseList[i].count + 1 };
+                    }
+                    else dem++;
+                if (dem == deseaseList.Count) {
+                    Desease newDesease = new Desease { desease = getDesease, count = 1 };
+                    deseaseList.Add(newDesease);
+                }
+            }
+            return deseaseList;
         }
     }
 }
