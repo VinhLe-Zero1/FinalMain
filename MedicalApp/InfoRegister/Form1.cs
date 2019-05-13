@@ -24,13 +24,7 @@ namespace InfoRegister
             labelMissing2.Hide();
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            // Click on the link below to continue learning how to build a desktop app using WinForms!
-            System.Diagnostics.Process.Start("http://aka.ms/dotnet-get-started-desktop");
-
-        }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Thanks!");
@@ -59,6 +53,8 @@ namespace InfoRegister
 
         }
         
+        
+
         private void btnRegister_Click(object sender, EventArgs e)
         {
             bool m1 = false, m2 = false, m3 = false;
@@ -92,26 +88,38 @@ namespace InfoRegister
                 return;
             }
 
-            string lastName = lastNameBox.Text;
-            string firstName = firstNameBox.Text;
-            string civilianID = CMNDBox.Text;
-            string address = adrBox.Text;
-            string phone = phoneNumBox.Text;
-            string email = emailBox.Text;
-            string dateOfBirth = comboBoxDay.Text + "-" + comboBoxMonth.Text + "-" + comboBoxYear.Text;
+            string[] monthArr = {"Một", "Hai", "Ba", "Bốn", "Năm", "Sáu", "Bảy", "Tám", "Chín", "Mười", "Mưởi một", "Mười hai"};
+
+            string lastName = "'" + lastNameBox.Text + "'";
+            string firstName = "'"+firstNameBox.Text + "'";
+            string civilianID = "'" + CMNDBox.Text + "'";
+            string address = "'" + adrBox.Text + "'";
+            string phone = "'" + phoneNumBox.Text + "'";
+            string email = "'" + emailBox.Text + "'";
+            string month = "";
+            for (int i = 0; i < 12; i++)
+            {
+                if (monthArr[i] == comboBoxMonth.Text)
+                {
+                    month = (i + 1).ToString();
+                    break;
+                }
+            }
+            string dateOfBirth = "'" + comboBoxDay.Text + "/" + month + "/" + comboBoxYear.Text + "'";
             string sex;
             if (radioButtonMale.Checked)
-                sex = "Nam";
-            else sex = "Nữ";
+                sex = "'Nam'";
+            else sex = "'Nu'";
+            
+            string value = "('None', "+lastName+", "+firstName+", "+dateOfBirth+", "+sex+", "+civilianID+", "+ address+ ", "+phone+", "+email+", "+"'1/1/1', 'None')";
+
+
             try
             {
                 string conStr = "Data Source=.;Initial Catalog=Patient;Integrated Security=True";
                 SqlConnection con = new SqlConnection(conStr);
                 SqlDataAdapter da = new SqlDataAdapter();
-                da.InsertCommand = new SqlCommand("INSERT INTO loginInfo VALUES(@)", con);
-                da.InsertCommand.Parameters.Add("@username", SqlDbType.VarChar).Value = bxUN.Text;
-                da.InsertCommand.Parameters.AddWithValue("@password", bxPwd.Text);
-
+                da.InsertCommand = new SqlCommand("INSERT INTO PatientInfo VALUES " + value, con);
 
                 con.Open();
                 da.InsertCommand.ExecuteNonQuery();
@@ -120,7 +128,8 @@ namespace InfoRegister
             }
             catch (Exception ex)
             {
-                MessageBox.Show("fail");
+                MessageBox.Show(ex.ToString());
+                //sMessageBox.Show("fail");
             }
 
         }
