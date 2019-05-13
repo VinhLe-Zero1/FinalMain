@@ -57,6 +57,8 @@
     <Compile Include="capnhapthongtin.Designer.cs">
       <DependentUpon>capnhapthongtin.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewInfos.cs" />
+    <Compile Include="NewInfosController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="capnhapthongtin.resx">
