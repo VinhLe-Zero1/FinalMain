@@ -20,6 +20,12 @@ namespace thongkethongtin
             Datacontrol a = new Datacontrol();
             ds = a.ChooseAllData();
             dataGridView1.DataSource = ds;
+            List<Desease> age = new List<Desease>();
+            age = a.GetDesease();
+            string label = "";
+            foreach (var el in age)
+                label = label + el.desease.ToString() + " " + el.count.ToString() + " ";
+            label3.Text = label;
         }
 
         private void button1_Click(object sender, EventArgs e)
