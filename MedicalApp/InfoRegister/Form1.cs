@@ -104,16 +104,19 @@ namespace InfoRegister
                 sex = "Nam";
             else sex = "Nữ";
             try
-            { 
-                SqlConnection con = new SqlConnection();
-                con.ConnectionString = "Data Source=.;Initial Catalog=Patient;Integrated Security=True";
+            {
+                string conStr = "Data Source=.;Initial Catalog=Patient;Integrated Security=True";
+                SqlConnection con = new SqlConnection(conStr);
+                SqlDataAdapter da = new SqlDataAdapter();
+                da.InsertCommand = new SqlCommand("INSERT INTO loginInfo VALUES(@)", con);
+                da.InsertCommand.Parameters.Add("@username", SqlDbType.VarChar).Value = bxUN.Text;
+                da.InsertCommand.Parameters.AddWithValue("@password", bxPwd.Text);
+
+
                 con.Open();
-                string saveInfo = "INSERT into PatientInfo([Họ và tên lót], [Tên bệnh nhân], CMND, [Địa chỉ], [Số điện thoại], Email, [Ngày tháng năm sinh], [Giới tính])";
-                saveInfo += "VALUES (@lastName, @firstName, @civilianID, @address, @phone, @email, @dateOfBirth, @sex)";
-                SqlCommand cmd = new SqlCommand(saveInfo);
-                cmd.ExecuteNonQuery();
+                da.InsertCommand.ExecuteNonQuery();
                 con.Close();
-                MessageBox.Show("success");
+                MessageBox.Show("Client Successfully added");
             }
             catch (Exception ex)
             {
