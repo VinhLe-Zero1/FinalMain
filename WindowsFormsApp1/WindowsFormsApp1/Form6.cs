@@ -12,6 +12,7 @@ namespace WindowsFormsApp1
 {
     public partial class Form6 : Form
     {
+        string cmt;
         public Form6()
         {
             InitializeComponent();
@@ -25,6 +26,10 @@ namespace WindowsFormsApp1
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            cmt = textBox1.ToString();
         }
     }
 }

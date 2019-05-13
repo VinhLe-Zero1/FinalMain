@@ -19,7 +19,9 @@ namespace WindowsFormsApp1
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            int x;
+            x = 13;
+            x++;
         }
 
         private void backBtn_Click(object sender, EventArgs e)
