@@ -30,11 +30,11 @@ namespace capnhap
             }
             return true;
         }
-        public bool checkForm(string personal_ID, string phone, string email, string hometown_addr, string house_addr)
+        public bool checkForm(string phone, string email, string hometown_addr, string house_addr)
         {
             ComponentInfo.SetLicense("FREE-LIMITED-KEY");
             MailAddressValidationResult result = MailAddressValidator.Validate(email);
-            if (personal_ID == "" || phone == "" || email == "" || hometown_addr == "" || house_addr == "" || !checkPhoneForm(phone) || (result.Status.ToString() != "Ok"))
+            if (phone == "" || email == "" || hometown_addr == "" || house_addr == "" || !checkPhoneForm(phone) || (result.Status.ToString() != "Ok"))
             {
                 return false;
             }
@@ -43,6 +43,7 @@ namespace capnhap
         }
         public void UpdateData(NewInfos infos)
         {
+            /*
             bool is_sendmail = false;
             DataSet t = new DataSet();
             t = GetDataBaseCommand("select distinct email from infokhambenh where mabenhnhan = " + benhan.getID().ToString());
@@ -59,6 +60,7 @@ namespace capnhap
                 ",GETDATE(), N'" + benhan.getChuandoan() + "', N' " + benhan.getDonthuoc() + "', N' " +
                 benhan.getDando() + "', '" + is_sendmail.ToString() + "')";
             GetDataBaseCommand(query);
+            */
         }
     }
 }

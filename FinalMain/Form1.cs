@@ -14,6 +14,7 @@ namespace FinalMain
         public Form1()
         {
             InitializeComponent();
+            patient_info.Text = "TRUOng duc tuan \n 1710368";
         }
         //Dat Lich
         private void button1_Click(object sender, EventArgs e)
@@ -30,7 +31,7 @@ namespace FinalMain
 
         private void chuandoan_Click(object sender, EventArgs e)
         {
-            T_chuandoan.chuandoanForm cd = new T_chuandoan.chuandoanForm;
+            T_chuandoan.chuandoanForm cd = new T_chuandoan.chuandoanForm();
             cd.Show();
 
 
@@ -47,5 +48,16 @@ namespace FinalMain
             PatientHistory.formHistory t = new PatientHistory.formHistory();
             t.Show();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void patient_info_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

@@ -65,8 +65,8 @@ namespace capnhatinfo
         {
             NewInfos new_info = new NewInfos();
             NewInfosController new_info_controller = new NewInfosController();
-            new_info.addNewInfos(cmnd.Text, dth.Text, email.Text, que.Text, noio.Text);
-            if (new_info_controller.checkForm(cmnd.Text, dth.Text, email.Text, que.Text, noio.Text)) { 
+            new_info.addNewInfos(phone_num.Text,email.Text, que.Text, noio.Text);
+            if (new_info_controller.checkForm(new_info.getPhone(), new_info.getEmail(), new_info.getHometown_addr(), new_info.getHouse_addr())) { 
                 b_thongbao.Visible = true;
                 thongbao.Visible = true;
             }
@@ -86,21 +86,14 @@ namespace capnhatinfo
 
         }
 
-        private void sn_ValueChanged(object sender, EventArgs e)
-        {
-            string snhat = sn.Value.ToString("yyyy-MM-dd");
-        }
+       
 
         private void thongbao_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
         }
 
-        private void cmnd_TextChanged_1(object sender, EventArgs e)
-        {
-            cmnd.SelectionStart = cmnd.Text.Length;
-            cmnd.SelectionLength = 0;
-        }
+
 
 
         private void dth_TextChanged_1(object sender, EventArgs e)

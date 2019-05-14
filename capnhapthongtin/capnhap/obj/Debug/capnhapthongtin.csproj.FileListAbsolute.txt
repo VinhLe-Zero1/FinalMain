@@ -44,3 +44,10 @@ C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnh
 C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhapthongtin.csproj.CoreCompileInputs.cache
 C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhap.exe
 C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhap.pdb
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\bin\Debug\capnhap.exe.config
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\bin\Debug\capnhap.exe
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\bin\Debug\capnhap.pdb
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\bin\Debug\GemBox.Email.dll
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\bin\Debug\MaterialSkin.dll
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\bin\Debug\GemBox.Email.xml
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhapthongtin.csproj.CopyComplete

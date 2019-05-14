@@ -45,7 +45,6 @@ C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\LoginForm.pdb
 C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\FinalMain.exe
 C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\InfoRegister.exe
 C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\capnhatyteganday.exe
-C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\BTL_CNPM.exe
 C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\capnhap.exe
 C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\PatientHistory.exe
 C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\GemBox.Email.dll
@@ -55,8 +54,6 @@ C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\InfoRegister.pdb
 C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\InfoRegister.exe.config
 C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\capnhatyteganday.pdb
 C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\capnhatyteganday.exe.config
-C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\BTL_CNPM.pdb
-C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\BTL_CNPM.exe.config
 C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\capnhap.pdb
 C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\capnhap.exe.config
 C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\PatientHistory.pdb
@@ -70,3 +67,6 @@ C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\obj\Debug\LoginForm.csproj.Co
 C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\obj\Debug\LoginForm.csproj.CopyComplete
 C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\obj\Debug\LoginForm.exe
 C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\obj\Debug\LoginForm.pdb
+C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\T_chuandoan.exe
+C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\T_chuandoan.pdb
+C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\T_chuandoan.exe.config
