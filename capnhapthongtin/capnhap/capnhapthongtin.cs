@@ -72,6 +72,7 @@ namespace capnhatinfo
             }
             else
             {
+                new_info_controller.UpdateData(new_info);
                 thongbao.Text = "Thông tin của bạn đã được lưu!";
                 b_thongbao.Visible = true;
                 thongbao.Visible = true;
