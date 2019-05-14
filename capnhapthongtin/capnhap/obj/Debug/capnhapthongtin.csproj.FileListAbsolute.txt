@@ -51,3 +51,4 @@ C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\bin\Debug\GemBo
 C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\bin\Debug\MaterialSkin.dll
 C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\bin\Debug\GemBox.Email.xml
 C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhapthongtin.csproj.CopyComplete
+D:\CNPM\FinalMain\capnhapthongtin\capnhap\bin\Debug\MaterialSkin.dll

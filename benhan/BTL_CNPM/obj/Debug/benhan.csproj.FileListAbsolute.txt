@@ -44,3 +44,10 @@ C:\Users\DELL\Documents\GitHub\FinalMain\benhan\BTL_CNPM\obj\Debug\benhan.csproj
 C:\Users\DELL\Documents\GitHub\FinalMain\benhan\BTL_CNPM\obj\Debug\benhan.csproj.CopyComplete
 C:\Users\DELL\Documents\GitHub\FinalMain\benhan\BTL_CNPM\obj\Debug\BTL_CNPM.exe
 C:\Users\DELL\Documents\GitHub\FinalMain\benhan\BTL_CNPM\obj\Debug\BTL_CNPM.pdb
+D:\CNPM\FinalMain\benhan\BTL_CNPM\bin\Debug\BTL_CNPM.exe.config
+D:\CNPM\FinalMain\benhan\BTL_CNPM\bin\Debug\BTL_CNPM.exe
+D:\CNPM\FinalMain\benhan\BTL_CNPM\bin\Debug\BTL_CNPM.pdb
+D:\CNPM\FinalMain\benhan\BTL_CNPM\bin\Debug\Datlich.exe
+D:\CNPM\FinalMain\benhan\BTL_CNPM\bin\Debug\Datlich.pdb
+D:\CNPM\FinalMain\benhan\BTL_CNPM\bin\Debug\Datlich.exe.config
+D:\CNPM\FinalMain\benhan\BTL_CNPM\obj\Debug\benhan.csproj.CopyComplete

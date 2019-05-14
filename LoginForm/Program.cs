@@ -16,7 +16,19 @@ namespace LoginForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formLogin());
+            formLogin loginForm = new formLogin();
+            Application.Run(loginForm);
+            if (loginForm.credential == 0)
+            {
+                Application.Run(new DoctorForm.Form1(loginForm.id, loginForm.name));
+            }else if(loginForm.credential == 1)
+            {
+                Application.Run(new FinalMain.Form1(loginForm.id, loginForm.name));
+            }
+            else
+            {
+                MessageBox.Show("Invalid credential");
+            }
         }
     }
 }

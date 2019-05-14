@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,7 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Security;
 using System.Data.SqlClient;
-
+using System.Threading;
+using System.Diagnostics;
 // This is the code for your desktop app.
 // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
 
@@ -23,6 +24,9 @@ namespace LoginForm
        
         }
 
+        public int credential;
+        public int id;
+        public string name;
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -74,17 +78,66 @@ namespace LoginForm
                     string username = boxLogin.Text;
                     string password = boxPwd.Text;
                     SqlConnection con = new SqlConnection();
-                    con.ConnectionString = "Data Source=.;Initial Catalog=Patient;Integrated Security=True";
+                    con.ConnectionString = "Data Source=.;Initial Catalog=OneForAll;Integrated Security=True";
                     con.Open();
-                    SqlCommand cmd = new SqlCommand("select username,password from loginInfo where username='" + username + "'and password='" + password + "'", con);
+                    string query = "select username,password from loginInfo where username='" + username + "'and password='" + password + "'";
+                    SqlCommand cmd = new SqlCommand(query, con);
                     SqlDataAdapter da = new SqlDataAdapter(cmd);
                     DataTable dt = new DataTable();
                     da.Fill(dt);
                     if (dt.Rows.Count > 0)
                     {
-                        Form mainForm = new FinalMain.Form1();
-                        mainForm.Show();
                         
+                        string qGetType = "select type, id from loginInfo where username='" + username + "'and password='" + password + "'";
+                        SqlCommand getType = new SqlCommand(qGetType, con);
+                        int retType;
+                        SqlDataReader reader = getType.ExecuteReader();
+                        if (reader.Read())
+                        {
+                            retType = reader.GetInt32(0);
+                            id = reader.GetInt32(1);
+                            reader.Close();
+                            if(retType == 0)
+                            {
+                                string qGetName = "select ten from ADoctor where id='" + id.ToString() + "'";
+                                SqlCommand getName = new SqlCommand(qGetName, con);
+                                SqlDataReader readerName = getName.ExecuteReader();
+                                if (readerName.Read())
+                                {
+                                    name = readerName.GetString(0);
+                                    credential = 0;
+                                    this.Close();
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Dafuq Doctor!");
+                                }
+                                
+                            }else if(retType == 1)
+                            {
+                                string qGetName = "select [Tên bệnh nhân] from PatientInfo where ID='" + id.ToString() + "'";
+                                SqlCommand getName = new SqlCommand(qGetName, con);
+                                SqlDataReader readerName = getName.ExecuteReader();
+                                if (readerName.Read())
+                                {
+                                    name = readerName.GetString(0);
+                                    credential = 1;
+                                    this.Close();
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Dafuq Patient!");
+                                }
+                            }
+                            else
+                            {
+                                MessageBox.Show("Unauthorized Acc! Something's wrong with DB");
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Unauthorized Acc! Something's wrong with DB");
+                        }
                         
                     }
                     else
@@ -94,7 +147,7 @@ namespace LoginForm
                     con.Close();
                 }catch(Exception ex)
                 {
-                    MessageBox.Show("Error connecting server");
+                    MessageBox.Show(ex.Message);
                 }
             }
         }

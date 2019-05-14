@@ -37,6 +37,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.fLPSex = new System.Windows.Forms.FlowLayoutPanel();
+            this.radioButtonMale = new System.Windows.Forms.RadioButton();
+            this.radioButtonFemale = new System.Windows.Forms.RadioButton();
+            this.labelMissing2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -54,11 +57,10 @@
             this.comboBoxMonth = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
             this.comboBoxYear = new System.Windows.Forms.ComboBox();
-            this.btnRegister = new System.Windows.Forms.Button();
             this.labelMissing = new System.Windows.Forms.Label();
-            this.radioButtonMale = new System.Windows.Forms.RadioButton();
-            this.radioButtonFemale = new System.Windows.Forms.RadioButton();
-            this.labelMissing2 = new System.Windows.Forms.Label();
+            this.btnRegister = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.homeTownBox = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.panelTop.SuspendLayout();
             this.tLPInfo.SuspendLayout();
@@ -80,7 +82,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.963099F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 90.0369F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(519, 359);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(519, 421);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panelTop
@@ -99,7 +101,7 @@
             this.panelTop.Name = "panelTop";
             this.panelTop.RowCount = 1;
             this.panelTop.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.panelTop.Size = new System.Drawing.Size(519, 32);
+            this.panelTop.Size = new System.Drawing.Size(519, 39);
             this.panelTop.TabIndex = 0;
             this.panelTop.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTop_MouseDown);
             // 
@@ -119,7 +121,7 @@
             this.btnClose.Margin = new System.Windows.Forms.Padding(0);
             this.btnClose.Name = "btnClose";
             this.btnClose.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnClose.Size = new System.Drawing.Size(23, 32);
+            this.btnClose.Size = new System.Drawing.Size(23, 39);
             this.btnClose.TabIndex = 9;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -131,7 +133,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(203, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 32);
+            this.label1.Size = new System.Drawing.Size(87, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tạo mới hồ sơ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -141,6 +143,7 @@
             this.tLPInfo.ColumnCount = 2;
             this.tLPInfo.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tLPInfo.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 383F));
+            this.tLPInfo.Controls.Add(this.label12, 0, 8);
             this.tLPInfo.Controls.Add(this.firstNameBox, 1, 1);
             this.tLPInfo.Controls.Add(this.label2, 0, 0);
             this.tLPInfo.Controls.Add(this.label3, 0, 1);
@@ -157,25 +160,27 @@
             this.tLPInfo.Controls.Add(this.phoneNumBox, 1, 6);
             this.tLPInfo.Controls.Add(this.emailBox, 1, 7);
             this.tLPInfo.Controls.Add(this.fLPDate, 1, 2);
+            this.tLPInfo.Controls.Add(this.homeTownBox, 1, 8);
             this.tLPInfo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tLPInfo.Location = new System.Drawing.Point(3, 35);
+            this.tLPInfo.Location = new System.Drawing.Point(3, 42);
             this.tLPInfo.Name = "tLPInfo";
-            this.tLPInfo.RowCount = 8;
-            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 39F));
-            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tLPInfo.Size = new System.Drawing.Size(513, 291);
+            this.tLPInfo.RowCount = 9;
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tLPInfo.Size = new System.Drawing.Size(513, 346);
             this.tLPInfo.TabIndex = 1;
             // 
             // firstNameBox
             // 
             this.firstNameBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.firstNameBox.Location = new System.Drawing.Point(133, 38);
+            this.firstNameBox.Location = new System.Drawing.Point(133, 47);
             this.firstNameBox.Name = "firstNameBox";
             this.firstNameBox.Size = new System.Drawing.Size(377, 20);
             this.firstNameBox.TabIndex = 1;
@@ -185,7 +190,7 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 8);
+            this.label2.Location = new System.Drawing.Point(3, 12);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(68, 13);
             this.label2.TabIndex = 4;
@@ -195,7 +200,7 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 41);
+            this.label3.Location = new System.Drawing.Point(3, 50);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(80, 13);
             this.label3.TabIndex = 1;
@@ -207,16 +212,53 @@
             this.fLPSex.Controls.Add(this.radioButtonFemale);
             this.fLPSex.Controls.Add(this.labelMissing2);
             this.fLPSex.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.fLPSex.Location = new System.Drawing.Point(133, 109);
+            this.fLPSex.Location = new System.Drawing.Point(133, 117);
             this.fLPSex.Name = "fLPSex";
-            this.fLPSex.Size = new System.Drawing.Size(377, 30);
+            this.fLPSex.Size = new System.Drawing.Size(377, 32);
             this.fLPSex.TabIndex = 3;
+            // 
+            // radioButtonMale
+            // 
+            this.radioButtonMale.AutoSize = true;
+            this.radioButtonMale.Location = new System.Drawing.Point(3, 3);
+            this.radioButtonMale.Name = "radioButtonMale";
+            this.radioButtonMale.Size = new System.Drawing.Size(47, 17);
+            this.radioButtonMale.TabIndex = 0;
+            this.radioButtonMale.TabStop = true;
+            this.radioButtonMale.Text = "Nam";
+            this.radioButtonMale.UseVisualStyleBackColor = true;
+            this.radioButtonMale.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnRadioBtnMouseLeft);
+            // 
+            // radioButtonFemale
+            // 
+            this.radioButtonFemale.AutoSize = true;
+            this.radioButtonFemale.Location = new System.Drawing.Point(56, 3);
+            this.radioButtonFemale.Name = "radioButtonFemale";
+            this.radioButtonFemale.Size = new System.Drawing.Size(39, 17);
+            this.radioButtonFemale.TabIndex = 1;
+            this.radioButtonFemale.TabStop = true;
+            this.radioButtonFemale.Text = "Nữ";
+            this.radioButtonFemale.UseVisualStyleBackColor = true;
+            this.radioButtonFemale.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnRadioBtnMouseLeft);
+            // 
+            // labelMissing2
+            // 
+            this.labelMissing2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelMissing2.AutoSize = true;
+            this.labelMissing2.BackColor = System.Drawing.Color.Yellow;
+            this.labelMissing2.Font = new System.Drawing.Font("Montserrat Subrayada", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMissing2.ForeColor = System.Drawing.Color.Red;
+            this.labelMissing2.Location = new System.Drawing.Point(101, 2);
+            this.labelMissing2.Name = "labelMissing2";
+            this.labelMissing2.Size = new System.Drawing.Size(12, 18);
+            this.labelMissing2.TabIndex = 2;
+            this.labelMissing2.Text = "!";
             // 
             // label4
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 79);
+            this.label4.Location = new System.Drawing.Point(3, 88);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(107, 13);
             this.label4.TabIndex = 2;
@@ -226,7 +268,7 @@
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 117);
+            this.label5.Location = new System.Drawing.Point(3, 126);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 13);
             this.label5.TabIndex = 3;
@@ -236,7 +278,7 @@
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(3, 153);
+            this.label6.Location = new System.Drawing.Point(3, 164);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(39, 13);
             this.label6.TabIndex = 4;
@@ -246,7 +288,7 @@
             // 
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(3, 190);
+            this.label7.Location = new System.Drawing.Point(3, 202);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(40, 13);
             this.label7.TabIndex = 5;
@@ -256,7 +298,7 @@
             // 
             this.label8.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(3, 230);
+            this.label8.Location = new System.Drawing.Point(3, 240);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(70, 13);
             this.label8.TabIndex = 6;
@@ -266,7 +308,7 @@
             // 
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(3, 267);
+            this.label9.Location = new System.Drawing.Point(3, 278);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(32, 13);
             this.label9.TabIndex = 7;
@@ -275,7 +317,7 @@
             // lastNameBox
             // 
             this.lastNameBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.lastNameBox.Location = new System.Drawing.Point(133, 5);
+            this.lastNameBox.Location = new System.Drawing.Point(133, 9);
             this.lastNameBox.Name = "lastNameBox";
             this.lastNameBox.Size = new System.Drawing.Size(377, 20);
             this.lastNameBox.TabIndex = 0;
@@ -284,7 +326,7 @@
             // CMNDBox
             // 
             this.CMNDBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.CMNDBox.Location = new System.Drawing.Point(133, 149);
+            this.CMNDBox.Location = new System.Drawing.Point(133, 161);
             this.CMNDBox.Name = "CMNDBox";
             this.CMNDBox.Size = new System.Drawing.Size(377, 20);
             this.CMNDBox.TabIndex = 4;
@@ -293,7 +335,7 @@
             // adrBox
             // 
             this.adrBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.adrBox.Location = new System.Drawing.Point(133, 187);
+            this.adrBox.Location = new System.Drawing.Point(133, 199);
             this.adrBox.Name = "adrBox";
             this.adrBox.Size = new System.Drawing.Size(377, 20);
             this.adrBox.TabIndex = 5;
@@ -302,7 +344,7 @@
             // phoneNumBox
             // 
             this.phoneNumBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.phoneNumBox.Location = new System.Drawing.Point(133, 226);
+            this.phoneNumBox.Location = new System.Drawing.Point(133, 237);
             this.phoneNumBox.Name = "phoneNumBox";
             this.phoneNumBox.Size = new System.Drawing.Size(377, 20);
             this.phoneNumBox.TabIndex = 6;
@@ -311,7 +353,7 @@
             // emailBox
             // 
             this.emailBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.emailBox.Location = new System.Drawing.Point(133, 263);
+            this.emailBox.Location = new System.Drawing.Point(133, 275);
             this.emailBox.Name = "emailBox";
             this.emailBox.Size = new System.Drawing.Size(377, 20);
             this.emailBox.TabIndex = 7;
@@ -326,9 +368,9 @@
             this.fLPDate.Controls.Add(this.comboBoxYear);
             this.fLPDate.Controls.Add(this.labelMissing);
             this.fLPDate.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.fLPDate.Location = new System.Drawing.Point(133, 69);
+            this.fLPDate.Location = new System.Drawing.Point(133, 79);
             this.fLPDate.Name = "fLPDate";
-            this.fLPDate.Size = new System.Drawing.Size(377, 34);
+            this.fLPDate.Size = new System.Drawing.Size(377, 32);
             this.fLPDate.TabIndex = 2;
             // 
             // comboBoxDay
@@ -455,18 +497,6 @@
             this.comboBoxYear.Text = " Năm";
             this.comboBoxYear.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnComboBoxMouseLeft);
             // 
-            // btnRegister
-            // 
-            this.btnRegister.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnRegister.Location = new System.Drawing.Point(441, 332);
-            this.btnRegister.Name = "btnRegister";
-            this.btnRegister.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnRegister.Size = new System.Drawing.Size(75, 23);
-            this.btnRegister.TabIndex = 8;
-            this.btnRegister.Text = "Tạo hồ sơ";
-            this.btnRegister.UseVisualStyleBackColor = true;
-            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
-            // 
             // labelMissing
             // 
             this.labelMissing.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -481,49 +511,42 @@
             this.labelMissing.TabIndex = 3;
             this.labelMissing.Text = "!";
             // 
-            // radioButtonMale
+            // btnRegister
             // 
-            this.radioButtonMale.AutoSize = true;
-            this.radioButtonMale.Location = new System.Drawing.Point(3, 3);
-            this.radioButtonMale.Name = "radioButtonMale";
-            this.radioButtonMale.Size = new System.Drawing.Size(47, 17);
-            this.radioButtonMale.TabIndex = 0;
-            this.radioButtonMale.TabStop = true;
-            this.radioButtonMale.Text = "Nam";
-            this.radioButtonMale.UseVisualStyleBackColor = true;
-            this.radioButtonMale.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnRadioBtnMouseLeft);
+            this.btnRegister.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnRegister.Location = new System.Drawing.Point(441, 394);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnRegister.Size = new System.Drawing.Size(75, 23);
+            this.btnRegister.TabIndex = 8;
+            this.btnRegister.Text = "Tạo hồ sơ";
+            this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
-            // radioButtonFemale
+            // label12
             // 
-            this.radioButtonFemale.AutoSize = true;
-            this.radioButtonFemale.Location = new System.Drawing.Point(56, 3);
-            this.radioButtonFemale.Name = "radioButtonFemale";
-            this.radioButtonFemale.Size = new System.Drawing.Size(39, 17);
-            this.radioButtonFemale.TabIndex = 1;
-            this.radioButtonFemale.TabStop = true;
-            this.radioButtonFemale.Text = "Nữ";
-            this.radioButtonFemale.UseVisualStyleBackColor = true;
-            this.radioButtonFemale.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnRadioBtnMouseLeft);
+            this.label12.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(3, 318);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(54, 13);
+            this.label12.TabIndex = 8;
+            this.label12.Text = "Quê quán";
             // 
-            // labelMissing2
+            // homeTownBox
             // 
-            this.labelMissing2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelMissing2.AutoSize = true;
-            this.labelMissing2.BackColor = System.Drawing.Color.Yellow;
-            this.labelMissing2.Font = new System.Drawing.Font("Montserrat Subrayada", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMissing2.ForeColor = System.Drawing.Color.Red;
-            this.labelMissing2.Location = new System.Drawing.Point(101, 2);
-            this.labelMissing2.Name = "labelMissing2";
-            this.labelMissing2.Size = new System.Drawing.Size(12, 18);
-            this.labelMissing2.TabIndex = 2;
-            this.labelMissing2.Text = "!";
+            this.homeTownBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.homeTownBox.Location = new System.Drawing.Point(133, 315);
+            this.homeTownBox.Name = "homeTownBox";
+            this.homeTownBox.Size = new System.Drawing.Size(377, 20);
+            this.homeTownBox.TabIndex = 9;
             // 
             // formRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(519, 359);
+            this.ClientSize = new System.Drawing.Size(519, 421);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -575,6 +598,8 @@
         private System.Windows.Forms.RadioButton radioButtonMale;
         private System.Windows.Forms.RadioButton radioButtonFemale;
         private System.Windows.Forms.Label labelMissing2;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox homeTownBox;
     }
 }
 

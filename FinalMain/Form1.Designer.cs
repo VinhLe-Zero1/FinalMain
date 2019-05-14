@@ -36,17 +36,18 @@
             this.cntt = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.patient_info = new System.Windows.Forms.Label();
+            this.IDLabel = new System.Windows.Forms.Label();
+            this.nameLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // datlich
             // 
             this.datlich.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.datlich.Location = new System.Drawing.Point(12, 132);
-            this.datlich.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.datlich.Location = new System.Drawing.Point(9, 107);
+            this.datlich.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.datlich.Name = "datlich";
-            this.datlich.Size = new System.Drawing.Size(255, 100);
+            this.datlich.Size = new System.Drawing.Size(191, 81);
             this.datlich.TabIndex = 0;
             this.datlich.TabStop = false;
             this.datlich.Text = "Đặt lịch";
@@ -56,10 +57,10 @@
             // tintuc
             // 
             this.tintuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tintuc.Location = new System.Drawing.Point(273, 132);
-            this.tintuc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tintuc.Location = new System.Drawing.Point(205, 107);
+            this.tintuc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tintuc.Name = "tintuc";
-            this.tintuc.Size = new System.Drawing.Size(255, 100);
+            this.tintuc.Size = new System.Drawing.Size(191, 81);
             this.tintuc.TabIndex = 1;
             this.tintuc.Text = "Tin tức y tế";
             this.tintuc.UseVisualStyleBackColor = true;
@@ -68,10 +69,10 @@
             // chuandoan
             // 
             this.chuandoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chuandoan.Location = new System.Drawing.Point(533, 132);
-            this.chuandoan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chuandoan.Location = new System.Drawing.Point(400, 107);
+            this.chuandoan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chuandoan.Name = "chuandoan";
-            this.chuandoan.Size = new System.Drawing.Size(255, 100);
+            this.chuandoan.Size = new System.Drawing.Size(191, 81);
             this.chuandoan.TabIndex = 2;
             this.chuandoan.Text = "Chuẩn đoán";
             this.chuandoan.UseVisualStyleBackColor = true;
@@ -80,10 +81,10 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(133, 238);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button4.Location = new System.Drawing.Point(100, 193);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(255, 100);
+            this.button4.Size = new System.Drawing.Size(191, 81);
             this.button4.TabIndex = 3;
             this.button4.Text = "Lịch sử khám";
             this.button4.UseVisualStyleBackColor = true;
@@ -92,10 +93,10 @@
             // cntt
             // 
             this.cntt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cntt.Location = new System.Drawing.Point(395, 238);
-            this.cntt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cntt.Location = new System.Drawing.Point(296, 193);
+            this.cntt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cntt.Name = "cntt";
-            this.cntt.Size = new System.Drawing.Size(255, 100);
+            this.cntt.Size = new System.Drawing.Size(191, 81);
             this.cntt.TabIndex = 4;
             this.cntt.Text = "Cập nhật thông tin";
             this.cntt.UseVisualStyleBackColor = true;
@@ -105,8 +106,9 @@
             // 
             this.label2.BackColor = System.Drawing.Color.LightSkyBlue;
             this.label2.Location = new System.Drawing.Point(-1, -1);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(805, 121);
+            this.label2.Size = new System.Drawing.Size(604, 98);
             this.label2.TabIndex = 7;
             // 
             // pictureBox2
@@ -114,28 +116,38 @@
             this.pictureBox2.BackColor = System.Drawing.Color.LightSkyBlue;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(2, -1);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(140, 121);
+            this.pictureBox2.Size = new System.Drawing.Size(105, 98);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
             // 
-            // patient_info
+            // IDLabel
             // 
-            this.patient_info.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.patient_info.Location = new System.Drawing.Point(600, 9);
-            this.patient_info.Name = "patient_info";
-            this.patient_info.Size = new System.Drawing.Size(188, 99);
-            this.patient_info.TabIndex = 9;
-            this.patient_info.Text = "label3";
-            this.patient_info.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.IDLabel.AutoSize = true;
+            this.IDLabel.Location = new System.Drawing.Point(452, 24);
+            this.IDLabel.Name = "IDLabel";
+            this.IDLabel.Size = new System.Drawing.Size(24, 13);
+            this.IDLabel.TabIndex = 9;
+            this.IDLabel.Text = "ID: ";
+            // 
+            // nameLabel
+            // 
+            this.nameLabel.AutoSize = true;
+            this.nameLabel.Location = new System.Drawing.Point(452, 58);
+            this.nameLabel.Name = "nameLabel";
+            this.nameLabel.Size = new System.Drawing.Size(41, 13);
+            this.nameLabel.TabIndex = 10;
+            this.nameLabel.Text = "Name: ";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 350);
-            this.Controls.Add(this.patient_info);
+            this.ClientSize = new System.Drawing.Size(600, 284);
+            this.Controls.Add(this.nameLabel);
+            this.Controls.Add(this.IDLabel);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cntt);
@@ -143,11 +155,12 @@
             this.Controls.Add(this.chuandoan);
             this.Controls.Add(this.tintuc);
             this.Controls.Add(this.datlich);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Medical Care";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -160,7 +173,8 @@
         private System.Windows.Forms.Button cntt;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label patient_info;
+        private System.Windows.Forms.Label IDLabel;
+        private System.Windows.Forms.Label nameLabel;
     }
 }
 

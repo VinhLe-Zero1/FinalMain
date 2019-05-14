@@ -12,11 +12,19 @@ namespace DoctorForm
 {
     public partial class Form1 : Form
     {
+        public Form1(int id, string name)
+        {
+            
+            InitializeComponent();
+            IDLabel.Text += id.ToString();
+            nameLabel.Text += name;
+        }
+/*
         public Form1()
         {
             InitializeComponent();
         }
-
+        */
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 

@@ -122,6 +122,10 @@
     <None Include="Resources\Front.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DoctorForm\DoctorForm.csproj">
+      <Project>{6efe123c-63e8-43ae-9aaf-9891780f22c1}</Project>
+      <Name>DoctorForm</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FinalMain\FinalMain.csproj">
       <Project>{bae34854-dd44-42d4-9cd9-5991ee247da0}</Project>
       <Name>FinalMain</Name>

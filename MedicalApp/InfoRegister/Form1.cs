@@ -96,6 +96,7 @@ namespace InfoRegister
             string address = "'" + adrBox.Text + "'";
             string phone = "'" + phoneNumBox.Text + "'";
             string email = "'" + emailBox.Text + "'";
+            string homeTown = "'" + homeTownBox.Text + "'";
             string month = "";
             for (int i = 0; i < 12; i++)
             {
@@ -111,7 +112,7 @@ namespace InfoRegister
                 sex = "'Nam'";
             else sex = "'Nu'";
             
-            string value = "('None', "+lastName+", "+firstName+", "+dateOfBirth+", "+sex+", "+civilianID+", "+ address+ ", "+phone+", "+email+", "+"'1/1/1', 'None')";
+            string value = "("+lastName+", "+firstName+", "+dateOfBirth+", "+sex+", "+civilianID+", "+ address+ ", "+phone+", "+email+", "+ homeTown +")";
 
 
             try

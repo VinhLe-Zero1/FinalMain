@@ -24,7 +24,6 @@ D:\CNPM\FinalMain\LoginForm\obj\Debug\LoginForm.exe
 D:\CNPM\FinalMain\LoginForm\obj\Debug\LoginForm.pdb
 D:\CNPM\FinalMain\LoginForm\bin\Debug\FinalMain.exe
 D:\CNPM\FinalMain\LoginForm\bin\Debug\capnhatyteganday.exe
-D:\CNPM\FinalMain\LoginForm\bin\Debug\BTL_CNPM.exe
 D:\CNPM\FinalMain\LoginForm\bin\Debug\capnhap.exe
 D:\CNPM\FinalMain\LoginForm\bin\Debug\PatientHistory.exe
 D:\CNPM\FinalMain\LoginForm\bin\Debug\GemBox.Email.dll
@@ -32,8 +31,6 @@ D:\CNPM\FinalMain\LoginForm\bin\Debug\FinalMain.pdb
 D:\CNPM\FinalMain\LoginForm\bin\Debug\FinalMain.exe.config
 D:\CNPM\FinalMain\LoginForm\bin\Debug\capnhatyteganday.pdb
 D:\CNPM\FinalMain\LoginForm\bin\Debug\capnhatyteganday.exe.config
-D:\CNPM\FinalMain\LoginForm\bin\Debug\BTL_CNPM.pdb
-D:\CNPM\FinalMain\LoginForm\bin\Debug\BTL_CNPM.exe.config
 D:\CNPM\FinalMain\LoginForm\bin\Debug\capnhap.pdb
 D:\CNPM\FinalMain\LoginForm\bin\Debug\capnhap.exe.config
 D:\CNPM\FinalMain\LoginForm\bin\Debug\PatientHistory.pdb
@@ -70,3 +67,19 @@ C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\obj\Debug\LoginForm.pdb
 C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\T_chuandoan.exe
 C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\T_chuandoan.pdb
 C:\Users\DELL\Documents\GitHub\FinalMain\LoginForm\bin\Debug\T_chuandoan.exe.config
+D:\CNPM\FinalMain\LoginForm\bin\Debug\T_chuandoan.exe
+D:\CNPM\FinalMain\LoginForm\bin\Debug\T_chuandoan.pdb
+D:\CNPM\FinalMain\LoginForm\bin\Debug\T_chuandoan.exe.config
+D:\CNPM\FinalMain\LoginForm\bin\Debug\DoctorForm.exe
+D:\CNPM\FinalMain\LoginForm\bin\Debug\BTL_CNPM.exe
+D:\CNPM\FinalMain\LoginForm\bin\Debug\thongkethongtin.exe
+D:\CNPM\FinalMain\LoginForm\bin\Debug\Datlich.exe
+D:\CNPM\FinalMain\LoginForm\bin\Debug\MaterialSkin.dll
+D:\CNPM\FinalMain\LoginForm\bin\Debug\DoctorForm.pdb
+D:\CNPM\FinalMain\LoginForm\bin\Debug\DoctorForm.exe.config
+D:\CNPM\FinalMain\LoginForm\bin\Debug\BTL_CNPM.pdb
+D:\CNPM\FinalMain\LoginForm\bin\Debug\BTL_CNPM.exe.config
+D:\CNPM\FinalMain\LoginForm\bin\Debug\thongkethongtin.pdb
+D:\CNPM\FinalMain\LoginForm\bin\Debug\thongkethongtin.exe.config
+D:\CNPM\FinalMain\LoginForm\bin\Debug\Datlich.pdb
+D:\CNPM\FinalMain\LoginForm\bin\Debug\Datlich.exe.config

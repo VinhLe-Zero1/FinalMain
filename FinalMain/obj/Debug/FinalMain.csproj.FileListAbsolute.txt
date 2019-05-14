@@ -182,3 +182,9 @@ C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\WindowsFormsApp1.pd
 C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\WindowsFormsApp1.exe.config
 C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\GemBox.Email.xml
 C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\obj\Debug\FinalMain.csproj.CopyComplete
+D:\CNPM\FinalMain\FinalMain\bin\Debug\Datlich.exe
+D:\CNPM\FinalMain\FinalMain\bin\Debug\T_chuandoan.exe
+D:\CNPM\FinalMain\FinalMain\bin\Debug\T_chuandoan.pdb
+D:\CNPM\FinalMain\FinalMain\bin\Debug\T_chuandoan.exe.config
+D:\CNPM\FinalMain\FinalMain\bin\Debug\Datlich.pdb
+D:\CNPM\FinalMain\FinalMain\bin\Debug\Datlich.exe.config
