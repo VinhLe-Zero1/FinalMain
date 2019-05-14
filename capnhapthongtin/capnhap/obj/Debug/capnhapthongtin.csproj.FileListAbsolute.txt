@@ -37,3 +37,17 @@ D:\CNPM\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhapthongtin.csproj.CoreC
 D:\CNPM\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhapthongtin.csproj.CopyComplete
 D:\CNPM\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhap.exe
 D:\CNPM\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhap.pdb
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhapthongtin.csprojAssemblyReference.cache
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhatinfo.capnhapthongtin.resources
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhap.Properties.Resources.resources
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhapthongtin.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhapthongtin.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhap.exe
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhap.pdb
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\bin\Debug\capnhap.exe.config
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\bin\Debug\capnhap.exe
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\bin\Debug\capnhap.pdb
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\bin\Debug\GemBox.Email.dll
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\bin\Debug\MaterialSkin.dll
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\bin\Debug\GemBox.Email.xml
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhapthongtin.csproj.CopyComplete
