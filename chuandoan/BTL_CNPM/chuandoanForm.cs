@@ -16,9 +16,9 @@ using System.Reflection;
 
 namespace T_chuandoan
 {
-    public partial class chuandoan : Form
+    public partial class chuandoanForm : Form
     {
-        public chuandoan()
+        public chuandoanForm()
         {
             InitializeComponent();
             //MaterialSkinManager materialSkinManager = MaterialSkinManager.Instance;

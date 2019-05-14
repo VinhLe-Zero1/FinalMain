@@ -84,6 +84,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\chuandoan\BTL_CNPM\chuandoan.csproj">
+      <Project>{18626de2-11e7-4b54-a8d7-51873663d6f5}</Project>
+      <Name>chuandoan</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Datlich\Datlich\Datlich.csproj">
       <Project>{820c149f-4b5c-40d6-b8e6-3f5f94fce59e}</Project>
       <Name>Datlich</Name>

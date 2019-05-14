@@ -74,17 +74,17 @@ C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan - Copy\BTL_CNPM\obj\Debug\chu
 C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan - Copy\BTL_CNPM\obj\Debug\BTL_CNPM.exe
 C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan - Copy\BTL_CNPM\obj\Debug\BTL_CNPM.pdb
 C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\chuandoan.csprojAssemblyReference.cache
-C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\T_chuandoan.chuandoan.resources
-C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\BTL_CNPM.Properties.Resources.resources
 C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\chuandoan.csproj.GenerateResource.cache
 C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\chuandoan.csproj.CoreCompileInputs.cache
-C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\BTL_CNPM.exe
-C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\BTL_CNPM.pdb
-C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\bin\Debug\BTL_CNPM.exe.config
-C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\bin\Debug\BTL_CNPM.exe
-C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\bin\Debug\BTL_CNPM.pdb
 C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\bin\Debug\MaterialSkin.dll
 C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\bin\Debug\MetroFramework.Design.dll
 C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\bin\Debug\MetroFramework.dll
 C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\chuandoan.csproj.CopyComplete
+C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\bin\Debug\T_chuandoan.exe.config
+C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\bin\Debug\T_chuandoan.exe
+C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\bin\Debug\T_chuandoan.pdb
+C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\T_chuandoan.Properties.Resources.resources
+C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\T_chuandoan.exe
+C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\T_chuandoan.pdb
+C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\T_chuandoan.chuandoanForm.resources

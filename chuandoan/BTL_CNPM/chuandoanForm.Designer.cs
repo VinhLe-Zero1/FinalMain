@@ -1,6 +1,6 @@
 ﻿namespace T_chuandoan
 {
-    partial class chuandoan
+    partial class chuandoanForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(chuandoan));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(chuandoanForm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.return_button = new System.Windows.Forms.Button();
             this.result_label = new System.Windows.Forms.LinkLabel();

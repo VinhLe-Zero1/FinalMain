@@ -142,3 +142,10 @@ D:\CNPM\FinalMain\FinalMain\bin\Debug\WindowsFormsApp1.pdb
 D:\CNPM\FinalMain\FinalMain\bin\Debug\WindowsFormsApp1.exe.config
 D:\CNPM\FinalMain\FinalMain\bin\Debug\GemBox.Email.xml
 D:\CNPM\FinalMain\FinalMain\obj\Debug\FinalMain.csproj.CopyComplete
+C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\obj\Debug\FinalMain.csprojAssemblyReference.cache
+C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\obj\Debug\FinalMain.Form1.resources
+C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\obj\Debug\FinalMain.Properties.Resources.resources
+C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\obj\Debug\FinalMain.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\obj\Debug\FinalMain.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\obj\Debug\FinalMain.exe
+C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\obj\Debug\FinalMain.pdb

@@ -30,8 +30,10 @@ namespace FinalMain
 
         private void chuandoan_Click(object sender, EventArgs e)
         {
-            T_chuandoan.chuandoan cd = new T_chuandoan.chuandoan();
+            T_chuandoan.chuandoanForm cd = new T_chuandoan.chuandoanForm;
             cd.Show();
+
+
         }
 
         private void button5_Click(object sender, EventArgs e)

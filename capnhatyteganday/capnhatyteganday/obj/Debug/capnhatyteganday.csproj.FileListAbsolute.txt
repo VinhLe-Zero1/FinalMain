@@ -38,3 +38,13 @@ D:\CNPM\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.c
 D:\CNPM\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.csproj.CoreCompileInputs.cache
 D:\CNPM\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.exe
 D:\CNPM\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.pdb
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\capnhatyteganday.exe.config
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\capnhatyteganday.exe
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\capnhatyteganday.pdb
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.csprojAssemblyReference.cache
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.Form1.resources
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.Properties.Resources.resources
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.exe
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.pdb

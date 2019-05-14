@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using GemBox.Email;
-
+using capnhap;
 namespace capnhatinfo
 {
     public partial class capnhapthongtin : Form
@@ -63,12 +63,11 @@ namespace capnhatinfo
 
         private void luu_Click(object sender, EventArgs e)
         {
-            ComponentInfo.SetLicense("FREE-LIMITED-KEY");
-            MailAddressValidationResult result = MailAddressValidator.Validate(email.Text);
-            if (cmnd.Text == "" || dth.Text == "" || que.Text == "" || noio.Text == "" || !checkNum(dth.Text) || !checkNum(cmnd.Text) || (result.Status.ToString() != "Ok")) {
-                //thongbao.Text = "Bạn đã nhập sai vui lòng nhập lại!";
+            NewInfos new_info = new NewInfos();
+            NewInfosController new_info_controller = new NewInfosController();
+            new_info.addNewInfos(cmnd.Text, dth.Text, email.Text, que.Text, noio.Text);
+            if (new_info_controller.checkForm(cmnd.Text, dth.Text, email.Text, que.Text, noio.Text)) { 
                 b_thongbao.Visible = true;
-
                 thongbao.Visible = true;
             }
             else
