@@ -23,113 +23,190 @@ namespace thongkethongtin
     }
     class Datacontrol
     {
-        DataTable Data = new DataTable();
-        public DataTable ChooseWeekData()
+        public DataTable Data = new DataTable();
+        public DataTable Data1 = new DataTable();
+        public void ChooseWeekData()
         {
-            using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-5R6GU4E;Initial Catalog=DataBenhnhan;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection("Data Source=.;Initial Catalog=OneForAll;Integrated Security=True"))
             {
                 SqlDataAdapter adapter = new SqlDataAdapter();
-                adapter.SelectCommand = new SqlCommand("select * from benhnhan", connection);
-                adapter.Fill(Data);
-                DataTable Data1=new DataTable();
-                Data1.Clear();
-                Data1.Columns.Add("age");
-                Data1.Columns.Add("gender");
-                Data1.Columns.Add("desease");
-                Data1.Columns.Add("date");
+                DataTable temp = new DataTable();
+                adapter.SelectCommand = new SqlCommand("select mabenhnhan, ngaykham, chuandoan from benhan", connection);
+                adapter.Fill(temp);
+                DataTable temp1=new DataTable();
+                temp1.Clear();
+                temp1.Columns.Add("maBenhNhan");
+                temp1.Columns.Add("ngayKham");
+                temp1.Columns.Add("chanDoan");
                 DateTime monday = DateTime.Now.StartOfWeek(DayOfWeek.Monday);
-                foreach (DataRow row in Data.Rows)
+                foreach (DataRow row in temp.Rows)
                 {
-                    string time = row["date"].ToString();
+                    string time = row["ngaykham"].ToString();
                     string[] date = time.Split(new[] { "/" }, StringSplitOptions.None);
                     date[2] = date[2].Substring(0, 4);
                     DateTime newdate = new DateTime(int.Parse(date[2]), int.Parse(date[0]), int.Parse(date[1]));
                     TimeSpan diff = newdate - monday;
                     if (diff.TotalDays >= 0)
                     {
-                        Data1.Rows.Add(row.ItemArray);
+                        temp1.Rows.Add(row.ItemArray);
                     }
                 }
-                Data = Data1;
-                return Data;
+                Data = temp1;
+                DataTable temp2 = new DataTable();
+                adapter.SelectCommand = new SqlCommand("select [ID], [Ngày tháng năm sinh], [Giới tính] from PatientInfo", connection);
+                adapter.Fill(temp2);
+                DataTable temp3 = new DataTable();
+                temp3.Clear();
+                temp3.Columns.Add("maBenhNhan");
+                temp3.Columns.Add("dateOfBirth");
+                temp3.Columns.Add("gender");
+                foreach (DataRow row in temp2.Rows)
+                {
+                    foreach(DataRow row1 in Data.Rows)
+                    {
+                        if ((row["ID"]).ToString() == row1["maBenhNhan"].ToString())
+                        {
+                            temp3.Rows.Add(row.ItemArray);
+                            break;
+                        }
+                    }
+                }
+                Data1 = temp3;
             }
         }
-        public DataTable ChooseMonthData()
+        public void ChooseMonthData()
         {
-            using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-5R6GU4E;Initial Catalog=DataBenhnhan;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection("Data Source=.;Initial Catalog=OneForAll;Integrated Security=True"))
             {
                 SqlDataAdapter adapter = new SqlDataAdapter();
-                adapter.SelectCommand = new SqlCommand("select * from benhnhan", connection);
-                adapter.Fill(Data);
-                DataTable Data1 = new DataTable();
-                Data1.Clear();
-                Data1.Columns.Add("age");
-                Data1.Columns.Add("gender");
-                Data1.Columns.Add("desease");
-                Data1.Columns.Add("date");
+                DataTable temp = new DataTable();
+                adapter.SelectCommand = new SqlCommand("select mabenhnhan, ngaykham, chuandoan from benhan", connection);
+                adapter.Fill(temp);
+                DataTable temp1 = new DataTable();
+                temp1.Clear();
+                temp1.Columns.Add("maBenhNhan");
+                temp1.Columns.Add("ngayKham");
+                temp1.Columns.Add("chanDoan");
                 DateTime now = DateTime.Now;
-                foreach (DataRow row in Data.Rows)
+                foreach (DataRow row in temp.Rows)
                 {
-                    string time = row["date"].ToString();
+                    string time = row["ngaykham"].ToString();
+                    string[] date = time.Split(new[] { "/" }, StringSplitOptions.None);
+                    if (int.Parse(date[0]) == now.Month)
+                    {
+                        temp1.Rows.Add(row.ItemArray);
+                    }
+                }
+                Data = temp1;
+                DataTable temp2 = new DataTable();
+                adapter.SelectCommand = new SqlCommand("select [ID], [Ngày tháng năm sinh], [Giới tính] from PatientInfo", connection);
+                adapter.Fill(temp2);
+                DataTable temp3 = new DataTable();
+                temp3.Clear();
+                temp3.Columns.Add("maBenhNhan");
+                temp3.Columns.Add("dateOfBirth");
+                temp3.Columns.Add("gender");
+                foreach (DataRow row in temp2.Rows)
+                {
+                    foreach (DataRow row1 in Data.Rows)
+                    {
+                        if ((row["ID"]).ToString() == row1["maBenhNhan"].ToString())
+                        {
+                            temp3.Rows.Add(row.ItemArray);
+                            break;
+                        }
+                    }
+                }
+                Data1 = temp3;
+            }
+        }
+        public void ChooseYearData()
+        {
+            using (SqlConnection connection = new SqlConnection("Data Source=.;Initial Catalog=OneForAll;Integrated Security=True"))
+            {
+                SqlDataAdapter adapter = new SqlDataAdapter();
+                DataTable temp = new DataTable();
+                adapter.SelectCommand = new SqlCommand("select mabenhnhan, ngaykham, chuandoan from benhan", connection);
+                adapter.Fill(temp);
+                DataTable temp1 = new DataTable();
+                temp1.Clear();
+                temp1.Columns.Add("maBenhNhan");
+                temp1.Columns.Add("ngayKham");
+                temp1.Columns.Add("chanDoan");
+                DateTime now = DateTime.Now;
+                foreach (DataRow row in temp.Rows)
+                {
+                    string time = row["ngaykham"].ToString();
                     string[] date = time.Split(new[] { "/" }, StringSplitOptions.None);
                     date[2] = date[2].Substring(0, 4);
-                    int month = int.Parse(date[0]);
-                    int year = int.Parse(date[2]);
-                    if ((month == now.Month) && (year == now.Year))
+                    if (int.Parse(date[2]) == now.Year)
                     {
-                        Data1.Rows.Add(row.ItemArray);
+                        temp1.Rows.Add(row.ItemArray);
                     }
                 }
-                Data = Data1;
-                return Data;
-            }
-        }
-        public DataTable ChooseYearData()
-        {
-            using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-5R6GU4E;Initial Catalog=DataBenhnhan;Integrated Security=True"))
-            {
-                SqlDataAdapter adapter = new SqlDataAdapter();
-                adapter.SelectCommand = new SqlCommand("select * from benhnhan", connection);
-                adapter.Fill(Data);
-                DataTable Data1 = new DataTable();
-                Data1.Clear();
-                Data1.Columns.Add("age");
-                Data1.Columns.Add("gender");
-                Data1.Columns.Add("desease");
-                Data1.Columns.Add("date");
-                DateTime now = DateTime.Now;
-                foreach (DataRow row in Data.Rows)
+                Data = temp1;
+                DataTable temp2 = new DataTable();
+                adapter.SelectCommand = new SqlCommand("select [ID], [Ngày tháng năm sinh], [Giới tính] from PatientInfo", connection);
+                adapter.Fill(temp2);
+                DataTable temp3 = new DataTable();
+                temp3.Clear();
+                temp3.Columns.Add("maBenhNhan");
+                temp3.Columns.Add("dateOfBirth");
+                temp3.Columns.Add("gender");
+                foreach (DataRow row in temp2.Rows)
                 {
-                    string time = row["date"].ToString();
-                    string[] date = time.Split(new[] { "/" }, StringSplitOptions.None);
-                    date[2] = date[2].Substring(0, 4);
-                    int year = int.Parse(date[2]);
-                    if ( year == now.Year)
+                    foreach (DataRow row1 in Data.Rows)
                     {
-                        Data1.Rows.Add(row.ItemArray);
+                        if ((row["ID"]).ToString() == row1["maBenhNhan"].ToString())
+                        {
+                            temp3.Rows.Add(row.ItemArray);
+                            break;
+                        }
                     }
                 }
-                Data = Data1;
-                return Data;
+                Data1 = temp3;
             }
         }
-        public DataTable ChooseAllData()
+        public void ChooseAllData()
         {
-            using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-5R6GU4E;Initial Catalog=DataBenhnhan;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection("Data Source=.;Initial Catalog=OneForAll;Integrated Security=True"))
             {
                 SqlDataAdapter adapter = new SqlDataAdapter();
-                adapter.SelectCommand = new SqlCommand("select * from benhnhan", connection);
-                adapter.Fill(Data);
-                return Data;
+                DataTable temp = new DataTable();
+                adapter.SelectCommand = new SqlCommand("select mabenhnhan, ngaykham, chuandoan from benhan", connection);
+                adapter.Fill(temp);
+                DataTable temp1 = new DataTable();
+                temp1.Clear();
+                temp1.Columns.Add("maBenhNhan");
+                temp1.Columns.Add("ngayKham");
+                temp1.Columns.Add("chanDoan");
+                foreach (DataRow row in temp.Rows) temp1.Rows.Add(row.ItemArray);
+                Data = temp1;
+                DataTable temp2 = new DataTable();
+                adapter.SelectCommand = new SqlCommand("SELECT [ID], [Ngày tháng năm sinh], [Giới tính] FROM PatientInfo", connection);
+                adapter.Fill(temp2);
+                DataTable temp3 = new DataTable();
+                temp3.Clear();
+                temp3.Columns.Add("maBenhNhan");
+                temp3.Columns.Add("dateOfBirth");
+                temp3.Columns.Add("gender");
+                foreach (DataRow row in temp2.Rows)
+                {
+                    temp3.Rows.Add(row.ItemArray);
+
+                }
+                Data1 = temp3;
             }
         }
         public bool IsDataEmpty()
         {
-            using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-5R6GU4E;Initial Catalog=DataBenhnhan;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection("Data Source=.;Initial Catalog=OneForAll;Integrated Security=True"))
             {
                 SqlDataAdapter adapter = new SqlDataAdapter();
-                adapter.SelectCommand = new SqlCommand("select * from benhnhan", connection);
-                adapter.Fill(Data);
+                DataTable temp = new DataTable();
+                adapter.SelectCommand = new SqlCommand("select mabenhnhan, ngaykham, chuandoan from benhan", connection);
+                adapter.Fill(temp);
+                Data = temp;
                 if (Data == null)
                 {
                     return true;
@@ -144,10 +221,13 @@ namespace thongkethongtin
             int SixtoEighteen = 0;
             int EighteentoSixty = 0;
             int upSixty = 0;
-            foreach (DataRow row in Data.Rows)
+            DateTime now = DateTime.Now;
+            foreach (DataRow row in Data1.Rows)
             {
-                string age = row["age"].ToString();
-                int ageInInt = int.Parse(age);
+                string date = row["dateOfBirth"].ToString();
+                string[] dateString = date.Split(new[] { "/" }, StringSplitOptions.None);
+                dateString[2] = dateString[2].Substring(0, 4);
+                int ageInInt = now.Year - int.Parse(dateString[2]);
                 if (ageInInt < 6) underSix++;
                 else if (ageInInt < 18) SixtoEighteen++;
                 else if (ageInInt < 60) EighteentoSixty++;
@@ -164,11 +244,11 @@ namespace thongkethongtin
             List<int> sexList = new List<int>();
             int nu = 0;
             int nam = 0;
-            foreach (DataRow row in Data.Rows)
+            foreach (DataRow row in Data1.Rows)
             {
                 string sex = row["gender"].ToString();
-                if (sex == "Nu") nu++;
-                else if (sex == "Nam") nam++;
+                if (sex == "Nu        ") nu++;
+                else if (sex == "Nam       ") nam++;
             }
             sexList.Add(nu);
             sexList.Add(nam);
@@ -179,7 +259,7 @@ namespace thongkethongtin
             List<Desease> deseaseList = new List<Desease>();
             foreach (DataRow row in Data.Rows)
             {
-                string getDesease = row["desease"].ToString();
+                string getDesease = row["chandoan"].ToString();
                 int dem = 0;
                 for (int i = 0; i < deseaseList.Count; i++)
                     if (deseaseList[i].desease == getDesease)
