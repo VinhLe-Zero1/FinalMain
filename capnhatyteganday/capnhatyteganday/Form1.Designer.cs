@@ -31,21 +31,21 @@
             this.lbDay = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.Most0 = new System.Windows.Forms.Label();
+            this.Most1 = new System.Windows.Forms.Label();
+            this.Most2 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.Increase0 = new System.Windows.Forms.Label();
+            this.Increase1 = new System.Windows.Forms.Label();
+            this.Increase2 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.Seasonal0 = new System.Windows.Forms.Label();
+            this.Seasonal1 = new System.Windows.Forms.Label();
+            this.Seasonal2 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
+            this.Decrease0 = new System.Windows.Forms.Label();
+            this.Decrease1 = new System.Windows.Forms.Label();
+            this.Decrease2 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -81,35 +81,32 @@
             this.label2.Text = "Các loại bệnh đang xuất hiện nhiều:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
+            // Most0
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.label3.Location = new System.Drawing.Point(53, 100);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(101, 18);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Sốt xuất huyết";
+            this.Most0.AutoSize = true;
+            this.Most0.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.Most0.Location = new System.Drawing.Point(53, 100);
+            this.Most0.Name = "Most0";
+            this.Most0.Size = new System.Drawing.Size(0, 18);
+            this.Most0.TabIndex = 3;
             // 
-            // label4
+            // Most1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.label4.Location = new System.Drawing.Point(53, 130);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 18);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Vàng da";
+            this.Most1.AutoSize = true;
+            this.Most1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.Most1.Location = new System.Drawing.Point(53, 130);
+            this.Most1.Name = "Most1";
+            this.Most1.Size = new System.Drawing.Size(0, 18);
+            this.Most1.TabIndex = 4;
             // 
-            // label5
+            // Most2
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.label5.Location = new System.Drawing.Point(53, 160);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 18);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Xơ gan";
+            this.Most2.AutoSize = true;
+            this.Most2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.Most2.Location = new System.Drawing.Point(53, 160);
+            this.Most2.Name = "Most2";
+            this.Most2.Size = new System.Drawing.Size(0, 18);
+            this.Most2.TabIndex = 5;
             // 
             // label6
             // 
@@ -122,35 +119,32 @@
             this.label6.Text = "Các loại bệnh đang có số người mắc tăng nhanh:";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // label7
+            // Increase0
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(422, 100);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(82, 18);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "Đau dạ dày";
+            this.Increase0.AutoSize = true;
+            this.Increase0.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Increase0.Location = new System.Drawing.Point(422, 100);
+            this.Increase0.Name = "Increase0";
+            this.Increase0.Size = new System.Drawing.Size(0, 18);
+            this.Increase0.TabIndex = 7;
             // 
-            // label8
+            // Increase1
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(422, 130);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(78, 18);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "Viêm nướu";
+            this.Increase1.AutoSize = true;
+            this.Increase1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Increase1.Location = new System.Drawing.Point(422, 130);
+            this.Increase1.Name = "Increase1";
+            this.Increase1.Size = new System.Drawing.Size(0, 18);
+            this.Increase1.TabIndex = 8;
             // 
-            // label9
+            // Increase2
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.label9.Location = new System.Drawing.Point(422, 160);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(91, 18);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "Đau nửa đầu";
+            this.Increase2.AutoSize = true;
+            this.Increase2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.Increase2.Location = new System.Drawing.Point(422, 160);
+            this.Increase2.Name = "Increase2";
+            this.Increase2.Size = new System.Drawing.Size(0, 18);
+            this.Increase2.TabIndex = 9;
             // 
             // label10
             // 
@@ -162,35 +156,32 @@
             this.label10.TabIndex = 10;
             this.label10.Text = "Các loại bệnh theo mùa:";
             // 
-            // label11
+            // Seasonal0
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.label11.Location = new System.Drawing.Point(53, 238);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(105, 18);
-            this.label11.TabIndex = 11;
-            this.label11.Text = "Viêm phế quản";
+            this.Seasonal0.AutoSize = true;
+            this.Seasonal0.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.Seasonal0.Location = new System.Drawing.Point(53, 238);
+            this.Seasonal0.Name = "Seasonal0";
+            this.Seasonal0.Size = new System.Drawing.Size(0, 18);
+            this.Seasonal0.TabIndex = 11;
             // 
-            // label12
+            // Seasonal1
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.label12.Location = new System.Drawing.Point(53, 268);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(83, 18);
-            this.label12.TabIndex = 12;
-            this.label12.Text = "Nổi mề đay";
+            this.Seasonal1.AutoSize = true;
+            this.Seasonal1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.Seasonal1.Location = new System.Drawing.Point(53, 268);
+            this.Seasonal1.Name = "Seasonal1";
+            this.Seasonal1.Size = new System.Drawing.Size(0, 18);
+            this.Seasonal1.TabIndex = 12;
             // 
-            // label13
+            // Seasonal2
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.label13.Location = new System.Drawing.Point(53, 298);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(76, 18);
-            this.label13.TabIndex = 13;
-            this.label13.Text = "Cảm nắng";
+            this.Seasonal2.AutoSize = true;
+            this.Seasonal2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.Seasonal2.Location = new System.Drawing.Point(53, 298);
+            this.Seasonal2.Name = "Seasonal2";
+            this.Seasonal2.Size = new System.Drawing.Size(0, 18);
+            this.Seasonal2.TabIndex = 13;
             // 
             // label14
             // 
@@ -202,35 +193,32 @@
             this.label14.TabIndex = 14;
             this.label14.Text = "Các loại bệnh đang có số người mắc giảm:";
             // 
-            // label15
+            // Decrease0
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.label15.Location = new System.Drawing.Point(422, 238);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(96, 18);
-            this.label15.TabIndex = 15;
-            this.label15.Text = "Cúm gia cầm";
+            this.Decrease0.AutoSize = true;
+            this.Decrease0.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.Decrease0.Location = new System.Drawing.Point(422, 238);
+            this.Decrease0.Name = "Decrease0";
+            this.Decrease0.Size = new System.Drawing.Size(0, 18);
+            this.Decrease0.TabIndex = 15;
             // 
-            // label16
+            // Decrease1
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.label16.Location = new System.Drawing.Point(422, 268);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(91, 18);
-            this.label16.TabIndex = 16;
-            this.label16.Text = "Sốt phát ban";
+            this.Decrease1.AutoSize = true;
+            this.Decrease1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.Decrease1.Location = new System.Drawing.Point(422, 268);
+            this.Decrease1.Name = "Decrease1";
+            this.Decrease1.Size = new System.Drawing.Size(0, 18);
+            this.Decrease1.TabIndex = 16;
             // 
-            // label17
+            // Decrease2
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.label17.Location = new System.Drawing.Point(422, 298);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(85, 18);
-            this.label17.TabIndex = 17;
-            this.label17.Text = "Đau mắt đỏ";
+            this.Decrease2.AutoSize = true;
+            this.Decrease2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.Decrease2.Location = new System.Drawing.Point(422, 298);
+            this.Decrease2.Name = "Decrease2";
+            this.Decrease2.Size = new System.Drawing.Size(0, 18);
+            this.Decrease2.TabIndex = 17;
             // 
             // label18
             // 
@@ -259,21 +247,21 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
+            this.Controls.Add(this.Decrease2);
+            this.Controls.Add(this.Decrease1);
+            this.Controls.Add(this.Decrease0);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.Seasonal2);
+            this.Controls.Add(this.Seasonal1);
+            this.Controls.Add(this.Seasonal0);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.Increase2);
+            this.Controls.Add(this.Increase1);
+            this.Controls.Add(this.Increase0);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.Most2);
+            this.Controls.Add(this.Most1);
+            this.Controls.Add(this.Most0);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbDay);
@@ -290,21 +278,21 @@
         private System.Windows.Forms.Label lbDay;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label Most0;
+        private System.Windows.Forms.Label Most1;
+        private System.Windows.Forms.Label Most2;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label Increase0;
+        private System.Windows.Forms.Label Increase1;
+        private System.Windows.Forms.Label Increase2;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label Seasonal0;
+        private System.Windows.Forms.Label Seasonal1;
+        private System.Windows.Forms.Label Seasonal2;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label Decrease0;
+        private System.Windows.Forms.Label Decrease1;
+        private System.Windows.Forms.Label Decrease2;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Button button1;
     }

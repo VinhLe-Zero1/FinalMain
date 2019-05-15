@@ -48,3 +48,17 @@ C:\Users\DELL\Documents\GitHub\FinalMain\capnhatyteganday\capnhatyteganday\obj\D
 C:\Users\DELL\Documents\GitHub\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.csproj.CoreCompileInputs.cache
 C:\Users\DELL\Documents\GitHub\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.exe
 C:\Users\DELL\Documents\GitHub\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.pdb
+C:\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\capnhatyteganday.exe.config
+C:\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\capnhatyteganday.exe
+C:\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\capnhatyteganday.pdb
+C:\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\thongkethongtin.exe
+C:\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\thongkethongtin.pdb
+C:\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\thongkethongtin.exe.config
+C:\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.csprojAssemblyReference.cache
+C:\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.Form1.resources
+C:\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.Properties.Resources.resources
+C:\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.csproj.GenerateResource.cache
+C:\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.csproj.CoreCompileInputs.cache
+C:\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.csproj.CopyComplete
+C:\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.exe
+C:\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.pdb
