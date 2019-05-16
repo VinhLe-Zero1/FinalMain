@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.time7 = new System.Windows.Forms.Button();
             this.time8 = new System.Windows.Forms.Button();
             this.time9 = new System.Windows.Forms.Button();
@@ -41,7 +42,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel_chieu = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel_sang.SuspendLayout();
             this.panel_chieu.SuspendLayout();
             this.SuspendLayout();
@@ -55,9 +56,10 @@
             this.time7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.time7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.time7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.time7.Location = new System.Drawing.Point(127, 111);
+            this.time7.Location = new System.Drawing.Point(169, 137);
+            this.time7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.time7.Name = "time7";
-            this.time7.Size = new System.Drawing.Size(153, 92);
+            this.time7.Size = new System.Drawing.Size(204, 113);
             this.time7.TabIndex = 0;
             this.time7.Text = "07H-08H";
             this.time7.UseVisualStyleBackColor = false;
@@ -72,9 +74,10 @@
             this.time8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.time8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.time8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.time8.Location = new System.Drawing.Point(374, 111);
+            this.time8.Location = new System.Drawing.Point(499, 137);
+            this.time8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.time8.Name = "time8";
-            this.time8.Size = new System.Drawing.Size(153, 92);
+            this.time8.Size = new System.Drawing.Size(204, 113);
             this.time8.TabIndex = 1;
             this.time8.Text = "08H-09H";
             this.time8.UseVisualStyleBackColor = false;
@@ -89,9 +92,10 @@
             this.time9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.time9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.time9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.time9.Location = new System.Drawing.Point(127, 260);
+            this.time9.Location = new System.Drawing.Point(169, 320);
+            this.time9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.time9.Name = "time9";
-            this.time9.Size = new System.Drawing.Size(153, 92);
+            this.time9.Size = new System.Drawing.Size(204, 113);
             this.time9.TabIndex = 2;
             this.time9.Text = "09H-10H";
             this.time9.UseVisualStyleBackColor = false;
@@ -106,9 +110,10 @@
             this.time10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.time10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.time10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.time10.Location = new System.Drawing.Point(374, 260);
+            this.time10.Location = new System.Drawing.Point(499, 320);
+            this.time10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.time10.Name = "time10";
-            this.time10.Size = new System.Drawing.Size(153, 92);
+            this.time10.Size = new System.Drawing.Size(204, 113);
             this.time10.TabIndex = 3;
             this.time10.Text = "10H-11H";
             this.time10.UseVisualStyleBackColor = false;
@@ -124,9 +129,10 @@
             this.time13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.time13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.time13.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.time13.Location = new System.Drawing.Point(93, 85);
+            this.time13.Location = new System.Drawing.Point(124, 105);
+            this.time13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.time13.Name = "time13";
-            this.time13.Size = new System.Drawing.Size(153, 92);
+            this.time13.Size = new System.Drawing.Size(204, 113);
             this.time13.TabIndex = 4;
             this.time13.Text = "13H-14H";
             this.time13.UseVisualStyleBackColor = false;
@@ -141,9 +147,10 @@
             this.time14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.time14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.time14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.time14.Location = new System.Drawing.Point(339, 85);
+            this.time14.Location = new System.Drawing.Point(452, 105);
+            this.time14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.time14.Name = "time14";
-            this.time14.Size = new System.Drawing.Size(153, 92);
+            this.time14.Size = new System.Drawing.Size(204, 113);
             this.time14.TabIndex = 5;
             this.time14.Text = "14H-15H";
             this.time14.UseVisualStyleBackColor = false;
@@ -158,9 +165,10 @@
             this.time15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.time15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.time15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.time15.Location = new System.Drawing.Point(93, 260);
+            this.time15.Location = new System.Drawing.Point(124, 320);
+            this.time15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.time15.Name = "time15";
-            this.time15.Size = new System.Drawing.Size(153, 92);
+            this.time15.Size = new System.Drawing.Size(204, 113);
             this.time15.TabIndex = 6;
             this.time15.Text = "15H-16H";
             this.time15.UseVisualStyleBackColor = false;
@@ -175,9 +183,10 @@
             this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(339, 260);
+            this.button7.Location = new System.Drawing.Point(452, 320);
+            this.button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(153, 92);
+            this.button7.Size = new System.Drawing.Size(204, 113);
             this.button7.TabIndex = 7;
             this.button7.Text = "16H-17H";
             this.button7.UseVisualStyleBackColor = false;
@@ -191,34 +200,38 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.InactiveBorder;
             this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(692, 95);
+            this.label1.Size = new System.Drawing.Size(923, 116);
             this.label1.TabIndex = 8;
             this.label1.Text = "Hẹn Giờ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel_sang
             // 
-            this.panel_sang.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel_sang.BackColor = System.Drawing.Color.Lavender;
             this.panel_sang.Controls.Add(this.label2);
             this.panel_sang.Controls.Add(this.time8);
             this.panel_sang.Controls.Add(this.time9);
             this.panel_sang.Controls.Add(this.time7);
             this.panel_sang.Controls.Add(this.time10);
             this.panel_sang.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel_sang.Location = new System.Drawing.Point(0, 95);
+            this.panel_sang.Location = new System.Drawing.Point(0, 116);
+            this.panel_sang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel_sang.Name = "panel_sang";
-            this.panel_sang.Size = new System.Drawing.Size(654, 508);
+            this.panel_sang.Size = new System.Drawing.Size(872, 626);
             this.panel_sang.TabIndex = 9;
             this.panel_sang.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_sang_Paint);
             // 
             // label2
             // 
+            this.label2.BackColor = System.Drawing.Color.GhostWhite;
             this.label2.Dock = System.Windows.Forms.DockStyle.Left;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(32, 508);
+            this.label2.Size = new System.Drawing.Size(58, 626);
             this.label2.TabIndex = 4;
             this.label2.Text = "S\r\n\r\n\r\nÁ\r\n\r\n\r\nN\r\n\r\n\r\nG";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -233,9 +246,10 @@
             this.panel_chieu.Controls.Add(this.time14);
             this.panel_chieu.Controls.Add(this.time15);
             this.panel_chieu.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel_chieu.Location = new System.Drawing.Point(651, 95);
+            this.panel_chieu.Location = new System.Drawing.Point(868, 116);
+            this.panel_chieu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel_chieu.Name = "panel_chieu";
-            this.panel_chieu.Size = new System.Drawing.Size(41, 508);
+            this.panel_chieu.Size = new System.Drawing.Size(55, 626);
             this.panel_chieu.TabIndex = 10;
             // 
             // label3
@@ -243,9 +257,10 @@
             this.label3.Dock = System.Windows.Forms.DockStyle.Right;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label3.Location = new System.Drawing.Point(0, 0);
+            this.label3.Location = new System.Drawing.Point(4, 0);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 508);
+            this.label3.Size = new System.Drawing.Size(51, 626);
             this.label3.TabIndex = 8;
             this.label3.Text = "T\r\n\r\n\r\n\r\nỐ\r\n\r\n\r\n\r\nI";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -258,14 +273,15 @@
             // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(692, 603);
+            this.ClientSize = new System.Drawing.Size(923, 742);
             this.Controls.Add(this.panel_chieu);
             this.Controls.Add(this.panel_sang);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3";

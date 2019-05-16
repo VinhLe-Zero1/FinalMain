@@ -54,9 +54,10 @@
             this.sodienthoai.ForeColor = System.Drawing.Color.Black;
             this.sodienthoai.Image = ((System.Drawing.Image)(resources.GetObject("sodienthoai.Image")));
             this.sodienthoai.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.sodienthoai.Location = new System.Drawing.Point(38, 133);
+            this.sodienthoai.Location = new System.Drawing.Point(51, 164);
+            this.sodienthoai.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.sodienthoai.Name = "sodienthoai";
-            this.sodienthoai.Size = new System.Drawing.Size(161, 26);
+            this.sodienthoai.Size = new System.Drawing.Size(215, 32);
             this.sodienthoai.TabIndex = 2;
             this.sodienthoai.Text = "Số điện thoại:\r\n";
             this.sodienthoai.TextAlign = System.Drawing.ContentAlignment.BottomRight;
@@ -81,8 +82,10 @@
             this.groupBox1.Controls.Add(this.sodienthoai);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(670, 361);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(893, 444);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
@@ -96,10 +99,10 @@
             this.b_thongbao.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.b_thongbao.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_thongbao.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.b_thongbao.Location = new System.Drawing.Point(300, 204);
-            this.b_thongbao.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.b_thongbao.Location = new System.Drawing.Point(400, 251);
+            this.b_thongbao.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.b_thongbao.Name = "b_thongbao";
-            this.b_thongbao.Size = new System.Drawing.Size(72, 29);
+            this.b_thongbao.Size = new System.Drawing.Size(96, 36);
             this.b_thongbao.TabIndex = 47;
             this.b_thongbao.Text = "Trở về";
             this.b_thongbao.UseVisualStyleBackColor = false;
@@ -114,10 +117,9 @@
             this.thongbao.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.World, ((byte)(0)));
             this.thongbao.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.thongbao.LinkColor = System.Drawing.Color.GhostWhite;
-            this.thongbao.Location = new System.Drawing.Point(232, 128);
-            this.thongbao.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.thongbao.Location = new System.Drawing.Point(309, 158);
             this.thongbao.Name = "thongbao";
-            this.thongbao.Size = new System.Drawing.Size(210, 117);
+            this.thongbao.Size = new System.Drawing.Size(280, 144);
             this.thongbao.TabIndex = 46;
             this.thongbao.TabStop = true;
             this.thongbao.Text = "Bạn đã nhập sai. Vui lòng nhập lại! ";
@@ -128,10 +130,9 @@
             // label6
             // 
             this.label6.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(390, 191);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(520, 235);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(255, 1);
+            this.label6.Size = new System.Drawing.Size(340, 1);
             this.label6.TabIndex = 45;
             this.label6.Text = "label6";
             // 
@@ -141,18 +142,18 @@
             this.email.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.email.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.email.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.email.Location = new System.Drawing.Point(392, 168);
+            this.email.Location = new System.Drawing.Point(523, 207);
+            this.email.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.email.Name = "email";
-            this.email.Size = new System.Drawing.Size(231, 23);
+            this.email.Size = new System.Drawing.Size(308, 29);
             this.email.TabIndex = 44;
             // 
             // label4
             // 
             this.label4.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(39, 191);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(52, 235);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(255, 1);
+            this.label4.Size = new System.Drawing.Size(340, 1);
             this.label4.TabIndex = 43;
             this.label4.Text = "label4";
             // 
@@ -162,9 +163,10 @@
             this.phone_num.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.phone_num.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.phone_num.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.phone_num.Location = new System.Drawing.Point(41, 168);
+            this.phone_num.Location = new System.Drawing.Point(55, 207);
+            this.phone_num.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.phone_num.Name = "phone_num";
-            this.phone_num.Size = new System.Drawing.Size(231, 23);
+            this.phone_num.Size = new System.Drawing.Size(308, 29);
             this.phone_num.TabIndex = 42;
             this.phone_num.TextChanged += new System.EventHandler(this.dth_TextChanged_1);
             // 
@@ -176,10 +178,9 @@
             this.linkLabel2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.linkLabel2.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel2.LinkColor = System.Drawing.Color.Snow;
-            this.linkLabel2.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.linkLabel2.Location = new System.Drawing.Point(4, 0);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(664, 97);
+            this.linkLabel2.Size = new System.Drawing.Size(885, 119);
             this.linkLabel2.TabIndex = 34;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Cập nhật thông tin";
@@ -191,11 +192,12 @@
             this.que.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.que.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.que.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.que.Location = new System.Drawing.Point(39, 248);
+            this.que.Location = new System.Drawing.Point(52, 305);
+            this.que.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.que.Multiline = true;
             this.que.Name = "que";
             this.que.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.que.Size = new System.Drawing.Size(255, 45);
+            this.que.Size = new System.Drawing.Size(340, 55);
             this.que.TabIndex = 31;
             // 
             // label3
@@ -203,9 +205,10 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Image = ((System.Drawing.Image)(resources.GetObject("label3.Image")));
             this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label3.Location = new System.Drawing.Point(38, 208);
+            this.label3.Location = new System.Drawing.Point(51, 256);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(140, 37);
+            this.label3.Size = new System.Drawing.Size(187, 46);
             this.label3.TabIndex = 30;
             this.label3.Text = "Quê quán:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -213,10 +216,9 @@
             // label1
             // 
             this.label1.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(3, 310);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(4, 382);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(662, 1);
+            this.label1.Size = new System.Drawing.Size(883, 1);
             this.label1.TabIndex = 24;
             this.label1.Text = "label1";
             // 
@@ -226,11 +228,12 @@
             this.noio.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.noio.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.noio.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.noio.Location = new System.Drawing.Point(390, 248);
+            this.noio.Location = new System.Drawing.Point(520, 305);
+            this.noio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.noio.Multiline = true;
             this.noio.Name = "noio";
             this.noio.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.noio.Size = new System.Drawing.Size(255, 45);
+            this.noio.Size = new System.Drawing.Size(340, 55);
             this.noio.TabIndex = 22;
             // 
             // luu
@@ -239,9 +242,10 @@
             this.luu.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.luu.FlatAppearance.BorderSize = 0;
             this.luu.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.luu.Location = new System.Drawing.Point(3, 315);
+            this.luu.Location = new System.Drawing.Point(4, 387);
+            this.luu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.luu.Name = "luu";
-            this.luu.Size = new System.Drawing.Size(664, 43);
+            this.luu.Size = new System.Drawing.Size(885, 53);
             this.luu.TabIndex = 18;
             this.luu.Text = "Lưu";
             this.luu.UseVisualStyleBackColor = false;
@@ -252,9 +256,10 @@
             this.lbBacSi.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbBacSi.Image = ((System.Drawing.Image)(resources.GetObject("lbBacSi.Image")));
             this.lbBacSi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbBacSi.Location = new System.Drawing.Point(388, 208);
+            this.lbBacSi.Location = new System.Drawing.Point(517, 256);
+            this.lbBacSi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbBacSi.Name = "lbBacSi";
-            this.lbBacSi.Size = new System.Drawing.Size(202, 37);
+            this.lbBacSi.Size = new System.Drawing.Size(269, 46);
             this.lbBacSi.TabIndex = 8;
             this.lbBacSi.Text = "Địa chỉ thường trú:";
             this.lbBacSi.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -264,19 +269,21 @@
             this.lbChuyenKhoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbChuyenKhoa.Image = ((System.Drawing.Image)(resources.GetObject("lbChuyenKhoa.Image")));
             this.lbChuyenKhoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbChuyenKhoa.Location = new System.Drawing.Point(388, 128);
+            this.lbChuyenKhoa.Location = new System.Drawing.Point(517, 158);
+            this.lbChuyenKhoa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbChuyenKhoa.Name = "lbChuyenKhoa";
-            this.lbChuyenKhoa.Size = new System.Drawing.Size(177, 37);
+            this.lbChuyenKhoa.Size = new System.Drawing.Size(236, 46);
             this.lbChuyenKhoa.TabIndex = 5;
             this.lbChuyenKhoa.Text = "Email (nếu có):";
             this.lbChuyenKhoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // capnhapthongtin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(670, 361);
+            this.ClientSize = new System.Drawing.Size(893, 444);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "capnhapthongtin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

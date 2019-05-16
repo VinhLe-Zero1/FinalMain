@@ -69,3 +69,6 @@ C:\Users\ducti\source\repos\FinalMain_1\FinalMain\capnhapthongtin\capnhap\obj\De
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\capnhapthongtin\capnhap\bin\Debug\Datlich.exe
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\capnhapthongtin\capnhap\bin\Debug\Datlich.pdb
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\capnhapthongtin\capnhap\bin\Debug\Datlich.exe.config
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\bin\Debug\Datlich.exe
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\bin\Debug\Datlich.pdb
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhapthongtin\capnhap\bin\Debug\Datlich.exe.config

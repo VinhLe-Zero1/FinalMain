@@ -79,6 +79,7 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.Lavender;
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
@@ -121,25 +122,27 @@
             // nameLabel
             // 
             this.nameLabel.AutoSize = true;
-            this.nameLabel.Location = new System.Drawing.Point(576, 66);
+            this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.nameLabel.Location = new System.Drawing.Point(540, 78);
             this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(53, 17);
+            this.nameLabel.Size = new System.Drawing.Size(75, 25);
             this.nameLabel.TabIndex = 1;
             this.nameLabel.Text = "Name: ";
             // 
             // IDLabel
             // 
             this.IDLabel.AutoSize = true;
-            this.IDLabel.Location = new System.Drawing.Point(576, 34);
+            this.IDLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.IDLabel.Location = new System.Drawing.Point(540, 34);
             this.IDLabel.Name = "IDLabel";
-            this.IDLabel.Size = new System.Drawing.Size(29, 17);
+            this.IDLabel.Size = new System.Drawing.Size(42, 25);
             this.IDLabel.TabIndex = 0;
             this.IDLabel.Text = "ID: ";
             this.IDLabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(742, 332);
             this.Controls.Add(this.panel1);

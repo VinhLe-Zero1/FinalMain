@@ -58,9 +58,10 @@
             // 
             this.lbDay.AutoSize = true;
             this.lbDay.Font = new System.Drawing.Font("Bodoni MT", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbDay.Location = new System.Drawing.Point(515, 9);
+            this.lbDay.Location = new System.Drawing.Point(687, 11);
+            this.lbDay.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbDay.Name = "lbDay";
-            this.lbDay.Size = new System.Drawing.Size(18, 21);
+            this.lbDay.Size = new System.Drawing.Size(20, 23);
             this.lbDay.TabIndex = 0;
             this.lbDay.Text = "1";
             this.lbDay.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -69,116 +70,129 @@
             // 
             this.Most0.AutoSize = true;
             this.Most0.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Most0.Location = new System.Drawing.Point(39, 22);
+            this.Most0.Location = new System.Drawing.Point(52, 27);
+            this.Most0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Most0.Name = "Most0";
-            this.Most0.Size = new System.Drawing.Size(0, 18);
+            this.Most0.Size = new System.Drawing.Size(0, 24);
             this.Most0.TabIndex = 3;
             // 
             // Most1
             // 
             this.Most1.AutoSize = true;
             this.Most1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Most1.Location = new System.Drawing.Point(39, 52);
+            this.Most1.Location = new System.Drawing.Point(52, 64);
+            this.Most1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Most1.Name = "Most1";
-            this.Most1.Size = new System.Drawing.Size(0, 18);
+            this.Most1.Size = new System.Drawing.Size(0, 24);
             this.Most1.TabIndex = 4;
             // 
             // Most2
             // 
             this.Most2.AutoSize = true;
             this.Most2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Most2.Location = new System.Drawing.Point(39, 82);
+            this.Most2.Location = new System.Drawing.Point(52, 101);
+            this.Most2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Most2.Name = "Most2";
-            this.Most2.Size = new System.Drawing.Size(0, 18);
+            this.Most2.Size = new System.Drawing.Size(0, 24);
             this.Most2.TabIndex = 5;
             // 
             // Increase0
             // 
             this.Increase0.AutoSize = true;
             this.Increase0.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Increase0.Location = new System.Drawing.Point(39, 22);
+            this.Increase0.Location = new System.Drawing.Point(52, 27);
+            this.Increase0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Increase0.Name = "Increase0";
-            this.Increase0.Size = new System.Drawing.Size(0, 18);
+            this.Increase0.Size = new System.Drawing.Size(0, 24);
             this.Increase0.TabIndex = 7;
             // 
             // Increase1
             // 
             this.Increase1.AutoSize = true;
             this.Increase1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Increase1.Location = new System.Drawing.Point(39, 52);
+            this.Increase1.Location = new System.Drawing.Point(52, 64);
+            this.Increase1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Increase1.Name = "Increase1";
-            this.Increase1.Size = new System.Drawing.Size(0, 18);
+            this.Increase1.Size = new System.Drawing.Size(0, 24);
             this.Increase1.TabIndex = 8;
             // 
             // Increase2
             // 
             this.Increase2.AutoSize = true;
             this.Increase2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Increase2.Location = new System.Drawing.Point(39, 82);
+            this.Increase2.Location = new System.Drawing.Point(52, 101);
+            this.Increase2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Increase2.Name = "Increase2";
-            this.Increase2.Size = new System.Drawing.Size(0, 18);
+            this.Increase2.Size = new System.Drawing.Size(0, 24);
             this.Increase2.TabIndex = 9;
             // 
             // Seasonal0
             // 
             this.Seasonal0.AutoSize = true;
             this.Seasonal0.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Seasonal0.Location = new System.Drawing.Point(39, 22);
+            this.Seasonal0.Location = new System.Drawing.Point(52, 27);
+            this.Seasonal0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Seasonal0.Name = "Seasonal0";
-            this.Seasonal0.Size = new System.Drawing.Size(0, 18);
+            this.Seasonal0.Size = new System.Drawing.Size(0, 24);
             this.Seasonal0.TabIndex = 11;
             // 
             // Seasonal1
             // 
             this.Seasonal1.AutoSize = true;
             this.Seasonal1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Seasonal1.Location = new System.Drawing.Point(39, 52);
+            this.Seasonal1.Location = new System.Drawing.Point(52, 64);
+            this.Seasonal1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Seasonal1.Name = "Seasonal1";
-            this.Seasonal1.Size = new System.Drawing.Size(0, 18);
+            this.Seasonal1.Size = new System.Drawing.Size(0, 24);
             this.Seasonal1.TabIndex = 12;
             // 
             // Seasonal2
             // 
             this.Seasonal2.AutoSize = true;
             this.Seasonal2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Seasonal2.Location = new System.Drawing.Point(39, 82);
+            this.Seasonal2.Location = new System.Drawing.Point(52, 101);
+            this.Seasonal2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Seasonal2.Name = "Seasonal2";
-            this.Seasonal2.Size = new System.Drawing.Size(0, 18);
+            this.Seasonal2.Size = new System.Drawing.Size(0, 24);
             this.Seasonal2.TabIndex = 13;
             // 
             // Decrease0
             // 
             this.Decrease0.AutoSize = true;
             this.Decrease0.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Decrease0.Location = new System.Drawing.Point(39, 22);
+            this.Decrease0.Location = new System.Drawing.Point(52, 27);
+            this.Decrease0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Decrease0.Name = "Decrease0";
-            this.Decrease0.Size = new System.Drawing.Size(0, 18);
+            this.Decrease0.Size = new System.Drawing.Size(0, 24);
             this.Decrease0.TabIndex = 15;
             // 
             // Decrease1
             // 
             this.Decrease1.AutoSize = true;
             this.Decrease1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Decrease1.Location = new System.Drawing.Point(39, 52);
+            this.Decrease1.Location = new System.Drawing.Point(52, 64);
+            this.Decrease1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Decrease1.Name = "Decrease1";
-            this.Decrease1.Size = new System.Drawing.Size(0, 18);
+            this.Decrease1.Size = new System.Drawing.Size(0, 24);
             this.Decrease1.TabIndex = 16;
             // 
             // Decrease2
             // 
             this.Decrease2.AutoSize = true;
             this.Decrease2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Decrease2.Location = new System.Drawing.Point(39, 82);
+            this.Decrease2.Location = new System.Drawing.Point(52, 101);
+            this.Decrease2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Decrease2.Name = "Decrease2";
-            this.Decrease2.Size = new System.Drawing.Size(0, 18);
+            this.Decrease2.Size = new System.Drawing.Size(0, 24);
             this.Decrease2.TabIndex = 17;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button1.Location = new System.Drawing.Point(565, 367);
+            this.button1.Location = new System.Drawing.Point(753, 452);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 33);
+            this.button1.Size = new System.Drawing.Size(120, 41);
             this.button1.TabIndex = 19;
             this.button1.Text = "Đóng";
             this.button1.UseVisualStyleBackColor = true;
@@ -192,9 +206,11 @@
             this.groupBox1.Controls.Add(this.Increase2);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.groupBox1.Location = new System.Drawing.Point(346, 32);
+            this.groupBox1.Location = new System.Drawing.Point(461, 39);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(297, 115);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(396, 142);
             this.groupBox1.TabIndex = 20;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Các bệnh đang tăng nhanh";
@@ -207,9 +223,11 @@
             this.groupBox2.Controls.Add(this.Decrease2);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.groupBox2.Location = new System.Drawing.Point(346, 167);
+            this.groupBox2.Location = new System.Drawing.Point(461, 206);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(297, 124);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(396, 153);
             this.groupBox2.TabIndex = 21;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Các bệnh đang giảm nhanh";
@@ -222,9 +240,11 @@
             this.groupBox3.Controls.Add(this.Seasonal2);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.groupBox3.Location = new System.Drawing.Point(15, 167);
+            this.groupBox3.Location = new System.Drawing.Point(20, 206);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(297, 124);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Size = new System.Drawing.Size(396, 153);
             this.groupBox3.TabIndex = 22;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Các loại bệnh theo mùa";
@@ -237,9 +257,11 @@
             this.groupBox4.Controls.Add(this.Most2);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.groupBox4.Location = new System.Drawing.Point(15, 32);
+            this.groupBox4.Location = new System.Drawing.Point(20, 39);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(297, 115);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Size = new System.Drawing.Size(396, 142);
             this.groupBox4.TabIndex = 23;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Các loại bệnh đang xuất hiện nhiều";
@@ -253,22 +275,25 @@
             this.groupBox5.Controls.Add(this.groupBox1);
             this.groupBox5.Cursor = System.Windows.Forms.Cursors.Default;
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.Location = new System.Drawing.Point(12, 50);
+            this.groupBox5.Location = new System.Drawing.Point(16, 62);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(670, 311);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Size = new System.Drawing.Size(893, 383);
             this.groupBox5.TabIndex = 24;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Hôm nay:";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(699, 406);
+            this.BackColor = System.Drawing.Color.Lavender;
+            this.ClientSize = new System.Drawing.Size(932, 500);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lbDay);
             this.Controls.Add(this.groupBox5);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cập nhật tin tức y tế gần đây";

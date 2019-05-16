@@ -83,3 +83,7 @@ C:\Users\ducti\source\repos\FinalMain_1\FinalMain\thongkethongtin\thongkethongti
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\thongkethongtin\thongkethongtin\bin\Debug\Datlich.pdb
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\thongkethongtin\thongkethongtin\bin\Debug\Datlich.exe.config
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\thongkethongtin\thongkethongtin\obj\Debug\thongkethongtin.csproj.CopyComplete
+C:\Users\DELL\Documents\GitHub\FinalMain\thongkethongtin\thongkethongtin\bin\Debug\Datlich.exe
+C:\Users\DELL\Documents\GitHub\FinalMain\thongkethongtin\thongkethongtin\bin\Debug\Datlich.pdb
+C:\Users\DELL\Documents\GitHub\FinalMain\thongkethongtin\thongkethongtin\bin\Debug\Datlich.exe.config
+C:\Users\DELL\Documents\GitHub\FinalMain\thongkethongtin\thongkethongtin\obj\Debug\thongkethongtin.csproj.CopyComplete
