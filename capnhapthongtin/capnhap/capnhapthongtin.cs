@@ -106,6 +106,7 @@ namespace capnhatinfo
         {
             thongbao.Visible = false;
             b_thongbao.Visible = false;
+            Application.Exit();
         }
 
         private void thongbao_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)

@@ -11,3 +11,16 @@ E:\Data\182 - 4th semester\Software Tech\LookupAndFeedback\LookupAndFeedback\obj
 E:\Data\182 - 4th semester\Software Tech\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.FFeedback.resources
 E:\Data\182 - 4th semester\Software Tech\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.FLookupHis.resources
 E:\Data\182 - 4th semester\Software Tech\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.FLookupBook.resources
+C:\Users\DELL\Documents\GitHub\FinalMain\LookupAndFeedback\LookupAndFeedback\bin\Debug\LookupAndFeedback.exe.config
+C:\Users\DELL\Documents\GitHub\FinalMain\LookupAndFeedback\LookupAndFeedback\bin\Debug\LookupAndFeedback.exe
+C:\Users\DELL\Documents\GitHub\FinalMain\LookupAndFeedback\LookupAndFeedback\bin\Debug\LookupAndFeedback.pdb
+C:\Users\DELL\Documents\GitHub\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.csprojAssemblyReference.cache
+C:\Users\DELL\Documents\GitHub\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.FFeedback.resources
+C:\Users\DELL\Documents\GitHub\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.FLookupHis.resources
+C:\Users\DELL\Documents\GitHub\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.FLookupFeedback.resources
+C:\Users\DELL\Documents\GitHub\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.FLookupBook.resources
+C:\Users\DELL\Documents\GitHub\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.Properties.Resources.resources
+C:\Users\DELL\Documents\GitHub\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\GitHub\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\GitHub\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.exe
+C:\Users\DELL\Documents\GitHub\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.pdb

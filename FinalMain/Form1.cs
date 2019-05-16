@@ -10,13 +10,7 @@ using System.Windows.Forms;
 namespace FinalMain
 {
     public partial class Form1 : Form
-    {/*
-        public Form1()
-        {
-            InitializeComponent();
-            //patient_info.Text = "TRUOng duc tuan \n 1710368";
-        }*/
-
+    {
         public Form1(int id, string name)
         {
             InitializeComponent();
@@ -29,7 +23,6 @@ namespace FinalMain
         //    Datlich.Form1 form1 = new Datlich.Form1();
         //    form1.Show();
         }
-
         private void tintuc_Click(object sender, EventArgs e)
         {
             capnhatyteganday.Form1 yte = new capnhatyteganday.Form1();
@@ -52,7 +45,7 @@ namespace FinalMain
 
         private void button4_Click(object sender, EventArgs e)
         {
-            PatientHistory.formHistory t = new PatientHistory.formHistory();
+            LookupAndFeedback.FLookupFeedback t = new LookupAndFeedback.FLookupFeedback();
             t.Show();
         }
 

@@ -62,3 +62,7 @@ C:\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.csproj
 C:\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.csproj.CopyComplete
 C:\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.exe
 C:\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.pdb
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\thongkethongtin.exe
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\thongkethongtin.pdb
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\thongkethongtin.exe.config
+C:\Users\DELL\Documents\GitHub\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.csproj.CopyComplete

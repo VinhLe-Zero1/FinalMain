@@ -160,7 +160,6 @@ C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\InfoRegister.exe
 C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\PatientHistory.exe
 C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\thongkethongtin.exe
 C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\T_chuandoan.exe
-C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\WindowsFormsApp1.exe
 C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\GemBox.Email.dll
 C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\T_chuandoan.pdb
 C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\T_chuandoan.exe.config
@@ -178,8 +177,6 @@ C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\PatientHistory.pdb
 C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\PatientHistory.exe.config
 C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\thongkethongtin.pdb
 C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\thongkethongtin.exe.config
-C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\WindowsFormsApp1.pdb
-C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\WindowsFormsApp1.exe.config
 C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\GemBox.Email.xml
 C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\obj\Debug\FinalMain.csproj.CopyComplete
 D:\CNPM\FinalMain\FinalMain\bin\Debug\Datlich.exe
@@ -188,3 +185,6 @@ D:\CNPM\FinalMain\FinalMain\bin\Debug\T_chuandoan.pdb
 D:\CNPM\FinalMain\FinalMain\bin\Debug\T_chuandoan.exe.config
 D:\CNPM\FinalMain\FinalMain\bin\Debug\Datlich.pdb
 D:\CNPM\FinalMain\FinalMain\bin\Debug\Datlich.exe.config
+C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\LookupAndFeedback.exe
+C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\LookupAndFeedback.pdb
+C:\Users\DELL\Documents\GitHub\FinalMain\FinalMain\bin\Debug\LookupAndFeedback.exe.config

@@ -21,11 +21,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paitent(D)", "WindowsFormsA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginForm", "LoginForm\LoginForm.csproj", "{3139FE26-8D44-4372-9888-DEE09BBDAFB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chuandoan", "chuandoan\BTL_CNPM\chuandoan.csproj", "{18626DE2-11E7-4B54-A8D7-51873663D6F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagnoseForm", "chuandoan\BTL_CNPM\DiagnoseForm.csproj", "{18626DE2-11E7-4B54-A8D7-51873663D6F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datlich", "Datlich\Datlich\Datlich.csproj", "{820C149F-4B5C-40D6-B8E6-3F5F94FCE59E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorForm", "DoctorForm\DoctorForm.csproj", "{6EFE123C-63E8-43AE-9AAF-9891780F22C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LookupAndFeedback", "LookupAndFeedback\LookupAndFeedback\LookupAndFeedback.csproj", "{F6A62196-B888-441F-BEB0-4EBC1ADDFB5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{6EFE123C-63E8-43AE-9AAF-9891780F22C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EFE123C-63E8-43AE-9AAF-9891780F22C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EFE123C-63E8-43AE-9AAF-9891780F22C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A62196-B888-441F-BEB0-4EBC1ADDFB5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A62196-B888-441F-BEB0-4EBC1ADDFB5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A62196-B888-441F-BEB0-4EBC1ADDFB5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A62196-B888-441F-BEB0-4EBC1ADDFB5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

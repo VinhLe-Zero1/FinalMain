@@ -139,6 +139,7 @@ namespace T_chuandoan
         {
             result_label.Visible = false;
             return_button.Visible = false;
+            Application.Exit();
         }
         private void thongbao_1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
