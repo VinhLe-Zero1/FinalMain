@@ -22,6 +22,10 @@ namespace capnhatyteganday
             lbDay.Text = DateTime.Now.ToLongDateString();
             NewsControl news = new NewsControl();
             news.UpdateNews();
+            if (news.Error() == true)
+            {
+                MessageBox.Show("Không có dữ liệu bệnh nhân.");
+            }
             int temp = news.MostDesease.Count;
             if (temp != 0)
             {
@@ -77,6 +81,7 @@ namespace capnhatyteganday
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Close();
         }
 
         private void label2_Click(object sender, EventArgs e)
