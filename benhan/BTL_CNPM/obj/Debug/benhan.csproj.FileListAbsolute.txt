@@ -51,3 +51,17 @@ D:\CNPM\FinalMain\benhan\BTL_CNPM\bin\Debug\Datlich.exe
 D:\CNPM\FinalMain\benhan\BTL_CNPM\bin\Debug\Datlich.pdb
 D:\CNPM\FinalMain\benhan\BTL_CNPM\bin\Debug\Datlich.exe.config
 D:\CNPM\FinalMain\benhan\BTL_CNPM\obj\Debug\benhan.csproj.CopyComplete
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\benhan\BTL_CNPM\bin\Debug\BTL_CNPM.exe.config
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\benhan\BTL_CNPM\bin\Debug\BTL_CNPM.exe
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\benhan\BTL_CNPM\bin\Debug\BTL_CNPM.pdb
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\benhan\BTL_CNPM\bin\Debug\Datlich.exe
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\benhan\BTL_CNPM\bin\Debug\Datlich.pdb
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\benhan\BTL_CNPM\bin\Debug\Datlich.exe.config
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\benhan\BTL_CNPM\obj\Debug\benhan.csprojAssemblyReference.cache
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\benhan\BTL_CNPM\obj\Debug\T_benhan.Form1.resources
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\benhan\BTL_CNPM\obj\Debug\BTL_CNPM.Properties.Resources.resources
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\benhan\BTL_CNPM\obj\Debug\benhan.csproj.GenerateResource.cache
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\benhan\BTL_CNPM\obj\Debug\benhan.csproj.CoreCompileInputs.cache
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\benhan\BTL_CNPM\obj\Debug\benhan.csproj.CopyComplete
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\benhan\BTL_CNPM\obj\Debug\BTL_CNPM.exe
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\benhan\BTL_CNPM\obj\Debug\BTL_CNPM.pdb

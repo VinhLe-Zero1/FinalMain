@@ -24,3 +24,16 @@ C:\Users\DELL\Documents\GitHub\FinalMain\LookupAndFeedback\LookupAndFeedback\obj
 C:\Users\DELL\Documents\GitHub\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.csproj.CoreCompileInputs.cache
 C:\Users\DELL\Documents\GitHub\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.exe
 C:\Users\DELL\Documents\GitHub\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.pdb
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\bin\Debug\LookupAndFeedback.exe.config
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\bin\Debug\LookupAndFeedback.exe
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\bin\Debug\LookupAndFeedback.pdb
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.csprojAssemblyReference.cache
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.FFeedback.resources
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.FLookupHis.resources
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.FLookupFeedback.resources
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.FLookupBook.resources
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.Properties.Resources.resources
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.csproj.GenerateResource.cache
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.csproj.CoreCompileInputs.cache
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.exe
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.pdb

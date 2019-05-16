@@ -25,10 +25,6 @@ namespace LoginForm
             {
                 Application.Run(new FinalMain.Form1(loginForm.id, loginForm.name));
             }
-            else
-            {
-                MessageBox.Show("Invalid credential");
-            }
         }
     }
 }

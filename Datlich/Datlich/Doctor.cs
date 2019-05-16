@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Datlich
 {
-    class Doctor
+    public class Doctor
     {
         int id;
         string name;

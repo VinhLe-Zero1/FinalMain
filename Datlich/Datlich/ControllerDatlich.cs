@@ -11,7 +11,7 @@ using System.Windows.Forms;
 namespace Datlich
 {
 
-    class ControllerDatlich:SendMail
+     public class ControllerDatlich:SendMail
     {
         public static string major_name = "";
 

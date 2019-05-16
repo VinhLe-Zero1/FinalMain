@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Input;
 using System.Data.SqlClient;
-
+using Datlich;
 // This is the code for your desktop app.
 // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
 
@@ -117,7 +117,7 @@ namespace InfoRegister
 
             try
             {
-                string conStr = "Data Source=.;Initial Catalog=Patient;Integrated Security=True";
+                string conStr = ConnectString.connectString;
                 SqlConnection con = new SqlConnection(conStr);
                 SqlDataAdapter da = new SqlDataAdapter();
                 da.InsertCommand = new SqlCommand("INSERT INTO PatientInfo VALUES " + value, con);
@@ -149,7 +149,10 @@ namespace InfoRegister
             labelMissing2.Hide();
         }
 
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
     }
 }
 

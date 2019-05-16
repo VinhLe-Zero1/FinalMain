@@ -33,6 +33,7 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.tLPInfo = new System.Windows.Forms.TableLayoutPanel();
+            this.label12 = new System.Windows.Forms.Label();
             this.firstNameBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -58,9 +59,8 @@
             this.label11 = new System.Windows.Forms.Label();
             this.comboBoxYear = new System.Windows.Forms.ComboBox();
             this.labelMissing = new System.Windows.Forms.Label();
-            this.btnRegister = new System.Windows.Forms.Button();
-            this.label12 = new System.Windows.Forms.Label();
             this.homeTownBox = new System.Windows.Forms.TextBox();
+            this.btnRegister = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.panelTop.SuspendLayout();
             this.tLPInfo.SuspendLayout();
@@ -84,6 +84,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(519, 421);
             this.tableLayoutPanel1.TabIndex = 0;
+            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // panelTop
             // 
@@ -177,6 +178,16 @@
             this.tLPInfo.Size = new System.Drawing.Size(513, 346);
             this.tLPInfo.TabIndex = 1;
             // 
+            // label12
+            // 
+            this.label12.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(3, 318);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(54, 13);
+            this.label12.TabIndex = 8;
+            this.label12.Text = "Quê quán";
+            // 
             // firstNameBox
             // 
             this.firstNameBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -246,11 +257,11 @@
             this.labelMissing2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelMissing2.AutoSize = true;
             this.labelMissing2.BackColor = System.Drawing.Color.Yellow;
-            this.labelMissing2.Font = new System.Drawing.Font("Montserrat Subrayada", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMissing2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMissing2.ForeColor = System.Drawing.Color.Red;
-            this.labelMissing2.Location = new System.Drawing.Point(101, 2);
+            this.labelMissing2.Location = new System.Drawing.Point(101, 3);
             this.labelMissing2.Name = "labelMissing2";
-            this.labelMissing2.Size = new System.Drawing.Size(12, 18);
+            this.labelMissing2.Size = new System.Drawing.Size(12, 17);
             this.labelMissing2.TabIndex = 2;
             this.labelMissing2.Text = "!";
             // 
@@ -502,14 +513,22 @@
             this.labelMissing.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelMissing.AutoSize = true;
             this.labelMissing.BackColor = System.Drawing.Color.Yellow;
-            this.labelMissing.Font = new System.Drawing.Font("Montserrat Subrayada", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMissing.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMissing.ForeColor = System.Drawing.Color.Red;
-            this.labelMissing.Location = new System.Drawing.Point(340, 4);
+            this.labelMissing.Location = new System.Drawing.Point(340, 5);
             this.labelMissing.Margin = new System.Windows.Forms.Padding(10, 0, 3, 0);
             this.labelMissing.Name = "labelMissing";
-            this.labelMissing.Size = new System.Drawing.Size(12, 18);
+            this.labelMissing.Size = new System.Drawing.Size(12, 17);
             this.labelMissing.TabIndex = 3;
             this.labelMissing.Text = "!";
+            // 
+            // homeTownBox
+            // 
+            this.homeTownBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.homeTownBox.Location = new System.Drawing.Point(133, 315);
+            this.homeTownBox.Name = "homeTownBox";
+            this.homeTownBox.Size = new System.Drawing.Size(377, 20);
+            this.homeTownBox.TabIndex = 9;
             // 
             // btnRegister
             // 
@@ -522,24 +541,6 @@
             this.btnRegister.Text = "Tạo hồ sơ";
             this.btnRegister.UseVisualStyleBackColor = true;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
-            // 
-            // label12
-            // 
-            this.label12.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(3, 318);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(54, 13);
-            this.label12.TabIndex = 8;
-            this.label12.Text = "Quê quán";
-            // 
-            // homeTownBox
-            // 
-            this.homeTownBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.homeTownBox.Location = new System.Drawing.Point(133, 315);
-            this.homeTownBox.Name = "homeTownBox";
-            this.homeTownBox.Size = new System.Drawing.Size(377, 20);
-            this.homeTownBox.TabIndex = 9;
             // 
             // formRegister
             // 

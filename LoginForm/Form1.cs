@@ -11,6 +11,7 @@ using System.Security;
 using System.Data.SqlClient;
 using System.Threading;
 using System.Diagnostics;
+using Datlich;
 // This is the code for your desktop app.
 // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
 
@@ -24,7 +25,7 @@ namespace LoginForm
        
         }
 
-        public int credential;
+        public int credential = -1;
         public int id;
         public string name;
         private void btnClose_Click(object sender, EventArgs e)
@@ -78,7 +79,7 @@ namespace LoginForm
                     string username = boxLogin.Text;
                     string password = boxPwd.Text;
                     SqlConnection con = new SqlConnection();
-                    con.ConnectionString = "Data Source=.;Initial Catalog=OneForAll;Integrated Security=True";
+                    con.ConnectionString = ConnectString.connectString;
                     con.Open();
                     string query = "select username,password from loginInfo where username='" + username + "'and password='" + password + "'";
                     SqlCommand cmd = new SqlCommand(query, con);
@@ -184,6 +185,11 @@ namespace LoginForm
         private void btnForget_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Shake brain to remember your password!");
+        }
+
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

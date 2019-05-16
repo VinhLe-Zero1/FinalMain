@@ -11,11 +11,15 @@ namespace FinalMain
 {
     public partial class Form1 : Form
     {
-        public Form1(/*int id, string name*/)
+        public Form1()
         {
             InitializeComponent();
-            //nameLabel.Text += name;
-            //IDLabel.Text += id.ToString();
+        }
+        public Form1(int id, string name)
+        {
+            InitializeComponent();
+            nameLabel.Text += name;
+            IDLabel.Text += id.ToString();
         }
         //Dat Lich
         private void button1_Click(object sender, EventArgs e)
