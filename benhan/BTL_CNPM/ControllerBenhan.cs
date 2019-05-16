@@ -41,7 +41,7 @@ namespace BTL_CNPM
             {
                 is_sendmail = true;
             }
-            string query = "insert into benhan values (" + benhan.getID().ToString() +
+            string query = "insert into benhan(mabenhnhan, ngaykham,chuandoan,donthuoc,dando,guimail) values (" + benhan.getID().ToString() +
                 ",GETDATE(), N'" + benhan.getChuandoan() + "', N' " + benhan.getDonthuoc() + "', N' " +
                 benhan.getDando() + "', '" + is_sendmail.ToString() + "')";
             GetDataBaseCommand(query);
