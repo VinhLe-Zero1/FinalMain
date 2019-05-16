@@ -46,6 +46,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.IdRB = new System.Windows.Forms.RadioButton();
+            this.PreRB = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -98,9 +100,9 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.dataGridView1);
-            this.panel1.Location = new System.Drawing.Point(12, 62);
+            this.panel1.Location = new System.Drawing.Point(12, 95);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(407, 342);
+            this.panel1.Size = new System.Drawing.Size(423, 309);
             this.panel1.TabIndex = 5;
             // 
             // dataGridView1
@@ -109,7 +111,7 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(407, 342);
+            this.dataGridView1.Size = new System.Drawing.Size(423, 309);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
@@ -222,11 +224,35 @@
             this.textBox2.Size = new System.Drawing.Size(195, 60);
             this.textBox2.TabIndex = 15;
             // 
+            // IdRB
+            // 
+            this.IdRB.AutoSize = true;
+            this.IdRB.Location = new System.Drawing.Point(29, 72);
+            this.IdRB.Name = "IdRB";
+            this.IdRB.Size = new System.Drawing.Size(80, 17);
+            this.IdRB.TabIndex = 16;
+            this.IdRB.TabStop = true;
+            this.IdRB.Text = "Tìm theo ID";
+            this.IdRB.UseVisualStyleBackColor = true;
+            // 
+            // PreRB
+            // 
+            this.PreRB.AutoSize = true;
+            this.PreRB.Location = new System.Drawing.Point(139, 72);
+            this.PreRB.Name = "PreRB";
+            this.PreRB.Size = new System.Drawing.Size(118, 17);
+            this.PreRB.TabIndex = 17;
+            this.PreRB.TabStop = true;
+            this.PreRB.Text = "Tìm theo đơn thuốc";
+            this.PreRB.UseVisualStyleBackColor = true;
+            // 
             // FLookupHis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(655, 416);
+            this.Controls.Add(this.PreRB);
+            this.Controls.Add(this.IdRB);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
@@ -276,5 +302,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.RadioButton IdRB;
+        private System.Windows.Forms.RadioButton PreRB;
     }
 }

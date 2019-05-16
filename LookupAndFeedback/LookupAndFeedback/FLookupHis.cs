@@ -67,14 +67,6 @@ namespace LookupAndFeedback
 
         }
 
-        /*void LoadHistory()
-        {
-            //string query = "select id as [ID] from dbo.Info";
-            string query = "select * from dbo.Info";
-            
-            dataGridView1.DataSource = DataProvider.Instance.ExcuteQuery(query);
-        }*/
-
         void LoadHistory()
         {
             dataGridView1.DataSource = CheckupDAO.Instance.LoadCheckupList();
@@ -92,20 +84,39 @@ namespace LookupAndFeedback
 
         }
 
+        
         private void SearchBtn_Click(object sender, EventArgs e)
         {
-            //dataGridView1.DataSource = SearchByText(textBox1.Text);
+            string search = textBox1.Text;
+            if (IdRB.Checked == true)
+            {
+                int id = 0;
+                int.TryParse(search, out id);
+                dataGridView1.DataSource = SearchByID(id);
+
+            }
+            else if (PreRB.Checked == true)
+            {
+                dataGridView1.DataSource = SearchByPre(search);
+            }
+            else
+            {
+                MessageBox.Show("Bạn chưa chọn trường tìm kiếm");
+                return;
+            }
         }
 
-        /*List<Booking> SearchByText(string name)
+        List<CheckupInfo> SearchByID(int id)
         {
-            List<Booking> listBook = new List<Booking>();
-            BookingDAO booking = new BookingDAO();
-            listBook = booking.SearchByText(name);
+            List<CheckupInfo> listCheck = CheckupDAO.Instance.SearchById(id);
+            return listCheck;
+        }
 
-            return listBook;
-        }*/
-
+        List<CheckupInfo> SearchByPre(string pre)
+        {
+            List<CheckupInfo> listCheck = CheckupDAO.Instance.SearchByPre(pre);
+            return listCheck;
+        }
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 

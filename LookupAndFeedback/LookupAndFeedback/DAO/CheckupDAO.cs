@@ -50,6 +50,31 @@ namespace LookupAndFeedback.DAO
             return res > 0;
         }
 
-        
+        public List<CheckupInfo> SearchById(int id)
+        {
+            List<CheckupInfo> list = new List<CheckupInfo>();
+            string query = string.Format("select mabenhan, ngaykham, chuandoan, donthuoc, dando, nhanxet  from dbo.benhan where mabenhnhan = {0} and mabenhan = {1}", tempId, id);
+
+            DataTable data = DataProvider.Instance.ExcuteQuery(query);
+            foreach (DataRow item in data.Rows)
+            {
+                CheckupInfo checkup = new CheckupInfo(item);
+                list.Add(checkup);
+            }
+            return list;
+        }
+        public List<CheckupInfo> SearchByPre(string pre)
+        {
+            List<CheckupInfo> list = new List<CheckupInfo>();
+            string query = string.Format("select mabenhan, ngaykham, chuandoan, donthuoc, dando, nhanxet  from dbo.benhan where mabenhnhan = {0} and dbo.fuConvertToUnsign1(donthuoc) LIKE N'%' + dbo.fuConvertToUnsign1(N'{1}') + '%'", tempId, pre);
+
+            DataTable data = DataProvider.Instance.ExcuteQuery(query);
+            foreach (DataRow item in data.Rows)
+            {
+                CheckupInfo checkup = new CheckupInfo(item);
+                list.Add(checkup);
+            }
+            return list;
+        }
     }
 }
