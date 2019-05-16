@@ -10,15 +10,15 @@ namespace LookupAndFeedback.DTO
 {
     class CheckupInfo
     {
-        public CheckupInfo(int id, DateTime date, string doctor, string dando, string nhanxet)
+        public CheckupInfo(int id, DateTime date, string dando, string nhanxet, string donthuoc)
         {
             this.ID = id;
             this.Date = date;
-            this.Doctor = doctor;
-            this.Major = major;
-            this.Donthuoc = donthuoc;
-            this.Dando = dando;
-            this.Nhanxet = nhanxet;
+            //this.Doctor = doctor;
+            //this.Major = major;
+            this.Prescription = donthuoc;
+            this.Advice = dando;
+            this.Review = nhanxet;
         }
 
         public CheckupInfo(DataRow row)
@@ -27,9 +27,9 @@ namespace LookupAndFeedback.DTO
             this.Date = (DateTime)row["ngaykham"];
             //this.Doctor = row["doctor"].ToString();
             //this.Major = row["major"].ToString();
-            this.Donthuoc = row["donthuoc"].ToString();
-            this.Dando = row["dando"].ToString();
-            this.Nhanxet = row["nhanxet"].ToString();
+            this.Prescription = row["donthuoc"].ToString();
+            this.Advice = row["dando"].ToString();
+            this.Review = row["nhanxet"].ToString();
 
         }
 
@@ -40,16 +40,15 @@ namespace LookupAndFeedback.DTO
 
         private DateTime date;
         public DateTime Date { get => date; set => date = value; }
-        public string Doctor { get => doctor; set => doctor = value; }
-        public string Major { get => major; set => major = value; }
-        public string Donthuoc { get => donthuoc; set => donthuoc = value; }
-        public string Dando { get => dando; set => dando = value; }
-        public string Nhanxet { get => nhanxet; set => nhanxet = value; }
+        
+        
+        
+        public string Prescription { get => prescription; set => prescription = value; }
+        public string Advice { get => advice; set => advice = value; }
+        public string Review { get => review; set => review = value; }
 
-        private string doctor;
-        private string major;
-        private string donthuoc;
-        private string dando;
-        private string nhanxet;
+        private string prescription;
+        private string advice;
+        private string review;
     }
 }

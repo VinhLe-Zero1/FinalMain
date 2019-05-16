@@ -1,4 +1,5 @@
-﻿using LookupAndFeedback.DAO;
+﻿using Datlich;
+using LookupAndFeedback.DAO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,7 +17,14 @@ namespace LookupAndFeedback
         public FLookupBook()
         {
             InitializeComponent();
+            label1.Text = ControllerDatlich.name_benhnhan;
+            label2.Text = ControllerDatlich.id_benhnhan.ToString();
             LoadBooking();
+            if (dataGridView1.Rows.Count == 0)
+            {
+                CancelBtn.Enabled = false;
+                RefreshBtn.Enabled = false;
+            }
         }
 
         private void FLookupBook_Load(object sender, EventArgs e)
@@ -38,12 +46,14 @@ namespace LookupAndFeedback
             int id = Convert.ToInt32(idStr);
             if (BookingDAO.Instance.DeleteBooking(id))
             {
-                MessageBox.Show("Xóa thành công");
+                MessageBox.Show("Hủy thành công");
                 LoadBooking();
+                if (deleteBook != null)
+                    deleteBook(this, new EventArgs());
             }
             else
             {
-                MessageBox.Show("Lỗi khi xóa");
+                MessageBox.Show("Lỗi khi hủy");
             }
         }
 

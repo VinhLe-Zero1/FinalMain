@@ -1,4 +1,5 @@
-﻿using LookupAndFeedback.DTO;
+﻿using Datlich;
+using LookupAndFeedback.DTO;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -27,13 +28,13 @@ namespace LookupAndFeedback.DAO
                 CheckupDAO.instance = value;
             }
         }
-
+        int tempId = ControllerDatlich.id_benhnhan;
         private CheckupDAO() { }
         public List<CheckupInfo> LoadCheckupList()
         {
             List<CheckupInfo> checkupList = new List<CheckupInfo>();
-
-            DataTable data = DataProvider.Instance.ExcuteQuery("select * from dbo.Info");
+            string query = string.Format("select mabenhan, ngaykham, chuandoan, donthuoc, dando, nhanxet  from dbo.benhan where mabenhnhan = {0}", tempId);
+            DataTable data = DataProvider.Instance.ExcuteQuery(query);
 
             foreach (DataRow item in data.Rows)
             {

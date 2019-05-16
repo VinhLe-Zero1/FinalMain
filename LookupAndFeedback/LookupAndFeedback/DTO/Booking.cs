@@ -10,21 +10,23 @@ namespace LookupAndFeedback.DTO
 {
     class Booking
     {
-        public Booking(int id, DateTime date, string doctor, string major)
+        public Booking(int id, DateTime date, string doctor, string major, string price)
         {
             this.ID = id;
             this.Date = date;
             this.Doctor = doctor;
             this.Major = major;
+            this.Price = price;
         }
         
         public Booking(DataRow row)
         {
             this.ID = (int)row["id"];
-            this.Date = (DateTime)row["date"];
-            this.Doctor = row["doctor"].ToString();
-            this.Major = row["major"].ToString();
-
+            this.Doctor = row["doctorName"].ToString();
+            this.Major = row["chuyenkhoa"].ToString();
+            this.Price = row["giaTien"].ToString();
+            this.Date = (DateTime)row["ngaykham"];
+            
         }
 
         
@@ -36,7 +38,9 @@ namespace LookupAndFeedback.DTO
         public DateTime Date { get => date; set => date = value; }
         public string Doctor { get => doctor; set => doctor = value; }
         public string Major { get => major; set => major = value; }
+        public string Price { get => price; set => price = value; }
 
+        private string price;
         private string doctor;
         private string major;
     }

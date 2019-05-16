@@ -1,4 +1,5 @@
-﻿using LookupAndFeedback.DAO;
+﻿using Datlich;
+using LookupAndFeedback.DAO;
 using LookupAndFeedback.DTO;
 using System;
 using System.Collections.Generic;
@@ -36,13 +37,13 @@ namespace LookupAndFeedback
                 BookingDAO.instance = value;
             }
         }
-
+        int tempId = ControllerDatlich.id_benhnhan;
         private BookingDAO() { }
         public List<Booking> LoadBookingList()
         {
             List<Booking> bookingList = new List<Booking>();
-
-            DataTable data = DataProvider.Instance.ExcuteQuery("select * from dbo.BookingInfo");
+            string query = string.Format("select id, doctorName, chuyenkhoa, giaTien, ngaykham  from dbo.infokhambenh where mabenhnhan = {0}", tempId);
+            DataTable data = DataProvider.Instance.ExcuteQuery(query);
 
             foreach (DataRow item in data.Rows)
             {
@@ -73,7 +74,7 @@ namespace LookupAndFeedback
         }
         public bool DeleteBooking(int id)
         {
-            string query = string.Format("Delete Booking where id = {0}", id);
+            string query = string.Format("Delete infokhambenh where id = {0}", id);
             int res = DataProvider.Instance.ExcuteNonQuery(query);
             return res > 0;
         }

@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using LookupAndFeedback.DAO;
 using LookupAndFeedback.DTO;
+using Datlich;
 
 namespace LookupAndFeedback
 {
@@ -20,9 +21,16 @@ namespace LookupAndFeedback
         public FLookupHis()
         {
             InitializeComponent();
+            label1.Text = ControllerDatlich.name_benhnhan;
+            label4.Text = ControllerDatlich.id_benhnhan.ToString();
             LoadHistory();
             DonthuocBinding();
-
+            if (dataGridView1.Rows.Count == 0)
+            {
+                SearchBtn.Enabled = false;
+                CmtBtn.Enabled = false;
+                RefreshBtn.Enabled = false;
+            }
         }
 
         private void FLookupBooking_Load(object sender, EventArgs e)
@@ -74,8 +82,9 @@ namespace LookupAndFeedback
 
         void DonthuocBinding()
         {
-            DonthuocTxt.DataBindings.Add("Text", dataGridView1.DataSource, "Donthuoc");
+            DonthuocTxt.DataBindings.Add("Text", dataGridView1.DataSource, "Prescription");
             IDTxt.DataBindings.Add("Text", dataGridView1.DataSource, "id");
+            textBox2.DataBindings.Add("Text", dataGridView1.DataSource, "Advice");
         }
 
         private void DonthuocTxt_TextChanged(object sender, EventArgs e)
@@ -118,6 +127,11 @@ namespace LookupAndFeedback
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             //string value = dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex].FormattedValue.ToString();
+        }
+
+        private void IDTxt_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
