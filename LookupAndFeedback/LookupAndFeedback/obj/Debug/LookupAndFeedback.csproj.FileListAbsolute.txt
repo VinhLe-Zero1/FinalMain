@@ -1,0 +1,13 @@
+E:\Data\182 - 4th semester\Software Tech\LookupAndFeedback\LookupAndFeedback\bin\Debug\LookupAndFeedback.exe.config
+E:\Data\182 - 4th semester\Software Tech\LookupAndFeedback\LookupAndFeedback\bin\Debug\LookupAndFeedback.exe
+E:\Data\182 - 4th semester\Software Tech\LookupAndFeedback\LookupAndFeedback\bin\Debug\LookupAndFeedback.pdb
+E:\Data\182 - 4th semester\Software Tech\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.csprojResolveAssemblyReference.cache
+E:\Data\182 - 4th semester\Software Tech\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.FLookupFeedback.resources
+E:\Data\182 - 4th semester\Software Tech\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.Properties.Resources.resources
+E:\Data\182 - 4th semester\Software Tech\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.csproj.GenerateResource.Cache
+E:\Data\182 - 4th semester\Software Tech\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.csproj.CoreCompileInputs.cache
+E:\Data\182 - 4th semester\Software Tech\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.exe
+E:\Data\182 - 4th semester\Software Tech\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.pdb
+E:\Data\182 - 4th semester\Software Tech\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.FFeedback.resources
+E:\Data\182 - 4th semester\Software Tech\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.FLookupHis.resources
+E:\Data\182 - 4th semester\Software Tech\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.FLookupBook.resources
