@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lbNgayKham = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.b_thongbao = new System.Windows.Forms.Button();
+            this.thongbao = new System.Windows.Forms.LinkLabel();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dando = new System.Windows.Forms.TextBox();
@@ -42,8 +44,6 @@
             this.lbBacSi = new System.Windows.Forms.Label();
             this.lbChuyenKhoa = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.b_thongbao = new System.Windows.Forms.Button();
-            this.thongbao = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -83,6 +83,43 @@
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // b_thongbao
+            // 
+            this.b_thongbao.AllowDrop = true;
+            this.b_thongbao.BackColor = System.Drawing.Color.GhostWhite;
+            this.b_thongbao.FlatAppearance.BorderColor = System.Drawing.Color.Yellow;
+            this.b_thongbao.FlatAppearance.BorderSize = 0;
+            this.b_thongbao.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.b_thongbao.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_thongbao.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.b_thongbao.Location = new System.Drawing.Point(254, 179);
+            this.b_thongbao.Margin = new System.Windows.Forms.Padding(2);
+            this.b_thongbao.Name = "b_thongbao";
+            this.b_thongbao.Size = new System.Drawing.Size(72, 29);
+            this.b_thongbao.TabIndex = 50;
+            this.b_thongbao.Text = "Trở về";
+            this.b_thongbao.UseVisualStyleBackColor = false;
+            this.b_thongbao.Visible = false;
+            this.b_thongbao.Click += new System.EventHandler(this.b_thongbao_Click);
+            // 
+            // thongbao
+            // 
+            this.thongbao.ActiveLinkColor = System.Drawing.Color.PapayaWhip;
+            this.thongbao.BackColor = System.Drawing.Color.DodgerBlue;
+            this.thongbao.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.thongbao.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.World, ((byte)(0)));
+            this.thongbao.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.thongbao.LinkColor = System.Drawing.Color.GhostWhite;
+            this.thongbao.Location = new System.Drawing.Point(188, 112);
+            this.thongbao.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.thongbao.Name = "thongbao";
+            this.thongbao.Size = new System.Drawing.Size(210, 117);
+            this.thongbao.TabIndex = 49;
+            this.thongbao.TabStop = true;
+            this.thongbao.Text = "Bạn đã nhập sai. Vui lòng nhập lại! ";
+            this.thongbao.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.thongbao.Visible = false;
             // 
             // label5
             // 
@@ -200,12 +237,13 @@
             this.lbChuyenKhoa.Font = new System.Drawing.Font("Calibri", 18F);
             this.lbChuyenKhoa.Image = ((System.Drawing.Image)(resources.GetObject("lbChuyenKhoa.Image")));
             this.lbChuyenKhoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbChuyenKhoa.Location = new System.Drawing.Point(345, 35);
+            this.lbChuyenKhoa.Location = new System.Drawing.Point(342, 35);
             this.lbChuyenKhoa.Name = "lbChuyenKhoa";
-            this.lbChuyenKhoa.Size = new System.Drawing.Size(175, 42);
+            this.lbChuyenKhoa.Size = new System.Drawing.Size(161, 42);
             this.lbChuyenKhoa.TabIndex = 5;
-            this.lbChuyenKhoa.Text = "Chuẩn đoán:";
+            this.lbChuyenKhoa.Text = "Chẩn đoán:";
             this.lbChuyenKhoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbChuyenKhoa.Click += new System.EventHandler(this.lbChuyenKhoa_Click);
             // 
             // linkLabel1
             // 
@@ -222,43 +260,6 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Cập nhập bệnh án";
             this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // b_thongbao
-            // 
-            this.b_thongbao.AllowDrop = true;
-            this.b_thongbao.BackColor = System.Drawing.Color.GhostWhite;
-            this.b_thongbao.FlatAppearance.BorderColor = System.Drawing.Color.Yellow;
-            this.b_thongbao.FlatAppearance.BorderSize = 0;
-            this.b_thongbao.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.b_thongbao.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b_thongbao.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.b_thongbao.Location = new System.Drawing.Point(254, 179);
-            this.b_thongbao.Margin = new System.Windows.Forms.Padding(2);
-            this.b_thongbao.Name = "b_thongbao";
-            this.b_thongbao.Size = new System.Drawing.Size(72, 29);
-            this.b_thongbao.TabIndex = 50;
-            this.b_thongbao.Text = "Trở về";
-            this.b_thongbao.UseVisualStyleBackColor = false;
-            this.b_thongbao.Visible = false;
-            this.b_thongbao.Click += new System.EventHandler(this.b_thongbao_Click);
-            // 
-            // thongbao
-            // 
-            this.thongbao.ActiveLinkColor = System.Drawing.Color.PapayaWhip;
-            this.thongbao.BackColor = System.Drawing.Color.DodgerBlue;
-            this.thongbao.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.thongbao.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.World, ((byte)(0)));
-            this.thongbao.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.thongbao.LinkColor = System.Drawing.Color.GhostWhite;
-            this.thongbao.Location = new System.Drawing.Point(188, 112);
-            this.thongbao.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.thongbao.Name = "thongbao";
-            this.thongbao.Size = new System.Drawing.Size(210, 117);
-            this.thongbao.TabIndex = 49;
-            this.thongbao.TabStop = true;
-            this.thongbao.Text = "Bạn đã nhập sai. Vui lòng nhập lại! ";
-            this.thongbao.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.thongbao.Visible = false;
             // 
             // Form1
             // 

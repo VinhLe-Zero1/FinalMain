@@ -13,6 +13,8 @@ namespace Datlich
 
      public class ControllerDatlich:SendMail
     {
+        public static int id_benhnhan;
+        public static string name_benhnhan;
         public static string major_name = "";
 
         public override DataSet GetDataBaseCommand(string query)

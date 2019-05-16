@@ -24,8 +24,8 @@ namespace FinalMain
         //Dat Lich
         private void button1_Click(object sender, EventArgs e)
         {
-        //    Datlich.Form1 form1 = new Datlich.Form1();
-        //    form1.Show();
+            Datlich.Form1 form1 = new Datlich.Form1();
+            form1.Show();
         }
         private void tintuc_Click(object sender, EventArgs e)
         {

@@ -27,6 +27,25 @@ namespace Datlich
             gp.AddEllipse(0, 0, pictureBox1.Width - 3, pictureBox1.Height - 3);
             Region rg = new Region(gp);
             pictureBox1.Region = rg;
+            name.Text = ControllerDatlich.name_benhnhan;
+            mabn.Text = ControllerDatlich.id_benhnhan.ToString();
+            ControllerDatlich t = new ControllerDatlich();
+            string query = "select email from PatientInfo where id = " + mabn.Text;
+            SqlConnection conn = new SqlConnection(ConnectString.connectString);
+            conn.Open();
+            List<string> listItem = new List<string>();
+            using (SqlCommand command = new SqlCommand(query, conn))
+            {
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        listItem.Add(reader.GetString(0));
+                    }
+                }
+            }
+            conn.Close();
+            email1.Text = listItem[0];
             defaultDate = txtDate.Text;
             defaultMajor = cbMajor.Text;
             defaultName = txtDoctor.Text;
@@ -34,6 +53,7 @@ namespace Datlich
             mabenhnhan = mabn.Text;
             email = email1.Text;
             tenbenhnhan = name.Text; 
+
         }
         private void Ngay_MouseClick(object sender, MouseEventArgs e)
         {
@@ -206,7 +226,7 @@ namespace Datlich
 
         private void mabn_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void Yes_CheckedChanged(object sender, EventArgs e)

@@ -37,3 +37,8 @@ C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFee
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.csproj.CoreCompileInputs.cache
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.exe
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.pdb
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\bin\Debug\Datlich.exe
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\bin\Debug\MaterialSkin.dll
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\bin\Debug\Datlich.pdb
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\bin\Debug\Datlich.exe.config
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LookupAndFeedback\LookupAndFeedback\obj\Debug\LookupAndFeedback.csproj.CopyComplete

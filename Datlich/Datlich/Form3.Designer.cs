@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.time7 = new System.Windows.Forms.Button();
             this.time8 = new System.Windows.Forms.Button();
             this.time9 = new System.Windows.Forms.Button();
@@ -42,7 +41,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel_chieu = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer1 = new System.Windows.Forms.Timer();
             this.panel_sang.SuspendLayout();
             this.panel_chieu.SuspendLayout();
             this.SuspendLayout();
@@ -268,6 +267,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.panel_sang.ResumeLayout(false);

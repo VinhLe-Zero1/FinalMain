@@ -53,10 +53,9 @@
             // 
             this.lbDay.AutoSize = true;
             this.lbDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lbDay.Location = new System.Drawing.Point(800, 11);
-            this.lbDay.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbDay.Location = new System.Drawing.Point(600, 9);
             this.lbDay.Name = "lbDay";
-            this.lbDay.Size = new System.Drawing.Size(23, 25);
+            this.lbDay.Size = new System.Drawing.Size(18, 20);
             this.lbDay.TabIndex = 0;
             this.lbDay.Text = "1";
             // 
@@ -64,10 +63,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label1.Location = new System.Drawing.Point(16, 46);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(12, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 25);
+            this.label1.Size = new System.Drawing.Size(76, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Hôm nay:";
             // 
@@ -75,10 +73,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label2.Location = new System.Drawing.Point(47, 90);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(35, 73);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(324, 25);
+            this.label2.Size = new System.Drawing.Size(260, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "Các loại bệnh đang xuất hiện nhiều:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -87,40 +84,36 @@
             // 
             this.Most0.AutoSize = true;
             this.Most0.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.Most0.Location = new System.Drawing.Point(71, 123);
-            this.Most0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Most0.Location = new System.Drawing.Point(53, 100);
             this.Most0.Name = "Most0";
-            this.Most0.Size = new System.Drawing.Size(0, 24);
+            this.Most0.Size = new System.Drawing.Size(0, 18);
             this.Most0.TabIndex = 3;
             // 
             // Most1
             // 
             this.Most1.AutoSize = true;
             this.Most1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.Most1.Location = new System.Drawing.Point(71, 160);
-            this.Most1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Most1.Location = new System.Drawing.Point(53, 130);
             this.Most1.Name = "Most1";
-            this.Most1.Size = new System.Drawing.Size(0, 24);
+            this.Most1.Size = new System.Drawing.Size(0, 18);
             this.Most1.TabIndex = 4;
             // 
             // Most2
             // 
             this.Most2.AutoSize = true;
             this.Most2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.Most2.Location = new System.Drawing.Point(71, 197);
-            this.Most2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Most2.Location = new System.Drawing.Point(53, 160);
             this.Most2.Name = "Most2";
-            this.Most2.Size = new System.Drawing.Size(0, 24);
+            this.Most2.Size = new System.Drawing.Size(0, 18);
             this.Most2.TabIndex = 5;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label6.Location = new System.Drawing.Point(533, 90);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(400, 73);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(437, 25);
+            this.label6.Size = new System.Drawing.Size(353, 20);
             this.label6.TabIndex = 6;
             this.label6.Text = "Các loại bệnh đang có số người mắc tăng nhanh:";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -129,40 +122,36 @@
             // 
             this.Increase0.AutoSize = true;
             this.Increase0.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Increase0.Location = new System.Drawing.Point(563, 123);
-            this.Increase0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Increase0.Location = new System.Drawing.Point(422, 100);
             this.Increase0.Name = "Increase0";
-            this.Increase0.Size = new System.Drawing.Size(0, 24);
+            this.Increase0.Size = new System.Drawing.Size(0, 18);
             this.Increase0.TabIndex = 7;
             // 
             // Increase1
             // 
             this.Increase1.AutoSize = true;
             this.Increase1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Increase1.Location = new System.Drawing.Point(563, 160);
-            this.Increase1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Increase1.Location = new System.Drawing.Point(422, 130);
             this.Increase1.Name = "Increase1";
-            this.Increase1.Size = new System.Drawing.Size(0, 24);
+            this.Increase1.Size = new System.Drawing.Size(0, 18);
             this.Increase1.TabIndex = 8;
             // 
             // Increase2
             // 
             this.Increase2.AutoSize = true;
             this.Increase2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.Increase2.Location = new System.Drawing.Point(563, 197);
-            this.Increase2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Increase2.Location = new System.Drawing.Point(422, 160);
             this.Increase2.Name = "Increase2";
-            this.Increase2.Size = new System.Drawing.Size(0, 24);
+            this.Increase2.Size = new System.Drawing.Size(0, 18);
             this.Increase2.TabIndex = 9;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label10.Location = new System.Drawing.Point(47, 257);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(35, 209);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(224, 25);
+            this.label10.Size = new System.Drawing.Size(180, 20);
             this.label10.TabIndex = 10;
             this.label10.Text = "Các loại bệnh theo mùa:";
             // 
@@ -170,40 +159,36 @@
             // 
             this.Seasonal0.AutoSize = true;
             this.Seasonal0.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.Seasonal0.Location = new System.Drawing.Point(71, 293);
-            this.Seasonal0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Seasonal0.Location = new System.Drawing.Point(53, 238);
             this.Seasonal0.Name = "Seasonal0";
-            this.Seasonal0.Size = new System.Drawing.Size(0, 24);
+            this.Seasonal0.Size = new System.Drawing.Size(0, 18);
             this.Seasonal0.TabIndex = 11;
             // 
             // Seasonal1
             // 
             this.Seasonal1.AutoSize = true;
             this.Seasonal1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.Seasonal1.Location = new System.Drawing.Point(71, 330);
-            this.Seasonal1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Seasonal1.Location = new System.Drawing.Point(53, 268);
             this.Seasonal1.Name = "Seasonal1";
-            this.Seasonal1.Size = new System.Drawing.Size(0, 24);
+            this.Seasonal1.Size = new System.Drawing.Size(0, 18);
             this.Seasonal1.TabIndex = 12;
             // 
             // Seasonal2
             // 
             this.Seasonal2.AutoSize = true;
             this.Seasonal2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.Seasonal2.Location = new System.Drawing.Point(71, 367);
-            this.Seasonal2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Seasonal2.Location = new System.Drawing.Point(53, 298);
             this.Seasonal2.Name = "Seasonal2";
-            this.Seasonal2.Size = new System.Drawing.Size(0, 24);
+            this.Seasonal2.Size = new System.Drawing.Size(0, 18);
             this.Seasonal2.TabIndex = 13;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label14.Location = new System.Drawing.Point(533, 257);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Location = new System.Drawing.Point(400, 209);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(381, 25);
+            this.label14.Size = new System.Drawing.Size(306, 20);
             this.label14.TabIndex = 14;
             this.label14.Text = "Các loại bệnh đang có số người mắc giảm:";
             // 
@@ -211,47 +196,43 @@
             // 
             this.Decrease0.AutoSize = true;
             this.Decrease0.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.Decrease0.Location = new System.Drawing.Point(563, 293);
-            this.Decrease0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Decrease0.Location = new System.Drawing.Point(422, 238);
             this.Decrease0.Name = "Decrease0";
-            this.Decrease0.Size = new System.Drawing.Size(0, 24);
+            this.Decrease0.Size = new System.Drawing.Size(0, 18);
             this.Decrease0.TabIndex = 15;
             // 
             // Decrease1
             // 
             this.Decrease1.AutoSize = true;
             this.Decrease1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.Decrease1.Location = new System.Drawing.Point(563, 330);
-            this.Decrease1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Decrease1.Location = new System.Drawing.Point(422, 268);
             this.Decrease1.Name = "Decrease1";
-            this.Decrease1.Size = new System.Drawing.Size(0, 24);
+            this.Decrease1.Size = new System.Drawing.Size(0, 18);
             this.Decrease1.TabIndex = 16;
             // 
             // Decrease2
             // 
             this.Decrease2.AutoSize = true;
             this.Decrease2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.Decrease2.Location = new System.Drawing.Point(563, 367);
-            this.Decrease2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Decrease2.Location = new System.Drawing.Point(422, 298);
             this.Decrease2.Name = "Decrease2";
-            this.Decrease2.Size = new System.Drawing.Size(0, 24);
+            this.Decrease2.Size = new System.Drawing.Size(0, 18);
             this.Decrease2.TabIndex = 17;
             // 
             // label18
             // 
             this.label18.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label18.Location = new System.Drawing.Point(451, 90);
-            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label18.Location = new System.Drawing.Point(338, 73);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(1, 308);
+            this.label18.Size = new System.Drawing.Size(1, 250);
             this.label18.TabIndex = 18;
             this.label18.Text = "label18";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.Decrease2);
             this.Controls.Add(this.Decrease1);
@@ -271,8 +252,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbDay);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cập nhật tin tức y tế gần đây";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

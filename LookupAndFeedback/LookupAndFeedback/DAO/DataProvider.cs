@@ -15,7 +15,7 @@ namespace LookupAndFeedback.DAO
     {
         private static DataProvider instance;
 
-        private string connectionStr = "Data Source=DELL-PC\\MISASME2015;Initial Catalog=MedicalCare;Integrated Security=True";
+        private string connectionStr = Datlich.ConnectString.connectString;
 
         /*public DataTable ExcuteQuery(string query)
         {

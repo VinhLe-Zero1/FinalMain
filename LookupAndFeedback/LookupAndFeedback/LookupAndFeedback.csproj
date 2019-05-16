@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MaterialSkin">
+      <HintPath>..\..\..\..\BTL_CNPM\packages\MaterialSkin.Updated.0.2.2\lib\MaterialSkin.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -120,6 +123,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\write-black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Datlich\Datlich\Datlich.csproj">
+      <Project>{820c149f-4b5c-40d6-b8e6-3f5f94fce59e}</Project>
+      <Name>Datlich</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

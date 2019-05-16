@@ -96,5 +96,10 @@ namespace T_benhan
             b_thongbao.Visible = false;
             thongbao.Visible = false;
         }
+
+        private void lbChuyenKhoa_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

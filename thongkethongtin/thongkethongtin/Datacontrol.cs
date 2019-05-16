@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
-
+using Datlich;
 namespace thongkethongtin
 {
     public static class DateTimeExtensions
@@ -27,7 +27,7 @@ namespace thongkethongtin
         public DataTable Data1 = new DataTable();
         public void ChooseWeekData()
         {
-            using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-RHERCMS\\SQLEXPRESS;Initial Catalog=OneForAll;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection(ConnectString.connectString))
             {
                 SqlDataAdapter adapter = new SqlDataAdapter();
                 DataTable temp = new DataTable();
@@ -76,7 +76,7 @@ namespace thongkethongtin
         }
         public void ChooseMonthData()
         {
-            using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-RHERCMS\\SQLEXPRESS;Initial Catalog=OneForAll;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection(ConnectString.connectString))
             {
                 SqlDataAdapter adapter = new SqlDataAdapter();
                 DataTable temp = new DataTable();
@@ -122,7 +122,7 @@ namespace thongkethongtin
         }
         public void ChooseYearData()
         {
-            using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-RHERCMS\\SQLEXPRESS;Initial Catalog=OneForAll;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection(ConnectString.connectString))
             {
                 SqlDataAdapter adapter = new SqlDataAdapter();
                 DataTable temp = new DataTable();
@@ -169,7 +169,7 @@ namespace thongkethongtin
         }
         public void ChooseAllData()
         {
-            using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-RHERCMS\\SQLEXPRESS;Initial Catalog=OneForAll;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection(ConnectString.connectString))
             {
                 SqlDataAdapter adapter = new SqlDataAdapter();
                 DataTable temp = new DataTable();
@@ -200,7 +200,7 @@ namespace thongkethongtin
         }
         public bool IsDataEmpty()
         {
-            using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-RHERCMS\\SQLEXPRESS;Initial Catalog=OneForAll;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection(ConnectString.connectString))
             {
                 SqlDataAdapter adapter = new SqlDataAdapter();
                 DataTable temp = new DataTable();
@@ -276,7 +276,7 @@ namespace thongkethongtin
         }
         public List<Desease> GetMostDesease()
         {
-            using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-RHERCMS\\SQLEXPRESS;Initial Catalog=OneForAll;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection(ConnectString.connectString))
             {
                 SqlDataAdapter adapter = new SqlDataAdapter();
                 DataTable temp = new DataTable();
@@ -342,7 +342,7 @@ namespace thongkethongtin
         }
         public List<Desease> GetIncreaseDesease()
         {
-            using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-RHERCMS\\SQLEXPRESS;Initial Catalog=OneForAll;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection(ConnectString.connectString))
             {
                 SqlDataAdapter adapter = new SqlDataAdapter();
                 DataTable temp = new DataTable();
@@ -408,7 +408,7 @@ namespace thongkethongtin
         }
         public List<Desease> GetDecreaseDesease()
         {
-            using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-RHERCMS\\SQLEXPRESS;Initial Catalog=OneForAll;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection(ConnectString.connectString))
             {
                 SqlDataAdapter adapter = new SqlDataAdapter();
                 DataTable temp = new DataTable();

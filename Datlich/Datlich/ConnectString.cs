@@ -10,7 +10,7 @@ namespace Datlich
 {
     public class ConnectString
     {
-        public static string connectString = @"Data Source=DESKTOP-LDOMKOB\SQLEXPRESS;Initial Catalog=AllDoctor;Integrated Security=True";
+        public static string connectString = "Data Source=DESKTOP-LDOMKOB\\SQLEXPRESS;Initial Catalog=OneForAll;Integrated Security=True";
         
     }
 }

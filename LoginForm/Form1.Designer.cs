@@ -113,8 +113,8 @@
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel4, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.pictureBox1, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.btnLogin, 0, 3);
             this.tableLayoutPanel2.Controls.Add(this.btnForget, 0, 5);
+            this.tableLayoutPanel2.Controls.Add(this.btnLogin, 0, 3);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(353, 36);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -278,6 +278,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "formLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.tableForm.ResumeLayout(false);
             this.tableForm.PerformLayout();

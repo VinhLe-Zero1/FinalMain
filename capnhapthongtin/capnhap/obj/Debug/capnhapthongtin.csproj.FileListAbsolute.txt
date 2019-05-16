@@ -66,3 +66,6 @@ C:\Users\ducti\source\repos\FinalMain_1\FinalMain\capnhapthongtin\capnhap\obj\De
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhapthongtin.csproj.CopyComplete
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhap.exe
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\capnhapthongtin\capnhap\obj\Debug\capnhap.pdb
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\capnhapthongtin\capnhap\bin\Debug\Datlich.exe
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\capnhapthongtin\capnhap\bin\Debug\Datlich.pdb
+C:\Users\ducti\source\repos\FinalMain_1\FinalMain\capnhapthongtin\capnhap\bin\Debug\Datlich.exe.config

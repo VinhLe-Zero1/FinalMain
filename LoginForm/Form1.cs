@@ -97,6 +97,7 @@ namespace LoginForm
                         {
                             retType = reader.GetInt32(0);
                             id = reader.GetInt32(1);
+                            ControllerDatlich.id_benhnhan = id;
                             reader.Close();
                             if(retType == 0)
                             {
@@ -122,6 +123,7 @@ namespace LoginForm
                                 if (readerName.Read())
                                 {
                                     name = readerName.GetString(0);
+                                    ControllerDatlich.name_benhnhan = name;
                                     credential = 1;
                                     this.Close();
                                 }
