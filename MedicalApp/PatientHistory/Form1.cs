@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-
+using Datlich;
 // This is the code for your desktop app.
 // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
 
@@ -16,7 +16,7 @@ namespace PatientHistory
 {
     public partial class formHistory : Form
     {
-        SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=Patient;Integrated Security=True");
+        SqlConnection con = new SqlConnection(ConnectString.connectString);
 
         private void loadData()
         {
@@ -146,6 +146,11 @@ namespace PatientHistory
         private void searchBox_Click(object sender, EventArgs e)
         {
             loadData();
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

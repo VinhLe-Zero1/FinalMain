@@ -61,6 +61,8 @@
             this.labelMissing = new System.Windows.Forms.Label();
             this.homeTownBox = new System.Windows.Forms.TextBox();
             this.btnRegister = new System.Windows.Forms.Button();
+            this.pass = new System.Windows.Forms.Label();
+            this.passbox = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.panelTop.SuspendLayout();
             this.tLPInfo.SuspendLayout();
@@ -144,6 +146,8 @@
             this.tLPInfo.ColumnCount = 2;
             this.tLPInfo.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tLPInfo.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 383F));
+            this.tLPInfo.Controls.Add(this.passbox, 1, 9);
+            this.tLPInfo.Controls.Add(this.pass, 0, 9);
             this.tLPInfo.Controls.Add(this.label12, 0, 8);
             this.tLPInfo.Controls.Add(this.firstNameBox, 1, 1);
             this.tLPInfo.Controls.Add(this.label2, 0, 0);
@@ -165,16 +169,17 @@
             this.tLPInfo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tLPInfo.Location = new System.Drawing.Point(3, 42);
             this.tLPInfo.Name = "tLPInfo";
-            this.tLPInfo.RowCount = 9;
-            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tLPInfo.RowCount = 10;
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tLPInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tLPInfo.Size = new System.Drawing.Size(513, 346);
             this.tLPInfo.TabIndex = 1;
             // 
@@ -182,7 +187,7 @@
             // 
             this.label12.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(3, 318);
+            this.label12.Location = new System.Drawing.Point(3, 282);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(54, 13);
             this.label12.TabIndex = 8;
@@ -191,7 +196,7 @@
             // firstNameBox
             // 
             this.firstNameBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.firstNameBox.Location = new System.Drawing.Point(133, 47);
+            this.firstNameBox.Location = new System.Drawing.Point(133, 41);
             this.firstNameBox.Name = "firstNameBox";
             this.firstNameBox.Size = new System.Drawing.Size(377, 20);
             this.firstNameBox.TabIndex = 1;
@@ -201,7 +206,7 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 12);
+            this.label2.Location = new System.Drawing.Point(3, 10);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(68, 13);
             this.label2.TabIndex = 4;
@@ -211,7 +216,7 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 50);
+            this.label3.Location = new System.Drawing.Point(3, 44);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(80, 13);
             this.label3.TabIndex = 1;
@@ -223,9 +228,9 @@
             this.fLPSex.Controls.Add(this.radioButtonFemale);
             this.fLPSex.Controls.Add(this.labelMissing2);
             this.fLPSex.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.fLPSex.Location = new System.Drawing.Point(133, 117);
+            this.fLPSex.Location = new System.Drawing.Point(133, 105);
             this.fLPSex.Name = "fLPSex";
-            this.fLPSex.Size = new System.Drawing.Size(377, 32);
+            this.fLPSex.Size = new System.Drawing.Size(377, 28);
             this.fLPSex.TabIndex = 3;
             // 
             // radioButtonMale
@@ -269,7 +274,7 @@
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 88);
+            this.label4.Location = new System.Drawing.Point(3, 78);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(107, 13);
             this.label4.TabIndex = 2;
@@ -279,7 +284,7 @@
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 126);
+            this.label5.Location = new System.Drawing.Point(3, 112);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 13);
             this.label5.TabIndex = 3;
@@ -289,7 +294,7 @@
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(3, 164);
+            this.label6.Location = new System.Drawing.Point(3, 146);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(39, 13);
             this.label6.TabIndex = 4;
@@ -299,7 +304,7 @@
             // 
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(3, 202);
+            this.label7.Location = new System.Drawing.Point(3, 180);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(40, 13);
             this.label7.TabIndex = 5;
@@ -309,7 +314,7 @@
             // 
             this.label8.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(3, 240);
+            this.label8.Location = new System.Drawing.Point(3, 214);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(70, 13);
             this.label8.TabIndex = 6;
@@ -319,7 +324,7 @@
             // 
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(3, 278);
+            this.label9.Location = new System.Drawing.Point(3, 248);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(32, 13);
             this.label9.TabIndex = 7;
@@ -328,7 +333,7 @@
             // lastNameBox
             // 
             this.lastNameBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.lastNameBox.Location = new System.Drawing.Point(133, 9);
+            this.lastNameBox.Location = new System.Drawing.Point(133, 7);
             this.lastNameBox.Name = "lastNameBox";
             this.lastNameBox.Size = new System.Drawing.Size(377, 20);
             this.lastNameBox.TabIndex = 0;
@@ -337,7 +342,7 @@
             // CMNDBox
             // 
             this.CMNDBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.CMNDBox.Location = new System.Drawing.Point(133, 161);
+            this.CMNDBox.Location = new System.Drawing.Point(133, 143);
             this.CMNDBox.Name = "CMNDBox";
             this.CMNDBox.Size = new System.Drawing.Size(377, 20);
             this.CMNDBox.TabIndex = 4;
@@ -346,7 +351,7 @@
             // adrBox
             // 
             this.adrBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.adrBox.Location = new System.Drawing.Point(133, 199);
+            this.adrBox.Location = new System.Drawing.Point(133, 177);
             this.adrBox.Name = "adrBox";
             this.adrBox.Size = new System.Drawing.Size(377, 20);
             this.adrBox.TabIndex = 5;
@@ -355,7 +360,7 @@
             // phoneNumBox
             // 
             this.phoneNumBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.phoneNumBox.Location = new System.Drawing.Point(133, 237);
+            this.phoneNumBox.Location = new System.Drawing.Point(133, 211);
             this.phoneNumBox.Name = "phoneNumBox";
             this.phoneNumBox.Size = new System.Drawing.Size(377, 20);
             this.phoneNumBox.TabIndex = 6;
@@ -364,11 +369,12 @@
             // emailBox
             // 
             this.emailBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.emailBox.Location = new System.Drawing.Point(133, 275);
+            this.emailBox.Location = new System.Drawing.Point(133, 245);
             this.emailBox.Name = "emailBox";
             this.emailBox.Size = new System.Drawing.Size(377, 20);
             this.emailBox.TabIndex = 7;
             this.emailBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnMouseLeft);
+            this.emailBox.TextChanged += new System.EventHandler(this.emailBox_TextChanged);
             // 
             // fLPDate
             // 
@@ -379,9 +385,9 @@
             this.fLPDate.Controls.Add(this.comboBoxYear);
             this.fLPDate.Controls.Add(this.labelMissing);
             this.fLPDate.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.fLPDate.Location = new System.Drawing.Point(133, 79);
+            this.fLPDate.Location = new System.Drawing.Point(133, 71);
             this.fLPDate.Name = "fLPDate";
-            this.fLPDate.Size = new System.Drawing.Size(377, 32);
+            this.fLPDate.Size = new System.Drawing.Size(377, 28);
             this.fLPDate.TabIndex = 2;
             // 
             // comboBoxDay
@@ -479,33 +485,12 @@
             // 
             this.comboBoxYear.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.comboBoxYear.FormattingEnabled = true;
-            this.comboBoxYear.Items.AddRange(new object[] {
-            "1999",
-            "2000",
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018",
-            "2019"});
             this.comboBoxYear.Location = new System.Drawing.Point(230, 3);
             this.comboBoxYear.Name = "comboBoxYear";
             this.comboBoxYear.Size = new System.Drawing.Size(97, 21);
             this.comboBoxYear.TabIndex = 2;
             this.comboBoxYear.Text = " Năm";
+            this.comboBoxYear.SelectedIndexChanged += new System.EventHandler(this.comboBoxYear_SelectedIndexChanged);
             this.comboBoxYear.MouseClick += new System.Windows.Forms.MouseEventHandler(this.OnComboBoxMouseLeft);
             // 
             // labelMissing
@@ -525,7 +510,7 @@
             // homeTownBox
             // 
             this.homeTownBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.homeTownBox.Location = new System.Drawing.Point(133, 315);
+            this.homeTownBox.Location = new System.Drawing.Point(133, 279);
             this.homeTownBox.Name = "homeTownBox";
             this.homeTownBox.Size = new System.Drawing.Size(377, 20);
             this.homeTownBox.TabIndex = 9;
@@ -541,6 +526,25 @@
             this.btnRegister.Text = "Tạo hồ sơ";
             this.btnRegister.UseVisualStyleBackColor = true;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
+            // 
+            // pass
+            // 
+            this.pass.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.pass.AutoSize = true;
+            this.pass.Location = new System.Drawing.Point(3, 319);
+            this.pass.Name = "pass";
+            this.pass.Size = new System.Drawing.Size(52, 13);
+            this.pass.TabIndex = 10;
+            this.pass.Text = "Mật khẩu";
+            // 
+            // passbox
+            // 
+            this.passbox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.passbox.Location = new System.Drawing.Point(133, 316);
+            this.passbox.Name = "passbox";
+            this.passbox.PasswordChar = '*';
+            this.passbox.Size = new System.Drawing.Size(377, 20);
+            this.passbox.TabIndex = 11;
             // 
             // formRegister
             // 
@@ -602,6 +606,8 @@
         private System.Windows.Forms.Label labelMissing2;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox homeTownBox;
+        private System.Windows.Forms.TextBox passbox;
+        private System.Windows.Forms.Label pass;
     }
 }
 

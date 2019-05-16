@@ -77,6 +77,7 @@ namespace T_benhan
                     benhan.addBenhan(ID, chuandoan.Text, dando.Text, donthuoc.Text);
                     BTL_CNPM.ControllerBenhan t = new BTL_CNPM.ControllerBenhan();
                     t.UpdateData(benhan);
+                    t.UnsendEmailProcess();
                 }
                 thongbao.Text = "Thông tin bệnh án đã được lưu!";
                 b_thongbao.Visible = true;

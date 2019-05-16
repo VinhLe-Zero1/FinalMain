@@ -25,6 +25,7 @@ namespace Datlich
                 connection.Open();
                 SqlDataAdapter adaper = new SqlDataAdapter(query, connection);
                 adaper.Fill(data);
+                
                 connection.Close();
             }
             return data;

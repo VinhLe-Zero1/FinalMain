@@ -81,7 +81,7 @@ namespace LoginForm
                     SqlConnection con = new SqlConnection();
                     con.ConnectionString = ConnectString.connectString;
                     con.Open();
-                    string query = "select username,password from loginInfo where username='" + username + "'and password='" + password + "'";
+                    string query = "select username,pass from loginInfo where username='" + username + "'and pass='" + password + "'";
                     SqlCommand cmd = new SqlCommand(query, con);
                     SqlDataAdapter da = new SqlDataAdapter(cmd);
                     DataTable dt = new DataTable();
@@ -89,7 +89,7 @@ namespace LoginForm
                     if (dt.Rows.Count > 0)
                     {
                         
-                        string qGetType = "select type, id from loginInfo where username='" + username + "'and password='" + password + "'";
+                        string qGetType = "select type, id from loginInfo where username='" + username + "'and pass='" + password + "'";
                         SqlCommand getType = new SqlCommand(qGetType, con);
                         int retType;
                         SqlDataReader reader = getType.ExecuteReader();

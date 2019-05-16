@@ -57,6 +57,7 @@ namespace InfoRegister
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
+            
             bool m1 = false, m2 = false, m3 = false;
             foreach (TextBox tb in this.tLPInfo.Controls.OfType<TextBox>())
             {
@@ -133,6 +134,16 @@ namespace InfoRegister
                 //sMessageBox.Show("fail");
             }
 
+            ControllerDatlich t = new ControllerDatlich();
+            string query = "insert into logininfo values('" + emailBox.Text + "' , '" + passbox.Text + "', 1)";
+            try
+            {
+                t.GetDataBaseCommand(query);
+            }
+            catch
+            {
+                MessageBox.Show("Tên đăng nhập bị trùng!!!");
+            }
         }
         private void OnMouseLeft(Object sender, MouseEventArgs e)
         {
@@ -143,6 +154,12 @@ namespace InfoRegister
         private void OnComboBoxMouseLeft(object sender, MouseEventArgs e)
         {
             labelMissing.Hide();
+            int tin = 0;
+            for (int i = DateTime.Now.Year - 200; i < DateTime.Now.Year; i++)
+            {
+                comboBoxYear.Items.Add(i);
+            }
+
         }
         private void OnRadioBtnMouseLeft(object sender, MouseEventArgs e)
         {
@@ -150,6 +167,16 @@ namespace InfoRegister
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void emailBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBoxYear_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
