@@ -20,10 +20,10 @@ namespace LoginForm
             Application.Run(loginForm);
             if (loginForm.credential == 0)
             {
-                Application.Run(new DoctorForm.Form1(loginForm.id, loginForm.name));
+                Application.Run(new DoctorForm.Form1((int)loginForm.id, loginForm.name));
             }else if(loginForm.credential == 1)
             {
-                Application.Run(new FinalMain.Form1(loginForm.id, loginForm.name));
+                Application.Run(new FinalMain.Form1((int)loginForm.id, loginForm.name));
             }
         }
     }

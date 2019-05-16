@@ -26,7 +26,7 @@ namespace LoginForm
         }
 
         public int credential = -1;
-        public int id;
+        public long id;
         public string name;
         private void btnClose_Click(object sender, EventArgs e)
         {
@@ -81,7 +81,7 @@ namespace LoginForm
                     SqlConnection con = new SqlConnection();
                     con.ConnectionString = ConnectString.connectString;
                     con.Open();
-                    string query = "select username,pass from loginInfo where username='" + username + "'and pass='" + password + "'";
+                    string query = "select username,pass from loginInfo where username='" + username + "' and pass='" + password + "'";
                     SqlCommand cmd = new SqlCommand(query, con);
                     SqlDataAdapter da = new SqlDataAdapter(cmd);
                     DataTable dt = new DataTable();
@@ -89,15 +89,15 @@ namespace LoginForm
                     if (dt.Rows.Count > 0)
                     {
                         
-                        string qGetType = "select type, id from loginInfo where username='" + username + "'and pass='" + password + "'";
+                        string qGetType = "select distinct type, id from loginInfo where username= '" + username + "' and pass='" + password + "'";
                         SqlCommand getType = new SqlCommand(qGetType, con);
                         int retType;
                         SqlDataReader reader = getType.ExecuteReader();
                         if (reader.Read())
                         {
                             retType = reader.GetInt32(0);
-                            id = reader.GetInt32(1);
-                            ControllerDatlich.id_benhnhan = id;
+                            id = reader.GetInt64(1);
+                            ControllerDatlich.id_benhnhan = (int)id;
                             reader.Close();
                             if(retType == 0)
                             {
@@ -117,12 +117,16 @@ namespace LoginForm
                                 
                             }else if(retType == 1)
                             {
-                                string qGetName = "select [Tên bệnh nhân] from PatientInfo where ID='" + id.ToString() + "'";
+                                string qGetName = "select [Tên bệnh nhân] from PatientInfo where ID=" + id.ToString();
                                 SqlCommand getName = new SqlCommand(qGetName, con);
                                 SqlDataReader readerName = getName.ExecuteReader();
                                 if (readerName.Read())
                                 {
+                                   
                                     name = readerName.GetString(0);
+                                    var utf8 = Encoding.UTF8;
+                                    byte[] utfBytes = utf8.GetBytes(name);
+                                    name = utf8.GetString(utfBytes, 0, utfBytes.Length);
                                     ControllerDatlich.name_benhnhan = name;
                                     credential = 1;
                                     this.Close();

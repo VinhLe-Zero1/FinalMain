@@ -467,6 +467,7 @@
             this.name.TabIndex = 5;
             this.name.Text = "Đức Tín";
             this.name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.name.Click += new System.EventHandler(this.name_Click);
             // 
             // logout
             // 

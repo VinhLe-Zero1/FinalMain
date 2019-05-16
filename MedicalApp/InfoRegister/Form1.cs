@@ -118,14 +118,16 @@ namespace InfoRegister
 
             try
             {
-                string conStr = ConnectString.connectString;
+                /*string conStr = ConnectString.connectString;
                 SqlConnection con = new SqlConnection(conStr);
                 SqlDataAdapter da = new SqlDataAdapter();
                 da.InsertCommand = new SqlCommand("INSERT INTO PatientInfo VALUES " + value, con);
 
                 con.Open();
                 da.InsertCommand.ExecuteNonQuery();
-                con.Close();
+                con.Close();*/
+                ControllerDatlich t1 = new ControllerDatlich();
+                t1.GetDataBaseCommand("INSERT INTO PatientInfo VALUES " + value);
                 MessageBox.Show("Client Successfully added");
             }
             catch (Exception ex)
@@ -135,10 +137,26 @@ namespace InfoRegister
             }
 
             ControllerDatlich t = new ControllerDatlich();
-            string query = "insert into logininfo values('" + emailBox.Text + "' , '" + passbox.Text + "', 1)";
+            int id_temp = 0;
+            string query = "select id from PatientInfo where email= '" + emailBox.Text+"'";
+            SqlConnection conn = new SqlConnection(ConnectString.connectString);
+            conn.Open();
+            List<string> listItem = new List<string>();
+            using (SqlCommand command = new SqlCommand(query, conn))
+            {
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        listItem.Add(reader.GetInt64(0).ToString());
+                    }
+                }
+            }
+            conn.Close();
+            string query1 = "insert into logininfo values(" + listItem[0].ToString() + ",'"+ emailBox.Text+"', '" + passbox.Text + "', 1)";
             try
             {
-                t.GetDataBaseCommand(query);
+                t.GetDataBaseCommand(query1);
             }
             catch
             {

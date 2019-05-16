@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using LookupAndFeedback.DAO;
+using Datlich;
 
 namespace LookupAndFeedback
 {
@@ -24,6 +25,8 @@ namespace LookupAndFeedback
             this.LookupHisBtn.Image = (Image)(new Bitmap(LookupHisBtn.Image, new Size(40, 40)));
 
             this.LookupBookingBtn.Image = (Image)(new Bitmap(LookupBookingBtn.Image, new Size(40, 40)));
+            label1.Text = ControllerDatlich.name_benhnhan;
+            label2.Text = ControllerDatlich.id_benhnhan.ToString();
         }
 
         private void LookupHisBtn_Click(object sender, EventArgs e)

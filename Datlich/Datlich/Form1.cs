@@ -229,6 +229,11 @@ namespace Datlich
            
         }
 
+        private void name_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void Yes_CheckedChanged(object sender, EventArgs e)
         {
             BHYT = true;
