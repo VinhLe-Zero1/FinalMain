@@ -48,39 +48,46 @@ namespace LookupAndFeedback
         {
             DoneCliked = true;
             str = textBox1.Text;
-            if (radioButton1.Checked == true && str != "" )
+            //if (radioButton1.Checked == true && str != "" )
+            //{
+            //    MessageBox.Show("Bạn đã hoàn thành bình luận về lần khám này");
+            //    textBox1.ReadOnly = true;
+            //    panel1.Enabled = false;
+            //    return;
+            //}
+            //else if (radioButton2.Checked == true && str != "")
+            //{
+            //    MessageBox.Show("Bạn đã hoàn thành bình luận về lần khám này");
+            //    textBox1.ReadOnly = true;
+            //    panel1.Enabled = false;
+            //    return;
+            //}
+            //else if (radioButton3.Checked == true && str != "")
+            //{
+            //    MessageBox.Show("Bạn đã hoàn thành bình luận về lần khám này");
+            //    textBox1.ReadOnly = true;
+            //    panel1.Enabled = false;
+            //    return;
+            //}
+            //else if (radioButton4.Checked == true && str != "")
+            //{
+            //    MessageBox.Show("Bạn đã hoàn thành bình luận về lần khám này");
+            //    textBox1.ReadOnly = true;
+            //    panel1.Enabled = false;
+            //    return;
+            //}
+            //else if (radioButton5.Checked == true && str != "")
+            //{
+            //    MessageBox.Show("Bạn đã hoàn thành bình luận về lần khám này");
+            //    textBox1.ReadOnly = true;
+            //    panel1.Enabled = false;
+            //    return;
+            //}
+            if (str != "")
             {
                 MessageBox.Show("Bạn đã hoàn thành bình luận về lần khám này");
                 textBox1.ReadOnly = true;
-                panel1.Enabled = false;
-                return;
-            }
-            else if (radioButton2.Checked == true && str != "")
-            {
-                MessageBox.Show("Bạn đã hoàn thành bình luận về lần khám này");
-                textBox1.ReadOnly = true;
-                panel1.Enabled = false;
-                return;
-            }
-            else if (radioButton3.Checked == true && str != "")
-            {
-                MessageBox.Show("Bạn đã hoàn thành bình luận về lần khám này");
-                textBox1.ReadOnly = true;
-                panel1.Enabled = false;
-                return;
-            }
-            else if (radioButton4.Checked == true && str != "")
-            {
-                MessageBox.Show("Bạn đã hoàn thành bình luận về lần khám này");
-                textBox1.ReadOnly = true;
-                panel1.Enabled = false;
-                return;
-            }
-            else if (radioButton5.Checked == true && str != "")
-            {
-                MessageBox.Show("Bạn đã hoàn thành bình luận về lần khám này");
-                textBox1.ReadOnly = true;
-                panel1.Enabled = false;
+                //    panel1.Enabled = false;
                 return;
             }
             else
@@ -93,7 +100,7 @@ namespace LookupAndFeedback
         private void EditBtn_Click(object sender, EventArgs e)
         {
             textBox1.ReadOnly = false;
-            panel1.Enabled = true;
+            //panel1.Enabled = true;
             DoneCliked = false;
         }
     }

@@ -1,6 +1,6 @@
 ﻿namespace T_chuandoan
 {
-    partial class chuandoanForm
+    partial class DiagnoseForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(chuandoanForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DiagnoseForm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.return_button = new System.Windows.Forms.Button();
             this.result_label = new System.Windows.Forms.LinkLabel();
@@ -672,10 +672,10 @@
             this.linkLabel2.Size = new System.Drawing.Size(746, 88);
             this.linkLabel2.TabIndex = 5;
             this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Chuẩn đoán sơ bộ";
+            this.linkLabel2.Text = "Chẩn đoán sơ bộ";
             this.linkLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // chuandoan
+            // chuandoanForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -684,7 +684,7 @@
             this.Controls.Add(this.groupBox1);
             this.ForeColor = System.Drawing.Color.Black;
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "chuandoan";
+            this.Name = "chuandoanForm";
             this.TransparencyKey = System.Drawing.SystemColors.ButtonHighlight;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);

@@ -16,9 +16,9 @@ using System.Reflection;
 
 namespace T_chuandoan
 {
-    public partial class chuandoanForm : Form
+    public partial class DiagnoseForm : Form
     {
-        public chuandoanForm()
+        public DiagnoseForm()
         {
             InitializeComponent();
             //MaterialSkinManager materialSkinManager = MaterialSkinManager.Instance;
@@ -139,7 +139,7 @@ namespace T_chuandoan
         {
             result_label.Visible = false;
             return_button.Visible = false;
-            Application.Exit();
+            this.Close();
         }
         private void thongbao_1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {

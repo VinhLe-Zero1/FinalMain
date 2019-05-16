@@ -6,10 +6,10 @@ C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\bin\Debug\MetroFrame
 C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\bin\Debug\MetroFramework.dll
 C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\DiagnoseForm.csprojAssemblyReference.cache
-C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\T_chuandoan.chuandoanForm.resources
 C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\T_chuandoan.Properties.Resources.resources
 C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\DiagnoseForm.csproj.GenerateResource.cache
 C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\DiagnoseForm.csproj.CoreCompileInputs.cache
 C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\DiagnoseForm.csproj.CopyComplete
 C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\T_chuandoan.exe
 C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\T_chuandoan.pdb
+C:\Users\DELL\Documents\GitHub\FinalMain\chuandoan\BTL_CNPM\obj\Debug\T_chuandoan.DiagnoseForm.resources

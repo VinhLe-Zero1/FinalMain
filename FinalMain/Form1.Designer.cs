@@ -109,6 +109,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(805, 121);
             this.label2.TabIndex = 7;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox2
             // 

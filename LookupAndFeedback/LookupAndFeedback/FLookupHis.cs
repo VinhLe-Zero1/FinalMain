@@ -27,7 +27,7 @@ namespace LookupAndFeedback
 
         private void FLookupBooking_Load(object sender, EventArgs e)
         {
-            this.CmtBtn.Image = (Image)(new Bitmap(CmtBtn.Image, new Size(40, 40)));
+            this.CmtBtn.Image = (Image)(new Bitmap(CmtBtn.Image, new Size(20, 20)));
         }
         static
         private void dataGridView1_SelectionChanged(object sender, EventArgs e)

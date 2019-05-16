@@ -11,11 +11,11 @@ namespace FinalMain
 {
     public partial class Form1 : Form
     {
-        public Form1(int id, string name)
+        public Form1(/*int id, string name*/)
         {
             InitializeComponent();
-            nameLabel.Text += name;
-            IDLabel.Text += id.ToString();
+            //nameLabel.Text += name;
+            //IDLabel.Text += id.ToString();
         }
         //Dat Lich
         private void button1_Click(object sender, EventArgs e)
@@ -31,7 +31,7 @@ namespace FinalMain
 
         private void chuandoan_Click(object sender, EventArgs e)
         {
-            T_chuandoan.chuandoanForm cd = new T_chuandoan.chuandoanForm();
+            T_chuandoan.DiagnoseForm cd = new T_chuandoan.DiagnoseForm();
             cd.Show();
 
 
@@ -65,6 +65,11 @@ namespace FinalMain
         }
 
         private void patient_info_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

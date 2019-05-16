@@ -16,7 +16,7 @@ namespace T_chuandoan
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new chuandoanForm());
+            Application.Run(new DiagnoseForm());
         }
     }
 }
