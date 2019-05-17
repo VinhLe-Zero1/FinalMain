@@ -23,7 +23,7 @@ namespace LookupAndFeedback.DTO
 
         public CheckupInfo(DataRow row)
         {
-            this.ID = (int)row["id"];
+            this.ID = (int)row["mabenhan"];
             this.Date = (DateTime)row["ngaykham"];
             //this.Doctor = row["doctor"].ToString();
             //this.Major = row["major"].ToString();

@@ -22,7 +22,7 @@ namespace LookupAndFeedback
             LoadBooking();
             if (dataGridView1.Rows.Count == 0)
             {
-                CancelBtn.Enabled = false;
+                //CancelBtn.Enabled = false;
                 RefreshBtn.Enabled = false;
             }
         }

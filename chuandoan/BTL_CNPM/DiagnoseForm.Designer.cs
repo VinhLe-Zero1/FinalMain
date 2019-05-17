@@ -87,7 +87,7 @@
             this.return_button.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.return_button.ForeColor = System.Drawing.Color.DodgerBlue;
             this.return_button.Location = new System.Drawing.Point(239, 178);
-            this.return_button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.return_button.Margin = new System.Windows.Forms.Padding(2);
             this.return_button.Name = "return_button";
             this.return_button.Size = new System.Drawing.Size(72, 29);
             this.return_button.TabIndex = 42;
@@ -178,7 +178,7 @@
             this.button1.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.GhostWhite;
             this.button1.Location = new System.Drawing.Point(3, 334);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(554, 43);
             this.button1.TabIndex = 34;
@@ -290,7 +290,7 @@
             "Yếu cơ",
             "Yếu một bên cơ thể"});
             this.dh1.Location = new System.Drawing.Point(31, 94);
-            this.dh1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dh1.Margin = new System.Windows.Forms.Padding(2);
             this.dh1.Name = "dh1";
             this.dh1.Size = new System.Drawing.Size(187, 23);
             this.dh1.TabIndex = 27;
@@ -398,7 +398,7 @@
             "Yếu cơ",
             "Yếu một bên cơ thể"});
             this.dh4.Location = new System.Drawing.Point(302, 232);
-            this.dh4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dh4.Margin = new System.Windows.Forms.Padding(2);
             this.dh4.Name = "dh4";
             this.dh4.Size = new System.Drawing.Size(187, 23);
             this.dh4.TabIndex = 30;
@@ -505,7 +505,7 @@
             "Yếu cơ",
             "Yếu một bên cơ thể"});
             this.dh3.Location = new System.Drawing.Point(31, 232);
-            this.dh3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dh3.Margin = new System.Windows.Forms.Padding(2);
             this.dh3.Name = "dh3";
             this.dh3.Size = new System.Drawing.Size(187, 23);
             this.dh3.TabIndex = 29;
@@ -612,7 +612,7 @@
             "Yếu cơ",
             "Yếu một bên cơ thể"});
             this.dh2.Location = new System.Drawing.Point(302, 94);
-            this.dh2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dh2.Margin = new System.Windows.Forms.Padding(2);
             this.dh2.Name = "dh2";
             this.dh2.Size = new System.Drawing.Size(187, 23);
             this.dh2.TabIndex = 28;
