@@ -45,7 +45,7 @@ namespace LookupAndFeedback.DAO
         }
         public bool UpdateCheckup(string cmt, int id)
         {
-            string query = string.Format("update dbo.Info set nhanxet = N'{0}' where id = {1}", cmt, id);
+            string query = string.Format("update dbo.Info set nhanxet = N'{0}' where mabenhan = {1}", cmt, id);
             int res = DataProvider.Instance.ExcuteNonQuery(query);
             return res > 0;
         }

@@ -38,7 +38,7 @@ namespace capnhap
             command.Parameters.Add("a2", infos.getPhone());
             command.Parameters.Add("a3", infos.getHouse_addr());
             command.Parameters.Add("a4", infos.getHometown_addr());
-            command.Parameters.Add("a5", 2);
+            command.Parameters.Add("a5", Datlich.ControllerDatlich.id_benhnhan);
             command.ExecuteNonQuery();
         }
     }

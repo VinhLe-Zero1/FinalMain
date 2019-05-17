@@ -53,7 +53,6 @@ C:\Users\ducti\source\repos\FinalMain_1\FinalMain\DoctorForm\bin\Debug\BTL_CNPM.
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\DoctorForm\bin\Debug\PatientHistory.exe
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\DoctorForm\bin\Debug\thongkethongtin.exe
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\DoctorForm\bin\Debug\Datlich.exe
-C:\Users\ducti\source\repos\FinalMain_1\FinalMain\DoctorForm\bin\Debug\MaterialSkin.dll
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\DoctorForm\bin\Debug\BTL_CNPM.pdb
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\DoctorForm\bin\Debug\BTL_CNPM.exe.config
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\DoctorForm\bin\Debug\PatientHistory.pdb

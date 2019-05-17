@@ -97,7 +97,6 @@ C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LoginForm\bin\Debug\Datlich.ex
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LoginForm\bin\Debug\DoctorForm.exe
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LoginForm\bin\Debug\FinalMain.exe
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LoginForm\bin\Debug\InfoRegister.exe
-C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LoginForm\bin\Debug\MaterialSkin.dll
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LoginForm\bin\Debug\PatientHistory.exe
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LoginForm\bin\Debug\BTL_CNPM.exe
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\LoginForm\bin\Debug\thongkethongtin.exe

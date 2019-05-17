@@ -91,13 +91,13 @@ namespace InfoRegister
 
             string[] monthArr = {"Một", "Hai", "Ba", "Bốn", "Năm", "Sáu", "Bảy", "Tám", "Chín", "Mười", "Mưởi một", "Mười hai"};
 
-            string lastName = "'" + lastNameBox.Text + "'";
-            string firstName = "'"+firstNameBox.Text + "'";
+            string lastName = "N'" + lastNameBox.Text + "'";
+            string firstName = "N'"+firstNameBox.Text + "'";
             string civilianID = "'" + CMNDBox.Text + "'";
-            string address = "'" + adrBox.Text + "'";
+            string address = "N'" + adrBox.Text + "'";
             string phone = "'" + phoneNumBox.Text + "'";
             string email = "'" + emailBox.Text + "'";
-            string homeTown = "'" + homeTownBox.Text + "'";
+            string homeTown = "N'" + homeTownBox.Text + "'";
             string month = "";
             for (int i = 0; i < 12; i++)
             {

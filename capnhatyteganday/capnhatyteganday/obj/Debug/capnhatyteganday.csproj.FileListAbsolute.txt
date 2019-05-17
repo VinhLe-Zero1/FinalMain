@@ -81,7 +81,6 @@ C:\Users\ducti\source\repos\FinalMain_1\FinalMain\capnhatyteganday\capnhatytegan
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.exe
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\capnhatyteganday\capnhatyteganday\obj\Debug\capnhatyteganday.pdb
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\Datlich.exe
-C:\Users\ducti\source\repos\FinalMain_1\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\MaterialSkin.dll
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\Datlich.pdb
 C:\Users\ducti\source\repos\FinalMain_1\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\Datlich.exe.config
 C:\Users\DELL\Documents\GitHub\FinalMain\capnhatyteganday\capnhatyteganday\bin\Debug\Datlich.exe
